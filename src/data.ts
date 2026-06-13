@@ -1,0 +1,21 @@
+import racesData from "./data/races.json";
+import careersData from "./data/careers.json";
+import combatData from "./data/combat.json";
+import benefitsData from "./data/benefits.json";
+import abilitiesData from "./data/abilities.json";
+import skillsData from "./data/skills.json";
+import spellsData from "./data/spells.json";
+import itemsData from "./data/items.json";
+import metaData from "./data/meta.json";
+import type { Career, CombatCard, Feature, Item, Meta, Race, Skill, Spell } from "./types";
+
+export const races = racesData as unknown as Race[];
+export const careers = careersData as unknown as Career[];
+export const game = combatData as unknown as CombatCard[];
+export const benefits = benefitsData as unknown as Feature[];
+export const abilities = abilitiesData as unknown as Feature[];
+export const features = [...benefits, ...abilities].sort((a, b) => a.name.localeCompare(b.name));
+export const skills = skillsData as unknown as Skill[];
+export const spells = spellsData as unknown as Spell[];
+export const items = itemsData as unknown as Item[];
+export const meta = metaData as unknown as Meta;

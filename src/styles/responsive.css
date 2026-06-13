@@ -1,0 +1,177 @@
+﻿@media (min-width: 1280px) {
+  .contentGrid {
+    grid-template-columns: minmax(350px, 30%) 1fr;
+  }
+
+  .detailPane {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .appShell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
+  .rail {
+    border-right: 0;
+    border-bottom: 1px solid rgba(239, 200, 111, 0.3);
+    padding: 12px;
+    gap: 12px;
+    box-shadow: inset 0 -8px 18px rgba(0, 0, 0, 0.22);
+  }
+
+  .brand {
+    padding-bottom: 10px;
+  }
+
+  .tabList {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+
+  .tabButton {
+    min-width: 156px;
+  }
+
+  .sourceBox {
+    display: none;
+  }
+
+  .workspace {
+    height: auto;
+    min-height: 0;
+  }
+
+  .topbar {
+    grid-template-columns: minmax(220px, 1fr);
+  }
+
+  .metaPills {
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+  }
+
+  .contentGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(190px, 35dvh) minmax(0, 1fr);
+  }
+
+  .listPane {
+    border-right: 0;
+    border-bottom: 1px solid rgba(201, 150, 58, 0.28);
+  }
+
+  .detailPane {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .searchBox {
+    min-height: 42px;
+  }
+
+  .filters {
+    min-height: 48px;
+    padding: 8px 12px;
+  }
+
+  .metaPills span {
+    min-height: 24px;
+    padding: 2px 8px;
+  }
+
+  .entryRow {
+    min-height: 56px;
+  }
+
+  .detailPane {
+    padding: 16px;
+  }
+
+  .lead,
+  .bodyText {
+    font-size: 15px;
+  }
+
+  .factGrid,
+  .spellStrip,
+  .fieldTable {
+    grid-template-columns: repeat(auto-fit, minmax(136px, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .rail {
+    padding: 14px;
+  }
+
+  .filters {
+    align-items: stretch;
+  }
+
+  .filterControl,
+  .segmented {
+    flex: 0 0 auto;
+  }
+
+  .detailHeader {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .detailIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .detailHeader h1 {
+    font-size: 25px;
+  }
+
+  .contentGrid {
+    grid-template-rows: minmax(170px, 34dvh) minmax(0, 1fr);
+  }
+
+  .listPane {
+    padding: 8px;
+  }
+
+  .statTable {
+    font-size: 13px;
+  }
+
+  .statTable > * {
+    padding: 7px 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .topbar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .metaPills span:nth-child(2) {
+    display: none;
+  }
+
+  .segmented button {
+    padding: 0 10px;
+  }
+
+  .factGrid,
+  .spellStrip,
+  .fieldTable {
+    grid-template-columns: 1fr;
+  }
+}
+

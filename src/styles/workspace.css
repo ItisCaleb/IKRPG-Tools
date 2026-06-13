@@ -1,0 +1,242 @@
+﻿.workspace {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 236, 190, 0.04), transparent 160px),
+    rgba(14, 16, 16, 0.82);
+}
+
+.topbar {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  padding: 16px 18px 12px;
+  border-bottom: 1px solid rgba(201, 150, 58, 0.22);
+  background:
+    linear-gradient(180deg, rgba(38, 35, 31, 0.94), rgba(18, 19, 18, 0.9)),
+    rgba(17, 19, 21, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.searchBox {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid rgba(201, 150, 58, 0.42);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(17, 18, 17, 0.92), rgba(37, 33, 27, 0.88)),
+    rgba(255, 255, 255, 0.04);
+  color: var(--verdigris);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.searchBox input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff1ce;
+}
+
+.searchBox input::placeholder {
+  color: #9f9278;
+}
+
+.metaPills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.metaPills span,
+.tagList span {
+  min-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(201, 150, 58, 0.28);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.filters {
+  min-height: 54px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 18px;
+  border-bottom: 1px solid rgba(201, 150, 58, 0.2);
+  background: rgba(17, 17, 15, 0.54);
+  overflow-x: auto;
+}
+
+.filterControl,
+.toggleControl,
+.hintLine {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.filterControl {
+  border: 1px solid rgba(201, 150, 58, 0.38);
+  border-radius: 8px;
+  padding: 0 10px;
+  background: rgba(34, 31, 26, 0.82);
+}
+
+.filterControl select {
+  border: 0;
+  color: #f5e4bc;
+  outline: 0;
+  background: transparent;
+  min-width: 150px;
+}
+
+.filterControl option {
+  background: #1b1916;
+  color: #f5e4bc;
+}
+
+.segmented {
+  display: inline-flex;
+  border: 1px solid rgba(201, 150, 58, 0.38);
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 36px;
+}
+
+.segmented button {
+  border: 0;
+  border-right: 1px solid rgba(201, 150, 58, 0.28);
+  background: rgba(34, 31, 26, 0.82);
+  color: var(--muted);
+  padding: 0 12px;
+}
+
+.segmented button:last-child {
+  border-right: 0;
+}
+
+.segmented button.active {
+  color: #081616;
+  background: linear-gradient(180deg, #83c8bd, var(--verdigris));
+}
+
+.toggleControl input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--brass);
+}
+
+.contentGrid {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(290px, 34%) 1fr;
+}
+
+.listPane {
+  min-width: 0;
+  overflow: auto;
+  border-right: 1px solid rgba(201, 150, 58, 0.26);
+  padding: 10px;
+  background:
+    linear-gradient(180deg, rgba(30, 29, 26, 0.86), rgba(18, 19, 18, 0.92)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.03) 0 1px, transparent 1px 10px);
+}
+
+.entryRow {
+  width: 100%;
+  min-height: 64px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 36px;
+  align-items: stretch;
+  gap: 5px;
+  padding: 6px;
+  margin-bottom: 6px;
+  background: rgba(255, 244, 207, 0.025);
+  box-shadow: var(--inset-line);
+}
+
+.entrySelect {
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  display: grid;
+  gap: 5px;
+  padding: 4px 6px;
+}
+
+.entrySelect span {
+  overflow-wrap: anywhere;
+  line-height: 1.2;
+  color: #f5e4bc;
+}
+
+.entrySelect small {
+  overflow-wrap: anywhere;
+  line-height: 1.25;
+}
+
+.entrySelect small strong {
+  color: var(--brass-bright);
+  font-family: var(--display-font);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.entryFavoriteButton,
+.favoriteAction {
+  border: 1px solid rgba(201, 150, 58, 0.28);
+  border-radius: 8px;
+  background: rgba(34, 31, 26, 0.72);
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entryFavoriteButton {
+  min-width: 34px;
+}
+
+.entryFavoriteButton:hover,
+.favoriteAction:hover {
+  color: var(--brass-bright);
+  border-color: rgba(239, 200, 111, 0.56);
+  background: rgba(201, 150, 58, 0.12);
+}
+
+.entryFavoriteButton.active,
+.favoriteAction.active,
+.favoriteOnlyToggle {
+  color: var(--brass-bright);
+}
+
+.entryRow.selected {
+  background:
+    linear-gradient(90deg, rgba(201, 150, 58, 0.23), rgba(127, 47, 50, 0.12)),
+    rgba(255, 255, 255, 0.04);
+  border-color: rgba(239, 200, 111, 0.56);
+}
+

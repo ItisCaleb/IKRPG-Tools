@@ -1,0 +1,133 @@
+﻿.appShell {
+  display: grid;
+  grid-template-columns: 286px 1fr;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.rail {
+  border-right: 1px solid rgba(239, 200, 111, 0.3);
+  background:
+    linear-gradient(180deg, rgba(47, 44, 39, 0.96), rgba(17, 18, 17, 0.98)),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 8px);
+  box-shadow: inset -8px 0 18px rgba(0, 0, 0, 0.28);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: 46px 1fr;
+  gap: 12px;
+  align-items: center;
+  min-height: 50px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(201, 150, 58, 0.26);
+}
+
+.brandMark,
+.detailIcon {
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(239, 200, 111, 0.58);
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(145deg, rgba(239, 200, 111, 0.24), rgba(85, 61, 27, 0.2)),
+    var(--iron-2);
+  color: var(--brass-bright);
+  border-radius: 8px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 7px 18px rgba(0, 0, 0, 0.22);
+}
+
+.brand strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-variant: small-caps;
+  letter-spacing: 0;
+  color: #ffe3a0;
+  text-shadow: 0 1px 0 #120d08;
+}
+
+.brand span,
+.sourceBox,
+.entryRow small,
+.muted {
+  color: var(--muted);
+}
+
+.brand span {
+  display: block;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.tabList {
+  display: grid;
+  gap: 8px;
+}
+
+.tabButton,
+.entryRow {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  border-radius: 8px;
+}
+
+.tabButton {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 9px 10px;
+  text-align: left;
+  box-shadow: var(--inset-line);
+}
+
+.tabButton span,
+.entryRow span,
+.metaPills span,
+.filterControl,
+.toggleControl,
+.segmented button {
+  font-family: var(--font-ui);
+}
+
+.tabButton:hover,
+.entryRow:hover {
+  background: rgba(239, 200, 111, 0.07);
+  border-color: rgba(201, 150, 58, 0.34);
+}
+
+.tabButton.active {
+  background:
+    linear-gradient(90deg, rgba(201, 150, 58, 0.22), rgba(93, 169, 159, 0.12)),
+    rgba(255, 255, 255, 0.035);
+  border-color: rgba(239, 200, 111, 0.54);
+  color: #fff4d1;
+}
+
+.tabButton small {
+  color: var(--brass-bright);
+  font-size: 12px;
+}
+
+.sourceBox {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 9px;
+  align-items: start;
+  border-top: 1px solid rgba(201, 150, 58, 0.26);
+  padding-top: 14px;
+  font-size: 12px;
+  line-height: 1.45;
+}
+

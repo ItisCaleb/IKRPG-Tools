@@ -1,0 +1,78 @@
+﻿:root {
+  color-scheme: dark;
+  font-family: var(--font-body);
+  --font-body: "Book Antiqua", "Baskerville Old Face", "Californian FB", Georgia, serif;
+  --font-display: "Baskerville Old Face", "Book Antiqua", "Californian FB", Georgia, serif;
+  --font-ui: Bahnschrift, "Segoe UI", Arial, sans-serif;
+  --bg: #0c0e0e;
+  --iron: #171819;
+  --iron-2: #22201d;
+  --iron-3: #2d2a25;
+  --line: #594c38;
+  --line-soft: #3b3328;
+  --text: #f0e5ca;
+  --muted: #b8aa8e;
+  --paper: #e6d6b5;
+  --paper-2: #d9c49a;
+  --ink: #2b241b;
+  --ink-soft: #695a43;
+  --brass: #c9963a;
+  --brass-bright: #efc86f;
+  --verdigris: #5da99f;
+  --wine: #7f2f32;
+  --ember: #b55a2a;
+  --green: #8da364;
+  --shadow: 0 18px 48px rgba(0, 0, 0, 0.36);
+  --inset-line: inset 0 0 0 1px rgba(239, 200, 111, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, rgba(239, 200, 111, 0.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(93, 169, 159, 0.025) 1px, transparent 1px),
+    linear-gradient(135deg, rgba(127, 47, 50, 0.15), transparent 36%),
+    linear-gradient(315deg, rgba(93, 169, 159, 0.12), transparent 38%),
+    #0c0e0e;
+  background-size: 28px 28px, 28px 28px, auto, auto, auto;
+  color: var(--text);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.22) 0 2px, transparent 2px 92px);
+  mix-blend-mode: screen;
+  opacity: 0.38;
+}
+
+::selection {
+  background: rgba(201, 150, 58, 0.42);
+  color: #fff5d7;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+button,
+input,
+select {
+  font-family: var(--font-ui);
+}
+
+button {
+  cursor: pointer;
+}
+
