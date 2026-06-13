@@ -11,7 +11,10 @@
       "Contested rolls compare totals; highest total succeeds, ties are draws.",
       "A boosted roll adds one additional die.",
       "A d3 means roll d6, halve it, and round up."
-    ]
+    ],
+    "pageStart": 197,
+    "pageEnd": 200,
+    "source": "Core Rules pp. 197-200"
   },
   {
     "id": "initiative-rounds",
@@ -25,7 +28,10 @@
       "New combatants roll initiative at the start of the next round.",
       "Steamjacks activate during their controller's turn, before or after the controller moves and acts.",
       "Held activation delays only the Activation Phase; Maintenance and Control still resolve in order."
-    ]
+    ],
+    "pageStart": 201,
+    "pageEnd": 202,
+    "source": "Core Rules pp. 201-202"
   },
   {
     "id": "turn-structure",
@@ -37,7 +43,10 @@
       "Maintenance: expire continuous effects, then resolve remaining continuous effects.",
       "Control: pay upkeep costs or spells expire, then resolve other Control Phase effects.",
       "Activation: move and act. Actions can happen before or after movement, but movement cannot be interrupted by actions."
-    ]
+    ],
+    "pageStart": 203,
+    "pageEnd": 203,
+    "source": "Core Rules p. 203"
   },
   {
     "id": "movement",
@@ -51,7 +60,10 @@
       "Charge: advance SPD + 3 inches toward a visible enemy in a straight line.",
       "A successful charge ends with the target in melee range. If the character moved at least 3 inches and hits with the first melee attack, the damage roll is boosted.",
       "A failed charge immediately ends the character's turn."
-    ]
+    ],
+    "pageStart": 203,
+    "pageEnd": 204,
+    "source": "Core Rules pp. 203-204"
   },
   {
     "id": "actions",
@@ -63,7 +75,10 @@
       "Choose one: two quick actions; attack plus one quick action; or one full action.",
       "Common quick actions include drawing/stowing items, reloading, pulling a grenade pin, casting a spell, activating a runeplate, using a drive, taking cover, or going prone.",
       "Dropping an item does not require an action; picking it up does."
-    ]
+    ],
+    "pageStart": 205,
+    "pageEnd": 206,
+    "source": "Core Rules pp. 205-206"
   },
   {
     "id": "attacks",
@@ -77,7 +92,10 @@
       "Magic attacks use ARC + modifiers.",
       "A critical hit occurs when any two dice in the attack roll show the same number and the attack hits.",
       "Spray and AOE attacks have special targeting and template rules."
-    ]
+    ],
+    "pageStart": 207,
+    "pageEnd": 214,
+    "source": "Core Rules pp. 207-214"
   },
   {
     "id": "damage",
@@ -91,7 +109,10 @@
       "Boosted damage adds one additional die.",
       "Damage points equal the amount by which the damage roll exceeds ARM.",
       "An attack with POW '-' does not cause damage."
-    ]
+    ],
+    "pageStart": 215,
+    "pageEnd": 215,
+    "source": "Core Rules p. 215"
   },
   {
     "id": "injuries",
@@ -104,7 +125,10 @@
       "Grievously injured characters die unless stabilized within rounds equal to PHY.",
       "Stabilizing requires a full action while B2B and an INT + Medicine roll against TN 14.",
       "After a short rest, a character regains vitality equal to PHY, then 1 per hour for three hours, then 1 every six hours."
-    ]
+    ],
+    "pageStart": 216,
+    "pageEnd": 218,
+    "source": "Core Rules pp. 216-218"
   },
   {
     "id": "continuous-effects",
@@ -117,7 +141,10 @@
       "Resolve remaining continuous effects simultaneously after all expiration rolls.",
       "Corrosion deals d3 damage points unless it expires.",
       "Fire causes a POW 12 fire damage roll unless it expires."
-    ]
+    ],
+    "pageStart": 218,
+    "pageEnd": 218,
+    "source": "Core Rules p. 218"
   },
   {
     "id": "knockdown",
@@ -130,7 +157,10 @@
       "A knocked down character has base DEF 5, no melee range, does not engage, and does not block line of sight.",
       "Standing up requires forfeiting either movement or actions.",
       "A knocked out character makes a WIL roll vs TN 14 at the start of each turn to regain consciousness."
-    ]
+    ],
+    "pageStart": 219,
+    "pageEnd": 219,
+    "source": "Core Rules p. 219"
   },
   {
     "id": "feat-points",
@@ -142,7 +172,10 @@
       "Player characters start each session with three feat points and can have at most three.",
       "Common gains include defeating enemies, critical success on skill or attack rolls, and GM awards.",
       "Common spends include boost non-attack skill roll, Heroic Dodge, extra quick action, Parry, Relentless Charge, reroll failed roll, Run and Gun, Shake effects, Sprint, Two-Fister, and Walk It Off."
-    ]
+    ],
+    "pageStart": 220,
+    "pageEnd": 220,
+    "source": "Core Rules p. 220"
   },
   {
     "id": "terrain",
@@ -155,7 +188,10 @@
       "Obstacles can provide cover and may require movement to climb.",
       "Forests are rough terrain, grant concealment to models inside, and block line of sight through more than 3 inches of forest.",
       "Shallow water counts as rough terrain."
-    ]
+    ],
+    "pageStart": 221,
+    "pageEnd": 224,
+    "source": "Core Rules pp. 221-224"
   },
   {
     "id": "fear",
@@ -167,7 +203,10 @@
       "Unaffected characters do not roll again unless the situation worsens or a higher terror target appears.",
       "Anxiety grants +1 STR but imposes -1 on skill rolls and prevents intentional movement toward the source.",
       "Panic imposes -2 on skill rolls and can force the character to flee or freeze."
-    ]
+    ],
+    "pageStart": 224,
+    "pageEnd": 224,
+    "source": "Core Rules p. 224"
   },
   {
     "id": "light",
@@ -180,6 +219,175 @@
       "Dim light grants concealment and +2 Sneak.",
       "Complete darkness grants concealment, stealth, and +5 Sneak.",
       "Light sources have bright and dim radius bands; the GM may alter distances for smoke, storms, ash, or wind."
-    ]
+    ],
+    "pageStart": 225,
+    "pageEnd": 225,
+    "source": "Core Rules p. 225"
+  },
+  {
+    "id": "arcane-traditions",
+    "title": "Arcane Traditions",
+    "category": "Magic",
+    "bookPage": 228,
+    "summary": "A Gifted character's arcane tradition determines which spellcasting rules he uses.",
+    "rules": [
+      "All Gifted characters begin with an arcane tradition that does not change.",
+      "Characters without the Warcaster career are will weavers.",
+      "Characters with the Warcaster career are focusers.",
+      "Will weavers generate fatigue to cast and upkeep spells; focusers spend focus points."
+    ],
+    "pageStart": 228,
+    "pageEnd": 230,
+    "source": "Core Rules pp. 228-230"
+  },
+  {
+    "id": "will-weavers",
+    "title": "Will Weavers and Fatigue",
+    "category": "Magic",
+    "bookPage": 229,
+    "summary": "Will weavers cast by gaining fatigue points and risk exhaustion when they push past ARC.",
+    "rules": [
+      "A will weaver gains fatigue equal to a spell's COST when casting it.",
+      "Upkeeping a spell adds 1 fatigue during each Control Phase.",
+      "Boosting a magic attack or magic damage roll adds 1 fatigue.",
+      "A will weaver can gain 1 fatigue to increase a spell's RNG by 5 inches once per casting; CTRL and SP spells cannot be extended this way.",
+      "Will weavers remove fatigue equal to ARC each Maintenance Phase.",
+      "If fatigue exceeds ARC, make a fatigue roll after each spell; roll 2d6 equal to or above current fatigue or become exhausted.",
+      "An exhausted character's turn ends immediately and he cannot cast spells during the next round."
+    ],
+    "pageStart": 229,
+    "pageEnd": 229,
+    "source": "Core Rules p. 229"
+  },
+  {
+    "id": "focusers",
+    "title": "Focusers and Focus Points",
+    "category": "Magic",
+    "bookPage": 230,
+    "summary": "Focusers receive focus each Control Phase and spend it for spells, upkeep, boosts, attacks, and steamjacks.",
+    "rules": [
+      "During each Control Phase, a focuser receives focus points equal to ARC.",
+      "Casting a spell costs focus equal to the spell's COST.",
+      "Upkeeping each spell costs 1 focus during the Control Phase.",
+      "A focuser can spend 1 focus to boost magic attack and magic damage rolls.",
+      "A focuser can spend focus for additional attacks with bonded mechanika weapons.",
+      "A focuser can allocate up to 3 focus points to each steamjack in his battlegroup and control area.",
+      "Remove all focus points from the focuser and his battlegroup at the start of each Maintenance Phase."
+    ],
+    "pageStart": 230,
+    "pageEnd": 230,
+    "source": "Core Rules p. 230"
+  },
+  {
+    "id": "rune-shot-spells",
+    "title": "Rune Shot Spells",
+    "category": "Magic",
+    "bookPage": 230,
+    "summary": "Gun mages cast rune shot spells onto magelock ammunition before firing.",
+    "rules": [
+      "Gun Mage is not an arcane tradition; a gun mage can be a will weaver or a focuser.",
+      "Rune shot spells must be cast on the turn they take effect and affect only the next magelock shot.",
+      "Rune shot spells do not require quick actions.",
+      "Any number of rune shot spells can be cast on a single shot, but the same rune shot spell can empower a round only once.",
+      "Each round can have only one rune shot spell with an AOE.",
+      "A directly hit target suffers the ranged attack and all empowered spell effects."
+    ],
+    "pageStart": 230,
+    "pageEnd": 231,
+    "source": "Core Rules pp. 230-231"
+  },
+  {
+    "id": "control-area",
+    "title": "Control Area",
+    "category": "Magic",
+    "bookPage": 231,
+    "summary": "Gifted characters have a measurable control area used by spells, focus allocation, and channeling.",
+    "rules": [
+      "A control area is centered on the character and extends from the base edge a number of inches equal to ARC x 2.",
+      "A character is always in his own control area.",
+      "A character can measure his control area at any time.",
+      "Spells with RNG or AOE of CTRL use the spellcaster's control area.",
+      "A steamjack must be in its warcaster's control area to receive focus or channel spells."
+    ],
+    "pageStart": 231,
+    "pageEnd": 231,
+    "source": "Core Rules p. 231"
+  },
+  {
+    "id": "casting-a-spell",
+    "title": "Casting a Spell",
+    "category": "Magic",
+    "bookPage": 231,
+    "summary": "Spellcasting pays COST, declares a legal target, measures range, and resolves immediately.",
+    "rules": [
+      "A spell can be cast multiple times per Activation Phase if its COST is paid each time.",
+      "Except for rune shot spells, casting a spell is a quick action.",
+      "A character cannot cast a spell during a turn in which he runs.",
+      "Pay COST first: will weavers gain fatigue, focusers spend focus.",
+      "If an upkeep spell is cast again by the same caster, previous instances immediately expire.",
+      "Declare a target in line of sight, subject to targeting rules.",
+      "Non-offensive spells with numeric RNG can also target the spell's point of origin.",
+      "If a non-offensive spell is in range, it immediately takes effect; if out of range, it has no effect."
+    ],
+    "pageStart": 231,
+    "pageEnd": 232,
+    "source": "Core Rules pp. 231-232"
+  },
+  {
+    "id": "magic-attacks",
+    "title": "Offensive Spells and Magic Attacks",
+    "category": "Magic",
+    "bookPage": 232,
+    "summary": "Offensive spells require magic attack rolls and follow most ranged attack rules.",
+    "rules": [
+      "Magic Attack Roll = 2d6 + ARC.",
+      "A boosted magic attack roll adds one additional die.",
+      "A direct hit occurs when the attack roll equals or exceeds the target's DEF.",
+      "All 1s automatically miss; all 6s are a direct hit unless rolling only one die.",
+      "Magic attack rolls do not suffer the target-in-melee penalty when the attacker is in melee with the target.",
+      "If an offensive spell with an AOE misses or is out of range, its point of impact deviates."
+    ],
+    "pageStart": 232,
+    "pageEnd": 233,
+    "source": "Core Rules pp. 232-233"
+  },
+  {
+    "id": "upkeep-spells",
+    "title": "Upkeep Spells",
+    "category": "Magic",
+    "bookPage": 233,
+    "summary": "Upkeep spells remain in play if the caster pays upkeep during the Control Phase.",
+    "rules": [
+      "Will weavers gain 1 fatigue for each upkeep spell they maintain; warcasters spend 1 focus for each.",
+      "A character can maintain an upkeep outside his control area up to ARC x 10 inches.",
+      "If an upkeep spell is not maintained, it immediately expires.",
+      "A character can have only one offensive and one non-offensive upkeep spell on him at a time.",
+      "A caster can recast an upkeep spell already in play; the previous casting expires when the new COST is paid.",
+      "Outside combat, a character can upkeep a number of spells equal to ARC.",
+      "If the caster is destroyed or removed from play, his upkeep spells and next-turn-expiring spells immediately expire."
+    ],
+    "pageStart": 233,
+    "pageEnd": 233,
+    "source": "Core Rules p. 233"
+  },
+  {
+    "id": "channeling",
+    "title": "Channeling",
+    "category": "Magic",
+    "bookPage": 233,
+    "summary": "Channelers act as spell relays, changing a spell's point of origin.",
+    "rules": [
+      "A channeler must be in the spellcaster's control area.",
+      "The spellcaster casts the spell, but the channeler becomes the spell's point of origin.",
+      "The channeler must have line of sight to the spell's target; the spellcaster does not need line of sight to the channeler or target.",
+      "A channeler engaged by an enemy cannot channel spells.",
+      "A stationary channeler can channel; a knocked down channeler cannot.",
+      "A RNG SELF spell cannot be channeled.",
+      "A channeler can be the target of a non-offensive spell it channels, but cannot be the target of an offensive spell it channels.",
+      "A spellcaster can channel through only one channeler at a time."
+    ],
+    "pageStart": 233,
+    "pageEnd": 234,
+    "source": "Core Rules pp. 233-234"
   }
 ]

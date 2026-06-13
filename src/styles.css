@@ -1,19 +1,29 @@
 :root {
   color-scheme: dark;
-  font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --bg: #111315;
-  --panel: #1b1d20;
-  --panel-2: #222327;
-  --line: #37383d;
-  --line-soft: #2a2c30;
-  --text: #ece7db;
-  --muted: #a8a59e;
-  --brass: #d5ad58;
-  --teal: #74b8ad;
-  --red: #c8695d;
-  --green: #9fbe70;
-  --shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+  font-family: var(--font-body);
+  --font-body: "Book Antiqua", "Baskerville Old Face", "Californian FB", Georgia, serif;
+  --font-display: "Baskerville Old Face", "Book Antiqua", "Californian FB", Georgia, serif;
+  --font-ui: Bahnschrift, "Segoe UI", Arial, sans-serif;
+  --bg: #0c0e0e;
+  --iron: #171819;
+  --iron-2: #22201d;
+  --iron-3: #2d2a25;
+  --line: #594c38;
+  --line-soft: #3b3328;
+  --text: #f0e5ca;
+  --muted: #b8aa8e;
+  --paper: #e6d6b5;
+  --paper-2: #d9c49a;
+  --ink: #2b241b;
+  --ink-soft: #695a43;
+  --brass: #c9963a;
+  --brass-bright: #efc86f;
+  --verdigris: #5da99f;
+  --wine: #7f2f32;
+  --ember: #b55a2a;
+  --green: #8da364;
+  --shadow: 0 18px 48px rgba(0, 0, 0, 0.36);
+  --inset-line: inset 0 0 0 1px rgba(239, 200, 111, 0.08);
 }
 
 * {
@@ -25,10 +35,30 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    linear-gradient(120deg, rgba(116, 184, 173, 0.09), transparent 34%),
-    linear-gradient(315deg, rgba(200, 105, 93, 0.08), transparent 32%),
-    var(--bg);
+    linear-gradient(90deg, rgba(239, 200, 111, 0.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(93, 169, 159, 0.025) 1px, transparent 1px),
+    linear-gradient(135deg, rgba(127, 47, 50, 0.15), transparent 36%),
+    linear-gradient(315deg, rgba(93, 169, 159, 0.12), transparent 38%),
+    #0c0e0e;
+  background-size: 28px 28px, 28px 28px, auto, auto, auto;
   color: var(--text);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.22) 0 2px, transparent 2px 92px);
+  mix-blend-mode: screen;
+  opacity: 0.38;
+}
+
+::selection {
+  background: rgba(201, 150, 58, 0.42);
+  color: #fff5d7;
 }
 
 #root {
@@ -39,7 +69,7 @@ body {
 button,
 input,
 select {
-  font: inherit;
+  font-family: var(--font-ui);
 }
 
 button {
@@ -48,14 +78,17 @@ button {
 
 .appShell {
   display: grid;
-  grid-template-columns: 272px 1fr;
+  grid-template-columns: 286px 1fr;
   min-height: 100vh;
   min-height: 100dvh;
 }
 
 .rail {
-  border-right: 1px solid var(--line);
-  background: rgba(20, 21, 23, 0.96);
+  border-right: 1px solid rgba(239, 200, 111, 0.3);
+  background:
+    linear-gradient(180deg, rgba(47, 44, 39, 0.96), rgba(17, 18, 17, 0.98)),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 8px);
+  box-shadow: inset -8px 0 18px rgba(0, 0, 0, 0.28);
   padding: 18px;
   display: flex;
   flex-direction: column;
@@ -64,33 +97,43 @@ button {
 
 .brand {
   display: grid;
-  grid-template-columns: 44px 1fr;
+  grid-template-columns: 46px 1fr;
   gap: 12px;
   align-items: center;
-  min-height: 48px;
+  min-height: 50px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(201, 150, 58, 0.26);
 }
 
 .brandMark,
 .detailIcon {
-  width: 44px;
-  height: 44px;
-  border: 1px solid rgba(213, 173, 88, 0.42);
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(239, 200, 111, 0.58);
   display: grid;
   place-items: center;
-  background: rgba(213, 173, 88, 0.1);
-  color: var(--brass);
+  background:
+    linear-gradient(145deg, rgba(239, 200, 111, 0.24), rgba(85, 61, 27, 0.2)),
+    var(--iron-2);
+  color: var(--brass-bright);
   border-radius: 8px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 7px 18px rgba(0, 0, 0, 0.22);
 }
 
 .brand strong {
   display: block;
-  font-size: 17px;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-variant: small-caps;
   letter-spacing: 0;
+  color: #ffe3a0;
+  text-shadow: 0 1px 0 #120d08;
 }
 
 .brand span,
 .sourceBox,
-.detailHeader p,
 .entryRow small,
 .muted {
   color: var(--muted);
@@ -118,28 +161,41 @@ button {
 
 .tabButton {
   display: grid;
-  grid-template-columns: 22px 1fr auto;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
   align-items: center;
   gap: 10px;
-  min-height: 42px;
+  min-height: 44px;
   padding: 9px 10px;
   text-align: left;
+  box-shadow: var(--inset-line);
+}
+
+.tabButton span,
+.entryRow span,
+.metaPills span,
+.filterControl,
+.toggleControl,
+.segmented button {
+  font-family: var(--font-ui);
 }
 
 .tabButton:hover,
 .entryRow:hover,
 .iconButton:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: var(--line-soft);
+  background: rgba(239, 200, 111, 0.07);
+  border-color: rgba(201, 150, 58, 0.34);
 }
 
 .tabButton.active {
-  background: linear-gradient(90deg, rgba(116, 184, 173, 0.16), rgba(213, 173, 88, 0.1));
-  border-color: rgba(116, 184, 173, 0.34);
+  background:
+    linear-gradient(90deg, rgba(201, 150, 58, 0.22), rgba(93, 169, 159, 0.12)),
+    rgba(255, 255, 255, 0.035);
+  border-color: rgba(239, 200, 111, 0.54);
+  color: #fff4d1;
 }
 
 .tabButton small {
-  color: var(--brass);
+  color: var(--brass-bright);
   font-size: 12px;
 }
 
@@ -149,7 +205,7 @@ button {
   grid-template-columns: 18px 1fr;
   gap: 9px;
   align-items: start;
-  border-top: 1px solid var(--line-soft);
+  border-top: 1px solid rgba(201, 150, 58, 0.26);
   padding-top: 14px;
   font-size: 12px;
   line-height: 1.45;
@@ -162,6 +218,9 @@ button {
   height: 100vh;
   height: 100dvh;
   overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 236, 190, 0.04), transparent 160px),
+    rgba(14, 16, 16, 0.82);
 }
 
 .topbar {
@@ -170,8 +229,10 @@ button {
   gap: 14px;
   align-items: center;
   padding: 16px 18px 12px;
-  border-bottom: 1px solid var(--line-soft);
-  background: rgba(17, 19, 21, 0.88);
+  border-bottom: 1px solid rgba(201, 150, 58, 0.22);
+  background:
+    linear-gradient(180deg, rgba(38, 35, 31, 0.94), rgba(18, 19, 18, 0.9)),
+    rgba(17, 19, 21, 0.9);
   backdrop-filter: blur(10px);
 }
 
@@ -183,10 +244,13 @@ button {
   gap: 10px;
   min-height: 44px;
   padding: 0 12px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(201, 150, 58, 0.42);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--teal);
+  background:
+    linear-gradient(180deg, rgba(17, 18, 17, 0.92), rgba(37, 33, 27, 0.88)),
+    rgba(255, 255, 255, 0.04);
+  color: var(--verdigris);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
 }
 
 .searchBox input {
@@ -194,11 +258,11 @@ button {
   border: 0;
   outline: 0;
   background: transparent;
-  color: var(--text);
+  color: #fff1ce;
 }
 
 .searchBox input::placeholder {
-  color: #898680;
+  color: #9f9278;
 }
 
 .metaPills {
@@ -213,7 +277,7 @@ button {
   min-height: 28px;
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--line-soft);
+  border: 1px solid rgba(201, 150, 58, 0.28);
   border-radius: 999px;
   padding: 4px 10px;
   font-size: 12px;
@@ -227,7 +291,8 @@ button {
   gap: 10px;
   align-items: center;
   padding: 10px 18px;
-  border-bottom: 1px solid var(--line-soft);
+  border-bottom: 1px solid rgba(201, 150, 58, 0.2);
+  background: rgba(17, 17, 15, 0.54);
   overflow-x: auto;
 }
 
@@ -243,28 +308,28 @@ button {
 }
 
 .filterControl {
-  border: 1px solid var(--line);
+  border: 1px solid rgba(201, 150, 58, 0.38);
   border-radius: 8px;
   padding: 0 10px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(34, 31, 26, 0.82);
 }
 
 .filterControl select {
   border: 0;
-  color: var(--text);
+  color: #f5e4bc;
   outline: 0;
   background: transparent;
   min-width: 150px;
 }
 
 .filterControl option {
-  background: #18191c;
-  color: var(--text);
+  background: #1b1916;
+  color: #f5e4bc;
 }
 
 .segmented {
   display: inline-flex;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(201, 150, 58, 0.38);
   border-radius: 8px;
   overflow: hidden;
   min-height: 36px;
@@ -272,8 +337,8 @@ button {
 
 .segmented button {
   border: 0;
-  border-right: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.04);
+  border-right: 1px solid rgba(201, 150, 58, 0.28);
+  background: rgba(34, 31, 26, 0.82);
   color: var(--muted);
   padding: 0 12px;
 }
@@ -283,43 +348,48 @@ button {
 }
 
 .segmented button.active {
-  color: #101315;
-  background: var(--teal);
+  color: #081616;
+  background: linear-gradient(180deg, #83c8bd, var(--verdigris));
 }
 
 .toggleControl input {
   width: 16px;
   height: 16px;
-  accent-color: var(--teal);
+  accent-color: var(--brass);
 }
 
 .contentGrid {
   min-height: 0;
   display: grid;
-  grid-template-columns: minmax(280px, 34%) 1fr;
+  grid-template-columns: minmax(290px, 34%) 1fr;
 }
 
 .listPane {
   min-width: 0;
   overflow: auto;
-  border-right: 1px solid var(--line);
+  border-right: 1px solid rgba(201, 150, 58, 0.26);
   padding: 10px;
-  background: rgba(27, 29, 32, 0.62);
+  background:
+    linear-gradient(180deg, rgba(30, 29, 26, 0.86), rgba(18, 19, 18, 0.92)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.03) 0 1px, transparent 1px 10px);
 }
 
 .entryRow {
   width: 100%;
-  min-height: 62px;
+  min-height: 64px;
   display: grid;
   gap: 5px;
   text-align: left;
   padding: 10px 12px;
   margin-bottom: 6px;
+  background: rgba(255, 244, 207, 0.025);
+  box-shadow: var(--inset-line);
 }
 
 .entryRow span {
   overflow-wrap: anywhere;
   line-height: 1.2;
+  color: #f5e4bc;
 }
 
 .entryRow small {
@@ -328,14 +398,23 @@ button {
 }
 
 .entryRow.selected {
-  background: rgba(213, 173, 88, 0.14);
-  border-color: rgba(213, 173, 88, 0.38);
+  background:
+    linear-gradient(90deg, rgba(201, 150, 58, 0.23), rgba(127, 47, 50, 0.12)),
+    rgba(255, 255, 255, 0.04);
+  border-color: rgba(239, 200, 111, 0.56);
 }
 
 .detailPane {
   min-width: 0;
   overflow: auto;
-  padding: 24px;
+  padding: 28px;
+  color: var(--ink);
+  background:
+    linear-gradient(90deg, rgba(105, 90, 67, 0.08) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(105, 90, 67, 0.06) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(255, 248, 226, 0.96), rgba(221, 200, 157, 0.98));
+  background-size: 34px 34px, 34px 34px, auto;
+  box-shadow: inset 0 0 80px rgba(78, 53, 24, 0.2);
 }
 
 .detailPane > * {
@@ -344,43 +423,86 @@ button {
 
 .detailHeader {
   display: grid;
-  grid-template-columns: 44px 1fr;
+  grid-template-columns: 46px minmax(0, 1fr);
   gap: 14px;
   align-items: center;
   margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid rgba(127, 47, 50, 0.46);
 }
 
 .detailHeader h1 {
   margin: 0;
-  font-size: clamp(24px, 3vw, 38px);
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3vw, 40px);
+  font-variant: small-caps;
   line-height: 1.05;
   letter-spacing: 0;
+  color: #281d12;
 }
 
 .detailHeader p {
   margin: 6px 0 0;
+  font-family: var(--font-ui);
   font-size: 13px;
+  color: var(--ink-soft);
   overflow-wrap: anywhere;
 }
 
+.detailIcon {
+  color: #fff0bd;
+  background:
+    linear-gradient(145deg, rgba(127, 47, 50, 0.75), rgba(48, 30, 18, 0.86)),
+    var(--wine);
+}
+
 .lead {
-  font-size: 17px;
-  line-height: 1.6;
-  color: #ddd7c9;
+  font-size: 18px;
+  line-height: 1.62;
+  color: #3a2b1e;
   margin: 0 0 18px;
 }
 
 .bodyText {
-  line-height: 1.7;
-  color: #d9d2c3;
+  font-size: 17px;
+  line-height: 1.72;
+  color: #34281d;
   overflow-wrap: anywhere;
+}
+
+.textFlow {
+  display: grid;
+  gap: 10px;
+}
+
+.textFlow .bodyText {
+  margin: 0;
+}
+
+.textBlockHeading {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border-left: 4px solid var(--brass);
+  background:
+    linear-gradient(90deg, rgba(201, 150, 58, 0.18), rgba(255, 247, 218, 0.52)),
+    rgba(255, 255, 255, 0.2);
+  color: #5b3422;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 0 8px 8px 0;
 }
 
 h3 {
   margin: 24px 0 10px;
-  font-size: 15px;
-  color: var(--brass);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-variant: small-caps;
+  color: #7b2f2b;
   letter-spacing: 0;
+  border-bottom: 1px solid rgba(127, 47, 50, 0.25);
+  padding-bottom: 4px;
 }
 
 .factGrid,
@@ -397,16 +519,20 @@ h3 {
 
 .fact {
   min-height: 66px;
-  border: 1px solid var(--line-soft);
+  border: 1px solid rgba(105, 90, 67, 0.34);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.04);
+  background:
+    linear-gradient(180deg, rgba(255, 247, 218, 0.74), rgba(211, 184, 130, 0.24)),
+    rgba(255, 255, 255, 0.18);
   padding: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42);
 }
 
 .fact span,
 .fieldTable span {
   display: block;
-  color: var(--muted);
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
   font-size: 12px;
   margin-bottom: 6px;
 }
@@ -420,10 +546,11 @@ h3 {
 .statTable {
   display: grid;
   grid-template-columns: minmax(58px, 1fr) repeat(4, minmax(48px, 0.7fr));
-  border: 1px solid var(--line);
+  border: 1px solid rgba(105, 90, 67, 0.46);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 18px;
+  background: rgba(255, 247, 218, 0.34);
 }
 
 .statTable > * {
@@ -431,8 +558,8 @@ h3 {
   display: flex;
   align-items: center;
   padding: 8px 10px;
-  border-right: 1px solid var(--line-soft);
-  border-bottom: 1px solid var(--line-soft);
+  border-right: 1px solid rgba(105, 90, 67, 0.24);
+  border-bottom: 1px solid rgba(105, 90, 67, 0.24);
 }
 
 .statTable > *:nth-child(5n) {
@@ -444,8 +571,9 @@ h3 {
 }
 
 .statHead {
-  color: var(--teal);
-  background: rgba(116, 184, 173, 0.08);
+  color: #fff0bd;
+  background: linear-gradient(180deg, #55332a, #35241e);
+  font-family: var(--font-ui);
   font-weight: 700;
 }
 
@@ -458,10 +586,12 @@ h3 {
 
 .ruleList li {
   list-style: none;
-  border-left: 3px solid var(--teal);
-  background: rgba(255, 255, 255, 0.04);
+  border-left: 4px solid var(--verdigris);
+  background:
+    linear-gradient(90deg, rgba(93, 169, 159, 0.13), rgba(255, 247, 218, 0.48)),
+    rgba(255, 255, 255, 0.18);
   padding: 11px 13px;
-  line-height: 1.55;
+  line-height: 1.58;
   border-radius: 0 8px 8px 0;
 }
 
@@ -473,9 +603,9 @@ h3 {
 }
 
 .tagList span {
-  color: #101315;
-  background: var(--green);
-  border-color: transparent;
+  color: #10201e;
+  background: linear-gradient(180deg, #adc78b, var(--green));
+  border-color: rgba(40, 65, 35, 0.2);
 }
 
 .fieldTable {
@@ -487,9 +617,9 @@ h3 {
 
 .fieldTable > * {
   min-height: 54px;
-  border: 1px solid var(--line-soft);
+  border: 1px solid rgba(105, 90, 67, 0.34);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 247, 218, 0.4);
   padding: 10px;
 }
 
@@ -503,10 +633,11 @@ h3 {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  color: var(--muted);
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
   font-size: 12px;
   margin-top: 16px;
-  border-top: 1px solid var(--line-soft);
+  border-top: 1px solid rgba(105, 90, 67, 0.28);
   padding-top: 12px;
 }
 
@@ -514,6 +645,10 @@ h3 {
   color: var(--muted);
   padding: 18px;
   text-align: center;
+}
+
+.detailPane .emptyState {
+  color: var(--ink-soft);
 }
 
 .mobileOnly {
@@ -529,11 +664,11 @@ h3 {
 
 @media (min-width: 1280px) {
   .contentGrid {
-    grid-template-columns: minmax(340px, 30%) 1fr;
+    grid-template-columns: minmax(350px, 30%) 1fr;
   }
 
   .detailPane {
-    padding: 30px;
+    padding: 32px;
   }
 }
 
@@ -557,7 +692,7 @@ h3 {
     z-index: 9;
     inset: 0;
     border: 0;
-    background: rgba(0, 0, 0, 0.46);
+    background: rgba(0, 0, 0, 0.5);
   }
 
   .railOpen {
@@ -589,7 +724,7 @@ h3 {
 
   .listPane {
     border-right: 0;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid rgba(201, 150, 58, 0.28);
   }
 
   .detailPane {
@@ -618,14 +753,15 @@ h3 {
   }
 
   .entryRow {
-    min-height: 54px;
+    min-height: 56px;
   }
 
   .detailPane {
     padding: 16px;
   }
 
-  .lead {
+  .lead,
+  .bodyText {
     font-size: 15px;
   }
 
@@ -662,7 +798,7 @@ h3 {
   }
 
   .detailHeader h1 {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .contentGrid {

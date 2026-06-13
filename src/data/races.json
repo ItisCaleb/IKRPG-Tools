@@ -73,7 +73,12 @@
     },
     "traits": [
       "Exceptional Potential: choose +1 PHY, +1 AGL, or +1 INT at character creation before spending Advancement Points."
-    ]
+    ],
+    "pageStart": 108,
+    "pageEnd": 108,
+    "pdfPageStart": 109,
+    "pdfPageEnd": 109,
+    "source": "Core Rules p. 108"
   },
   {
     "id": "dwarf",
@@ -150,7 +155,12 @@
     "traits": [
       "Load Bearing ability.",
       "Connection (dwarven clan)."
-    ]
+    ],
+    "pageStart": 109,
+    "pageEnd": 109,
+    "pdfPageStart": 110,
+    "pdfPageEnd": 110,
+    "source": "Core Rules p. 109"
   },
   {
     "id": "gobber",
@@ -227,7 +237,12 @@
       "Deft archetype benefit in addition to other archetype benefits.",
       "+1 racial DEF modifier.",
       "Cannot use great weapons or rifles."
-    ]
+    ],
+    "pageStart": 110,
+    "pageEnd": 110,
+    "pdfPageStart": 111,
+    "pdfPageEnd": 111,
+    "source": "Core Rules p. 110"
   },
   {
     "id": "iosan",
@@ -303,7 +318,12 @@
     },
     "traits": [
       "Begin with one additional ability selected from one of their careers."
-    ]
+    ],
+    "pageStart": 111,
+    "pageEnd": 111,
+    "pdfPageStart": 112,
+    "pdfPageEnd": 112,
+    "source": "Core Rules p. 111"
   },
   {
     "id": "nyss",
@@ -382,7 +402,12 @@
       "+1 on Initiative and PER rolls.",
       "+3 ARM against cold damage.",
       "-3 ARM against fire damage."
-    ]
+    ],
+    "pageStart": 112,
+    "pageEnd": 112,
+    "pdfPageStart": 113,
+    "pdfPageEnd": 113,
+    "source": "Core Rules p. 112"
   },
   {
     "id": "ogrun",
@@ -456,7 +481,12 @@
     },
     "traits": [
       "Huge Stature: can wield a normally two-handed weapon in one hand, suffering -2 on attack rolls with that weapon."
-    ]
+    ],
+    "pageStart": 113,
+    "pageEnd": 113,
+    "pdfPageStart": 114,
+    "pdfPageEnd": 114,
+    "source": "Core Rules p. 113"
   },
   {
     "id": "trollkin",
@@ -533,6 +563,11 @@
       "Gifted trollkin cannot have Arcane Mechanik, Arcanist, or Warcaster careers.",
       "Tough archetype benefit in addition to other archetype benefits.",
       "Feat: Revitalize archetype benefit in addition to other archetype benefits."
-    ]
+    ],
+    "pageStart": 114,
+    "pageEnd": 114,
+    "pdfPageStart": 115,
+    "pdfPageEnd": 115,
+    "source": "Core Rules p. 114"
   }
 ]

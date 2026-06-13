@@ -4,11 +4,14 @@
   "generatedBy": "scripts/extract_ikrpg.py",
   "counts": {
     "races": 7,
-    "combatCards": 14,
+    "careers": 30,
+    "gameCards": 23,
+    "combatCards": 23,
     "benefits": 40,
     "abilities": 148,
+    "skills": 50,
     "spells": 160,
-    "items": 289,
-    "itemDetails": 111
+    "items": 294,
+    "itemDetails": 225
   }
 }

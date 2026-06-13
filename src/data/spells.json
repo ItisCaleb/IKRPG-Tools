@@ -10,8 +10,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
+    "careers": [
+      "Arcanist",
+      "Warcaster"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
     "description": "Magical bolts of energy streak toward the target.",
     "tags": [
       "offensive"
@@ -28,8 +36,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
+    "careers": [
+      "Arcanist",
+      "Warcaster"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
     "description": "An arcane force blasts toward the target.",
     "tags": [
       "offensive"
@@ -46,8 +62,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
+    "careers": [
+      "Arcane Mechanik"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
     "description": "A steamjack damaged by this attack becomes stationary for one round.",
     "tags": [
       "offensive",
@@ -65,8 +88,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
     "description": "Place a 3 \" AOE cloud effect anywhere completely in the spellcaster’s control area. Characters without Immunity: Fire suffer -2 on attack rolls while within the AOE.",
     "tags": [
       "control",
@@ -86,8 +118,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
     "description": "If target character is hit, he and d6 of the nearest enemies within 5\" of the target suffer a POW 10 fire damage roll.",
     "tags": [
       "damage",
@@ -106,8 +146,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
+    "careers": [
+      "Arcanist",
+      "Priest of Morrow",
+      "Warcaster"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
     "description": "While in the spellcaster’s control area, friendly characters gain +2 ARM.",
     "tags": [
       "control",
@@ -126,15 +175,18 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
+    "careers": [
+      "Warcaster"
+    ],
     "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
-    "description": "While in the spellcaster’s control area, the front arcs of characters in his battlegroup are extended to 360˚. When determining LOS, those characters ignore cloud effects, forests, and intervening characters. Awareness lasts for one round. Protection from Fire Ashen Cloud, Extinguisher, Howling Flames, Ignite, Immolation, Wall of Fire Fuel the Flames, Inferno Shatter Storm, Staying Winter's Hand Hoarfrost, Winter Storm Rock Wall, Solid Ground, Stone Strength Inhospitable Ground, Rift, Rock Hammer Telekinesis, Wind Blast, Wings of Air Fog of War, Lightning Tendrils, zephyr Arcane Bolt, Aura of Protection, Battering Ram, Boundless Charge, Convection, Fortify, Foxhole, Redline, Refuge, Snipe, Temper Metal, Transference Awareness, Batten Down the Hatches, Eliminator, Fail Safe, Grind, Guided Fire, Iron Aggression, Rift, Superiority",
+    "pageStart": 236,
+    "pageEnd": 236,
+    "pdfPageStart": 237,
+    "pdfPageEnd": 237,
+    "source": "Core Rules p. 236",
+    "description": "While in the spellcaster’s control area, the front arcs of characters in his battlegroup are extended to 360˚. When determining LOS, those characters ignore cloud effects, forests, and intervening characters. Awareness lasts for one round.",
     "tags": [
-      "cold",
       "control",
-      "electricity",
-      "fire",
-      "movement",
       "steamjack"
     ]
   },
@@ -149,8 +201,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth",
+      "Priest of Morrow"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Enemy upkeep spells on the targeted friendly character expire. The affected character cannot be targeted by enemy spells or animi.",
     "tags": [
       "defense",
@@ -168,8 +229,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Friendly characters in the spellcaster’s control area gain +1 DEF. When a friendly character is hit by a melee attack while in the spellcaster’s control area, the attacker suffers the Fire continuous effect. Barrier of Flames lasts for one round.",
     "tags": [
       "control",
@@ -188,8 +256,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Warcaster"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "While in the spellcaster’s control area, characters in his battlegroup cannot be knocked down and gain +3 ARM but suffer -2 DEF. Batten Down the Hatches lasts for one round.",
     "tags": [
       "control",
@@ -208,8 +283,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)",
+      "Warcaster"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "When a character is hit by Battering Ram, he can be pushed 3 \" directly away from the spell’s point of origin.",
     "tags": [
       "movement",
@@ -227,8 +310,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Mechanika devices in the possession of enemy characters in the spellcaster’s control area immediately deactivate. If an enemy enters the spellcaster’s control area, mechanika devices in his possession immediately deactivate. While in the spellcaster’s control area, enemy characters cannot activate mechanika devices. Black Out has no effect on steamjacks or mechanika armor. Black Out lasts for one round.",
     "tags": [
       "cold",
@@ -248,8 +338,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Infernal and Undead characters hit by this spell suffer an additional die of damage.",
     "tags": [
       "offensive"
@@ -266,8 +363,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Enemies within 2 \" of the targeted friendly character suffer a POW 14 fire damage roll.",
     "tags": [
       "damage",
@@ -285,8 +390,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Target character gains +3 on PHY rolls to resist poison, disease, and infection. Additionally, if the affected character is currently suffering from the effects of a poison, he immediately makes a PHY roll against the toxin rating of the poison. If the roll succeeds, the effects of the poison immediately expire.",
     "tags": [
       "healing",
@@ -304,8 +416,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "While in the spellcaster’s control area, friendly living characters do not suffer the effects of lost aspects.",
     "tags": [
       "control",
@@ -323,8 +442,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Target character’s weapons gains Blessed. (When making an attack with a weapon with Blessed, ignore spell effects that add to the attacked character’s ARM or DEF.)",
     "tags": [
       "defense",
@@ -342,8 +468,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Center a 3\" AOE cloud effect on target character. The AOE remains centered on the character. If the target character is destroyed, remove the AOE from play. Blizzard lasts for one round.",
     "tags": [
       "movement"
@@ -360,8 +494,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)",
+      "Warcaster"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "During his turn, target character can charge without spending focus or being forced and gains +2 \" movement and Pathfinder when it charges. Boundless Charge lasts for one round.",
     "tags": [
       "movement",
@@ -379,8 +521,15 @@
     "upkeep": true,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "The next time target enemy suffers damage, halve its base ARM when calculating damage from the damage roll. After applying this damage, Brittle Frost expires.",
     "tags": [
       "cold",
@@ -401,8 +550,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "The spellcaster and steamjacks under the spellcaster’s control currently in his control area can immediately make one normal ranged attack. Broadside can be cast only once per turn.",
     "tags": [
       "control",
@@ -420,8 +576,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Target character gains one additional quick action during each of his turns.",
     "tags": [
       "upkeep"
@@ -438,8 +602,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "A character hit by Chain Lightning suffers a POW 10 electrical damage roll, and lightning arcs from that character to d6 consecutive additional characters. The lightning arcs to the nearest character it has not already arced to within 4 \" of the last model it arced to, ignoring the spellcaster. Each character the lightning arcs to suffers a POW 10 electrical damage roll.",
     "tags": [
       "damage",
@@ -458,8 +629,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "While within 2 \" of the targeted friendly character, enemy characters suffer -2 DEF unless they have Immunity: Cold.",
     "tags": [
       "cold",
@@ -478,8 +656,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "Cleansing Fire causes fire damage. On a critical hit, characters hit suffer the Fire continuous effect.",
     "tags": [
       "fire",
@@ -497,8 +683,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Warcaster"
+    ],
+    "bookPage": 237,
+    "pageStart": 237,
+    "pageEnd": 237,
+    "pdfPageStart": 238,
+    "pdfPageEnd": 238,
+    "source": "Core Rules p. 237",
     "description": "When Convection destroys a living character, you can allocate 1 focus point to a steamjack in the spellcaster’s battlegroup that is in his control area. The term “animi” refers to the spell-like abilities of warbeasts. Warbeasts and animi will be explained in depth in future Full Metal Fantasy books.",
     "tags": [
       "control",
@@ -517,8 +710,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "If Crevasse incapacitates its original target, you can make a SP 6 attack using the incapacitated character as the attack’s point of origin. Characters hit suffer a POW 12 magic damage roll.",
     "tags": [
       "damage",
@@ -536,8 +737,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Priest of Morrow"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Friendly characters beginning a charge while in the spellcaster’s control area gain +2 \" movement. Crusader’s Call lasts for one round.",
     "tags": [
       "control",
@@ -555,8 +764,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "While in the spellcaster’s control area, Infernal and Undead characters suffer -3 DEF and ARM. Additionally, the area around the spellcaster glows with enough light for anyone in his control area to see in darkness (p. 225). Daylight lasts for one round.",
     "tags": [
       "control",
@@ -574,8 +790,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "While in the spellcaster’s control area, friendly characters gain +2 DEF and ARM against ranged attacks. Deceleration lasts for one round.",
     "tags": [
       "control",
@@ -593,8 +816,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Characters within 2 \" of the spellcaster suffer a POW 12 cold damage roll. Characters damaged by this spell cannot run, charge, or make power attacks for one round.",
     "tags": [
       "cold",
@@ -613,8 +843,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "The spellcaster gains cover, does not suffer blast damage, and does not block LOS. Earth’s Cradle expires if this character moves, is placed, or is engaged.",
     "tags": [
       "defense",
@@ -633,8 +870,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Characters in the AOE are knocked down.",
     "tags": [
       "offensive"
@@ -651,8 +895,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Characters hit suffer a POW 14 fire damage roll. The AOE is a cloud effect that remains in play for one round. Characters entering or ending their turn in the AOE suffer an unboostable POW 14 fire damage roll.",
     "tags": [
       "damage",
@@ -671,8 +922,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Electrical Blast causes electrical damage. Steamjacks damaged by Electrical Blast suffer Disruption. (A steamjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round).",
     "tags": [
       "electricity",
@@ -691,8 +949,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "If target character is hit by a melee attack, after the attack is resolved the attacker is pushed d3 \" directly away from the affected character and suffers an unboostable POW 14 electrical damage roll, then Electrify expires.",
     "tags": [
       "damage",
@@ -712,8 +977,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Warcaster"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Immediately after this attack is resolved, the spellcaster can advance up to 2 \" for each enemy incapacitated by the attack.",
     "tags": [
       "movement",
@@ -731,8 +1003,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Target character suffers -1 SPD and cannot run or charge for one round.",
     "tags": [
       "movement",
@@ -750,8 +1029,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Fire continuous effects in the spellcaster’s control area immediately expire.",
     "tags": [
       "control",
@@ -769,8 +1055,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "This character’s PER rolls are boosted. Additionally, the target number for Deception rolls against this character is increased by 3.",
     "tags": [
       "upkeep"
@@ -787,8 +1080,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Target steamjack gains +2 ARM and does not suffer the effects of crippled systems.",
     "tags": [
       "defense",
@@ -807,8 +1108,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "The spellcaster gains +1 SPD this turn.",
     "tags": []
   },
@@ -823,8 +1131,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "While in the spellcaster’s control area, his weapons and the ranged weapons of steamjacks under his control gain +2 RNG. Fire Group lasts for one round.",
     "tags": [
       "control",
@@ -843,8 +1158,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "*",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "The spellcaster starts a small fire within the range of the spell and in line of sight. This spell can be used to target an enemy, in which case it requires an attack roll. If the enemy is hit, he suffers the Fire continuous effect.",
     "tags": [
       "fire"
@@ -861,8 +1184,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "When target character incapacitates an enemy with a melee attack, enemy characters within 1 \" of the incapacitated character suffer the Fire continuous effect. Flames of Wrath lasts for one round.",
     "tags": [
       "fire"
@@ -879,8 +1210,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Enemies in the spellcaster’s control area suffering the Fire continuous effect immediately suffer an additional unboostable POW 12 fire damage roll. This spell can be cast only once per turn.",
     "tags": [
       "control",
@@ -899,8 +1237,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 238,
+    "pageStart": 238,
+    "pageEnd": 238,
+    "pdfPageStart": 239,
+    "pdfPageEnd": 239,
+    "source": "Core Rules p. 238",
     "description": "Characters gain concealment while in the spellcaster’s control area.",
     "tags": [
       "control",
@@ -919,8 +1265,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Arcanist"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "The spellcaster does not suffer blast or collateral damage and cannot be knocked down. When an enemy AOE ranged attack deviates from a point in the spellcaster’s control area, after the deviation distance is rolled the spellcaster’s player chooses the deviation direction.",
     "tags": [
       "control",
@@ -938,8 +1292,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Warcaster"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "If Force Hammer hits a non-incorporeal target, instead of suffering a normal damage roll, that target is slammed d6 \" directly away from the spell’s point of origin regardless of its base size and suffers a POW 12 damage roll. Collateral damage from this slam is POW 12.",
     "tags": [
       "damage",
@@ -958,8 +1320,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "Enemies currently in the spellcaster’s control area are immediately pushed d6 \" directly away from the spellcaster in the order he chooses.",
     "tags": [
       "control",
@@ -977,8 +1346,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Sorcerer (Stone)",
+      "Warcaster"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "Target steamjack under the spellcaster’s control gains +2 ARM. The affected steamjack and any friendly character B2B with it cannot be knocked down, pushed, or slammed.",
     "tags": [
       "defense",
@@ -998,8 +1376,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Stone)",
+      "Warcaster"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "Place a 5\" AOE anywhere completely in the spellcaster’s control area. Characters completely in the AOE have cover and do not suffer blast damage. When drawing LOS to a character not completely within the AOE, ignore intervening characters completely within the AOE.",
     "tags": [
       "control",
@@ -1019,8 +1406,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "Target character hit becomes stationary for one round unless the target has Immunity: Cold.",
     "tags": [
       "cold",
@@ -1038,8 +1432,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "While in the spellcaster’s control area, enemy characters without Immunity: Cold suffer -2 SPD and DEF. Freezing Mist lasts for one round.",
     "tags": [
       "cold",
@@ -1058,8 +1459,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "Frostbite causes cold damage.",
     "tags": [
       "cold",
@@ -1077,8 +1485,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 239,
+    "pageStart": 239,
+    "pageEnd": 239,
+    "pdfPageStart": 240,
+    "pdfPageEnd": 240,
+    "source": "Core Rules p. 239",
     "description": "Enemies that move more than 2 \" and end their movement in the spellcaster’s control area are knocked down at the end of their movement. Frozen Ground lasts for one round.",
     "tags": [
       "control",
@@ -1096,8 +1511,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Fire continuous effects on enemies in the spellcaster’s control area never expire.",
     "tags": [
       "control",
@@ -1116,8 +1538,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Steamjacks under the spellcaster’s control beginning their turns in his control area can run, charge, or make slam or trample power attacks without spending focus or being driven that activation. The spellcaster and steamjacks under the spellcaster’s control in his control area gain boosted melee attack rolls. Full Throttle lasts for one turn.",
     "tags": [
       "control",
@@ -1137,8 +1566,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "When a steamjack is hit by Grind, it suffers 1 damage point to its first available Movement system box.",
     "tags": [
       "movement",
@@ -1157,8 +1594,17 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth",
+      "Priest of Morrow"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Target friendly character gains +1 on his melee attack rolls and his melee weapons gain Magical Weapon. Guided Blade lasts for one round.",
     "tags": []
   },
@@ -1173,8 +1619,17 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Gun Mage",
+      "Warcaster"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "The spellcaster and steamjacks under the spellcaster’s control in his control area gain boosted ranged attack rolls. Guided Fire lasts until for one round.",
     "tags": [
       "control",
@@ -1193,8 +1648,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Morrow"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Target character gains an additional die on attack and damage rolls. Discard the low die in each roll.",
     "tags": [
       "damage",
@@ -1212,8 +1675,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Target friendly incapacitated character B2B with the spellcaster is no longer incapacitated and regains 1 vitality point in each aspect. The character no longer suffers from the results of his most recent roll on the Injury Table (p. 217). The target character becomes knocked down. Each time a character is targeted by this spell make a d6 roll on the Price of Healing Table below, adding +1 to the roll for each time the character has been targeted by this spell after the first time.",
     "tags": [
       "cold",
@@ -1231,8 +1701,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Target character cannot be knocked down or made stationary.",
     "tags": [
       "upkeep"
@@ -1249,8 +1726,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Upkeep spells and animi on the character directly hit by Hex Blast immediately expire.",
     "tags": [
       "offensive"
@@ -1267,8 +1752,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Hoarfrost causes cold damage. On a critical hit, the characters hit become stationary for one round unless they have Immunity: Cold.",
     "tags": [
       "cold",
@@ -1286,8 +1778,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Howling Flames causes fire damage. On a critical hit, the character hit suffers the Fire continuous effect.",
     "tags": [
       "fire",
@@ -1305,8 +1805,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth"
+    ],
+    "bookPage": 240,
+    "pageStart": 240,
+    "pageEnd": 240,
+    "pdfPageStart": 241,
+    "pdfPageEnd": 241,
+    "source": "Core Rules p. 240",
     "description": "Target steamjack gains +2 on attack and damage rolls. Hymn of Battle lasts for one round. h ealing True healing is not a natural aspect of magic; knitting living flesh and organs is a complex and difficult endeavor better served by surgeons or allowing a body to rest and recover . Mystical restoration is possible only through a manifestation of divine energy, which makes all healing a minor miracle. Such miracles carry risk and inflict a toll on the body, whether as temporary weakness or , in the case of repeated healing, permanent marks or impairment. ROLL RESULT 1-3 The character suffers no side effect from the healing. 4-5 Temporary Affliction - The character suffers from a mild and temporary side effect of the healing. He might take ill with a fever, feel extraordinarily tired, or suffer some other mild affliction. As a result, the character suffers -1 STR and ARM for the next 2d6 hours. Exhaustion - The character is utterly exhausted by his ordeal. He suffers -3 to all INT and PER rolls until he has slept for at least eight hours. Dumb - The character was temporarily struck dumb as a side effect of the healing. He cannot speak for the next 2d6 hours. Marked - The rigors of healing have left their mark upon the character. His hair prematurely turns gray, dark circles appear around his eyes, or his features wrinkle with age. In any case, these changes are permanent. 9+ Broken - Though his body was healed, it was healed imperfectly. One of the following stats, chosen by the affected character, is permanently reduced by 1: AGL, PHY, POI, PRW, SPD, or STR. priCe of healing",
     "tags": [
       "cold",
@@ -1327,8 +1834,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Target steamjack cannot be targeted by non-magical ranged attacks. Hymn of Passage lasts for one round.",
     "tags": [
       "defense",
@@ -1346,8 +1860,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "While in this character’s control area, friendly characters cannot be targeted by enemy spells. Hymn of Shielding lasts for one round.",
     "tags": [
       "control",
@@ -1365,8 +1886,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Ice Bolt causes cold damage. On a critical hit, the character hit become stationary for one round unless he has Immunity: Cold.",
     "tags": [
       "cold",
@@ -1384,8 +1912,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Target character gains +2 ARM. Ice Shield immediately expires if the affected character moves or is damaged.",
     "tags": [
       "cold",
@@ -1405,8 +1940,16 @@
     "upkeep": true,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Target character without Immunity: Cold suffers -2 DEF and cannot run or make power attacks.",
     "tags": [
       "cold",
@@ -1427,8 +1970,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Target character gains +2 on melee attack damage rolls. The affected character gains Critical Fire on his normal melee attacks.",
     "tags": [
       "damage",
@@ -1447,8 +1998,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Immolation causes fire damage. On a critical hit, the character hit suffers the Fire continuous effect.",
     "tags": [
       "fire",
@@ -1466,8 +2025,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "All characters hit suffer a POW 12 fire damage roll. The AOE remains in play for one round. Characters entering or ending their turns in the AOE suffer an unboostable POW 12 fire damage roll.",
     "tags": [
       "damage",
@@ -1486,8 +2052,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The spellcaster makes a contested Willpower roll against target living enemy hit by this spell. If the spellcaster loses, nothing happens. If the spellcaster wins, his player takes control of the character hit. The character immediately makes one normal melee attack, then Influence expires.",
     "tags": [
       "damage",
@@ -1505,8 +2079,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "While in the spellcaster’s control area, other characters treat open terrain as rough terrain. Inhospitable Ground lasts for one round.",
     "tags": [
       "control"
@@ -1523,8 +2105,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Target steamjack can run, charge, or make slam or trample power attacks without spending focus or being driven and gains boosted melee attack rolls.",
     "tags": [
       "damage",
@@ -1544,8 +2134,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The targeted friendly steamjack can immediately make one melee attack.",
     "tags": [
       "steamjack"
@@ -1562,8 +2159,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The spellcaster and steamjacks under the spellcaster’s control in his control area can immediately turn to face any direction. Affected steamjacks that are stationary or knocked down are no longer stationary and stand up.",
     "tags": [
       "control",
@@ -1581,8 +2186,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "While in this character’s control area, enemies pay double the fatigue, focus, or fury point cost to cast or upkeep spells.",
     "tags": [
       "control",
@@ -1601,8 +2213,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Morrow"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The area around the spellcaster glows with enough light for anyone in his control area to see in darkness (p. 225).",
     "tags": [
       "control",
@@ -1620,8 +2240,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The targeted friendly character gains Immunity: Electricity, and the character’s melee weapons gain Reach and Electro Leap. (When a character is hit by a weapon with Electro Leap, you can have lightning arc to the nearest character within 4 \" of the character hit, ignoring the attacker. The character the lightning arcs to suffers an unboostable POW 10 electrical damage roll.)",
     "tags": [
       "damage",
@@ -1640,8 +2268,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The spellcaster spends up to 3 focus points to cast Locomotion. Target steamjack immediately advances up to 1 \" for each focus point spent. A steamjack can be targeted by Locomotion only once per round.",
     "tags": [
       "movement",
@@ -1659,8 +2294,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "During the spellcaster’s Control Phase after upkeep has been paid, the targeted friendly character’s controller can place him anywhere completely within 2 \" of his current location.",
     "tags": [
       "movement",
@@ -1678,8 +2320,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)",
+      "Warcaster"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The force of this attack blasts apart the earth itself.",
     "tags": [
       "offensive"
@@ -1696,8 +2346,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "Target character gains stealth and +3 on his Sneak rolls.",
     "tags": [
       "upkeep"
@@ -1714,8 +2371,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist"
+    ],
+    "bookPage": 241,
+    "pageStart": 241,
+    "pageEnd": 241,
+    "pdfPageStart": 242,
+    "pdfPageEnd": 242,
+    "source": "Core Rules p. 241",
     "description": "The spellcaster immediately makes a contested Willpower roll against all living enemies in his control area. Roll once for the spellcaster. If the spellcaster beats an enemy’s Willpower roll, he can cause that character to advance up to 3 \" and perform one non-spell, non-feat quick action. If the enemy beats or ties the spellcaster’s roll, he is not affected. This spell can be cast only once per round.",
     "tags": [
       "control",
@@ -1734,8 +2398,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character cannot be targeted by a charge made by a character in his front arc.",
     "tags": [
       "defense",
@@ -1754,8 +2425,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target steamjack gains +2 on melee attack and melee damage rolls. While within 3 \" of the affected steamjack, friendly characters gain +2 on melee attack and melee damage rolls. Positive Charge lasts for one round.",
     "tags": [
       "damage",
@@ -1774,8 +2452,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "If the target steamjack the spellcaster controls has no focus points, it gains 1 focus point. If the steamjack is Disrupted, it is no longer Disrupted.",
     "tags": [
       "damage",
@@ -1793,8 +2478,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains two additional dice on his next skill roll. Discard the lowest two dice in the roll. Prayer of Guidance can be cast only once per day.",
     "tags": [
       "cold"
@@ -1811,8 +2503,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains Immunity: Cold.",
     "tags": [
       "cold",
@@ -1830,8 +2530,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains Immunity: Corrosion.",
     "tags": [
       "upkeep"
@@ -1848,8 +2555,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Arcanist"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains Immunity: Electricity and cannot be disrupted.",
     "tags": [
       "electricity",
@@ -1867,8 +2582,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains Immunity: Fire.",
     "tags": [
       "fire",
@@ -1886,8 +2610,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Continuous effects, animi, and upkeep spells in the spellcaster’s control area immediately expire.",
     "tags": [
       "control"
@@ -1904,8 +2635,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "While in the spellcaster’s control area, enemies suffer -2 DEF. Enemies beginning their turn in the spellcaster’s control area cannot run or charge. Raging Winds lasts for one round.",
     "tags": [
       "control",
@@ -1924,8 +2662,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "A blade of wind slices through the target.",
     "tags": [
       "cold",
@@ -1943,8 +2688,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "The targeted friendly steamjack gains +2 STR and SPD and can run, charge, or make power attack slams or tramples without spending focus or being driven. When the steamjack ends its turn, it suffers d3 damage points.",
     "tags": [
       "damage",
@@ -1964,8 +2717,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Gun Mage",
+      "Warcaster"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "When target character directly hits another character with an attack during his turn, immediately after his turn ends the character affected by this spell can make a full advance. The character cannot be targeted by free strikes during this movement.",
     "tags": [
       "defense",
@@ -1984,8 +2746,17 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Gun Mage",
+      "Warcaster"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "When target character is targeted by an enemy ranged attack, after the attack is resolved the affected character can make one normal melee or ranged attack, then Return Fire expires. Return Fire lasts for one round.",
     "tags": [
       "fire"
@@ -2002,8 +2773,17 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Stone)",
+      "Warcaster"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "The AOE is rough terrain and remains in play for one round.",
     "tags": [
       "offensive"
@@ -2020,8 +2800,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains Immunity: Fire. When a character without Immunity: Fire ends his turn within 2 \" of the affected character, the character without Immunity: Fire suffers the Fire continuous effect. Righteous Flames lasts for one round.",
     "tags": [
       "fire"
@@ -2038,8 +2825,13 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Target character gains Immunity: Cold. When a character without Immunity: Cold ends his turn within 2 \" of the affected character, the character without Immunity: Cold becomes stationary until the end of his next turn. Rime lasts for one round.",
     "tags": [
       "cold"
@@ -2056,8 +2848,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "On a critical hit, characters hit are knocked down.",
     "tags": [
       "offensive"
@@ -2074,8 +2874,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "Place a wall template (p. 352) anywhere completely in the spellcaster’s control area where it does not touch a character’s base, an obstruction, or an obstacle. The wall is a linear obstacle that provides cover.",
     "tags": [
       "control",
@@ -2095,8 +2903,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "The spellcaster’s next rune shot ranged attack roll this turn is boosted.",
     "tags": [
       "rune shot"
@@ -2113,8 +2928,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "The spellcaster’s next rune shot ranged attack roll this turn ignores the firing into melee penalty.",
     "tags": [
       "rune shot"
@@ -2131,8 +2953,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 242,
+    "pageStart": 242,
+    "pageEnd": 242,
+    "pdfPageStart": 243,
+    "pdfPageEnd": 243,
+    "source": "Core Rules p. 242",
     "description": "The spellcaster’s next rune shot ranged attack gains a boosted ranged attack damage roll against the target directly hit.",
     "tags": [
       "damage",
@@ -2150,8 +2979,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If the spellcaster directly hits a target with its next rune shot ranged attack this turn, center a 4 \" AOE on the target. Characters other than the original target within the AOE suffer an unboostable damage roll with a POW equal to the POW of the ranged weapon.",
     "tags": [
       "damage",
@@ -2169,8 +3005,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If this character directly hits a target with its next rune shot ranged attack this turn, the attack becomes AOE 5 and POW 0. Characters hit by the AOE suffer no damage but are knocked down.",
     "tags": [
       "damage",
@@ -2188,8 +3031,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "The spellcaster’s next rune shot ranged attack this turn becomes AOE 5 and POW -. While a character is within the AOE, he loses Camouflage and stealth, and other characters can ignore cloud effects when determining LOS to him. The AOE lasts for one round.",
     "tags": [
       "damage",
@@ -2208,8 +3058,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If the spellcaster’s next rune shot ranged attack this turn hits, the target directly hit becomes stationary for one round.",
     "tags": [
       "fire",
@@ -2227,8 +3084,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "Damage exceeding the ARM of the character hit by spellcaster’s next rune shot ranged attack this turn is doubled. A character disabled by this attack cannot make a Tough roll.",
     "tags": [
       "defense",
@@ -2246,8 +3110,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If the spellcaster’s next rune shot ranged attack this turn directly hits a steamjack, in addition to any other damage and effects from the attack, the steamjack also suffers d3 damage points.",
     "tags": [
       "rune shot",
@@ -2265,8 +3136,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If the spellcaster’s next rune shot ranged attack this turn hits, the target directly hit suffers the Fire continuous effect.",
     "tags": [
       "fire",
@@ -2284,8 +3162,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If the spellcaster hits with his next rune shot ranged attack this turn, the character directly hit is slammed d6\" directly away from the spellcaster regardless of his base size and suffers a damage roll with a POW equal to the ranged weapon. Collateral damage from this slam is equal to the POW of the ranged weapon.",
     "tags": [
       "damage",
@@ -2304,8 +3189,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "The spellcaster’s next rune shot ranged attack this turn ignores LOS when making ranged attacks. The attack also ignores concealment and cover.",
     "tags": [
       "defense",
@@ -2323,8 +3215,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 243,
+    "pageStart": 243,
+    "pageEnd": 243,
+    "pdfPageStart": 244,
+    "pdfPageEnd": 244,
+    "source": "Core Rules p. 243",
     "description": "If the spellcaster hits a target with his next rune shot ranged attack this turn, friendly characters can ignore the target when determining LOS and making ranged or magic attacks for one round.",
     "tags": [
       "fire",
@@ -2342,8 +3241,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "The spellcaster’s next rune shot ranged attack is completely silent, and gives no sign of being fired. Neither the firing of the weapon, nor the impact of its ammunition causes a sound. Any immediate sound from a target that is hit, such as a scream, shout, or the fall of a body, is silenced.",
     "tags": [
       "fire",
@@ -2361,8 +3267,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "If the spellcaster directly hits a target with his next rune shot ranged attack this turn, upkeep spells and animi on the target hit immediately expire.",
     "tags": [
       "rune shot"
@@ -2379,8 +3292,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "If the spellcaster destroys a living character with his next rune shot ranged attack, center a 3\" AOE cloud effect on the destroyed character, then remove the destroyed character from the table. The AOE remains in play for one round.",
     "tags": [
       "movement",
@@ -2398,8 +3318,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "If the spellcaster directly hits a target with his next rune shot ranged attack this turn, the target is pushed d3 \" directly away from this character. On a critical hit, the target is knocked down after being pushed.",
     "tags": [
       "movement",
@@ -2417,8 +3344,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "If the spellcaster directly hits a target with its rune shot next ranged attack this turn, choose a character within 4\" of the target that was hit. After the attack is resolved, the spellcaster immediately makes a ranged attack roll against the chosen character. If the chosen character is hit, it suffers a magical damage roll with a POW equal to that of his ranged weapon but does not suffer any effects of other Rune Shot spells cast on the original attack. The point of origin for this damage is the character originally hit.",
     "tags": [
       "damage",
@@ -2436,8 +3370,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "When a friendly character in the spellcaster’s control area would suffer a damage roll, the spellcaster can suffer the damage roll instead. Decide whether the spellcaster suffers the damage before the roll is made.",
     "tags": [
       "control",
@@ -2456,8 +3397,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Enemy characters without Immunity: Fire within 5 \" of the spellcaster suffer the Fire continuous effect.",
     "tags": [
       "fire"
@@ -2474,8 +3422,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "When target character directly hits and destroys an enemy with a ranged or melee attack, center a 3\" AOE on the destroyed character, then remove that character from the table. Characters in the AOE are hit and suffer an unboostable POW 8 blast damage roll.",
     "tags": [
       "damage",
@@ -2495,8 +3450,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Target character gains +2 ARM against magic attacks and attacks made by Infernal or Undead characters.",
     "tags": [
       "defense",
@@ -2514,8 +3476,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Characters with 5\" of the spellcaster suffer a POW 13 damage roll. Each enemy damaged by Shock Wave is pushed d6\" directly away the spellcaster in the order you choose.",
     "tags": [
       "damage",
@@ -2533,8 +3502,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Mechanika devices in the possession of target character hit immediately deactivate. Short Out has no effect on steamjacks or mechanika armor.",
     "tags": [
       "cold",
@@ -2554,8 +3530,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Gun Mage",
+      "Warcaster"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Target character’s ranged weapons gain +4 RNG.",
     "tags": [
       "upkeep"
@@ -2572,8 +3556,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "While in the spellcaster’s control area, friendly characters cannot be knocked down and do not suffer blast damage.",
     "tags": [
       "control",
@@ -2591,8 +3582,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "The spellcaster can reroll failed Medicine skill rolls. Each failed roll can be rerolled only once as a result of Solovin’s Boon.",
     "tags": [
       "healing",
@@ -2610,8 +3608,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Enemies that move and end their movement closer to the spellcaster than they began suffer an unboostable POW 12 damage roll. Star Fire lasts for one round.",
     "tags": [
       "damage",
@@ -2630,8 +3635,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "While in the spellcaster’s control area, friendly characters gain +2 ARM against cold damage. Additionally, while affected by this spell, characters never suffer the effects of exposure to cold weather and are kept warm.",
     "tags": [
       "cold",
@@ -2651,8 +3663,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Target character cannot be knocked down, pushed, or slammed for one round.",
     "tags": [
       "movement"
@@ -2669,8 +3688,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Stone)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Target character gains +1 STR and ARM.",
     "tags": [
       "defense",
@@ -2688,8 +3714,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "When an enemy character is hit by Storm Tossed, he is pushed 3 \" directly away from the spell’s point of origin.",
     "tags": [
       "electricity",
@@ -2708,8 +3742,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "Blast damage from this spell only affects enemies.",
     "tags": [
       "offensive"
@@ -2726,8 +3767,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 244,
+    "pageStart": 244,
+    "pageEnd": 244,
+    "pdfPageStart": 245,
+    "pdfPageEnd": 245,
+    "source": "Core Rules p. 244",
     "description": "The targeted friendly steamjack gains +2 SPD, MAT, and DEF and cannot be knocked down.",
     "tags": [
       "defense",
@@ -2746,8 +3795,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "*",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Place target character completely within 2\" of its current location. When Telekinesis targets an enemy character, it is an offensive spell and requires a magic attack roll. A character can be affected by Telekinesis only once per round.",
     "tags": [
       "movement"
@@ -2764,8 +3821,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "The targeted friendly steamjack gains +2 ARM and is immune to continuous effects.",
     "tags": [
       "defense",
@@ -2784,8 +3849,16 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Characters hit by Tempest are knocked down and suffer a POW 12 damage roll.",
     "tags": [
       "damage",
@@ -2803,8 +3876,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik",
+      "Warcaster"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "The spellcaster and steamjacks under his control currently in his control area can immediately advance up to 3\".",
     "tags": [
       "control",
@@ -2823,8 +3904,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Instead of suffering a normal damage roll, a non-incorporeal character hit by Tornado is thrown d6 \" directly away from the spell’s point of origin regardless of its base size and suffers a POW 13 damage roll. Collateral damage from this throw is POW 13.",
     "tags": [
       "damage",
@@ -2842,8 +3930,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Warcaster"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "The spellcaster can allow other friendly living characters in his control area to spend focus points on him to boost melee attack or melee damage rolls during their turns at a rate of 1 focus point per boost.",
     "tags": [
       "control",
@@ -2863,8 +3958,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Morrow"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "The spellcaster must be B2B with an incapacitated character who needs to be stabilized to cast this spell. When this spell is cast the incapacitated character is immediately stabilized.",
     "tags": [
       "healing"
@@ -2881,8 +3983,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Priest of Morrow"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Friendly characters beginning their turns in the spellcaster’s control area gain +2\" movement and Pathfinder during their turns. True Path lasts for one round.",
     "tags": [
       "control",
@@ -2900,8 +4010,17 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Gun Mage",
+      "Priest of Morrow"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "This character ignores concealment, Camouflage, and stealth. The character can also see in complete darkness.",
     "tags": [
       "defense",
@@ -2919,8 +4038,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Priest of Menoth"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "The next time target character is directly hit by an attack, he suffers no damage roll from the attack, then Vision expires.",
     "tags": [
       "damage",
@@ -2938,8 +4065,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcane Mechanik"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Target steamjack hit cannot advance and suffers -4 DEF. A steamjack beginning an advance within 3 \" of the steamjack hit cannot run or charge and can only advance directly toward it. Voltaic Lock lasts for one round.",
     "tags": [
       "defense",
@@ -2959,8 +4093,16 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Priest of Menoth",
+      "Sorcerer (Fire)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Place the wall template anywhere completely in the spellcaster’s control area where it does not touch a character’s base, an obstruction, or an obstacle. When a character enters or ends his turn in the wall area, he suffers an unboostable POW 12 fire damage roll and the Fire continuous effect. Characters within the wall template gain concealment.",
     "tags": [
       "control",
@@ -2982,8 +4124,15 @@
     "upkeep": true,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "While in the spellcaster’s control area, enemies have their LOS reduced to 5\".",
     "tags": [
       "control",
@@ -3001,8 +4150,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Place a 5 \" AOE anywhere completely in the spellcaster’s control area. Cloud effects overlapping the AOE expire. Characters suffer -3 RAT while within the AOE. The AOE remains in play for one round.",
     "tags": [
       "control",
@@ -3020,8 +4177,15 @@
     "upkeep": false,
     "offensive": true,
     "offensiveMode": "yes",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "This spell does not inflict damage. An enemy hit by this spell can be pushed 1 \" directly away from the spellcaster. After the enemy is pushed, the spellcaster can advance up to 1\" toward the pushed enemy.",
     "tags": [
       "movement",
@@ -3039,8 +4203,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Place the spellcaster anywhere completely within 5\" of his current location. Wings of Air can be cast only once per turn.",
     "tags": [
       "movement"
@@ -3057,8 +4228,15 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Sorcerer (Ice)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Enemies that begin their turns in the spellcaster’s control range lose Eyeless Sight, Flight, and Pathfinder during their turns. Winter Storm lasts for one round.",
     "tags": [
       "electricity"
@@ -3075,8 +4253,16 @@
     "upkeep": false,
     "offensive": false,
     "offensiveMode": "no",
-    "bookPage": 236,
-    "source": "Iron Kingdoms Full Metal Fantasy Roleplaying Game Core Rules, Spell Descriptions pp. 236-245",
+    "careers": [
+      "Arcanist",
+      "Sorcerer (Storm)"
+    ],
+    "bookPage": 245,
+    "pageStart": 245,
+    "pageEnd": 245,
+    "pdfPageStart": 246,
+    "pdfPageEnd": 246,
+    "source": "Core Rules p. 245",
     "description": "Target character can immediately advance up to 5 \". A character can be affected by Zephyr only once per round.",
     "tags": [
       "movement"
