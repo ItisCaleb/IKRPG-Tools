@@ -1,0 +1,3799 @@
+[
+  {
+    "id": "lightarmor-alchemistsleather",
+    "name": "Alchemist's Leather",
+    "category": "Light Armor",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "50 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-1",
+      "arm_modifier": "+5"
+    },
+    "description": "This is a loose-fitting suit of leather armor that includes a heavy leather cloak and a gas mask (p. 274). Typical of the armor worn by the Iron Kingdom’s battle alchemists, this armor is treated to provide maximum protection against blasts and alchemical agents.",
+    "specialRules": "A character wearing this armor gains an additional +3 ARM against blast, cold, corrosion, and fire damage. Because this armor integrates a gas mask, a character wearing it is also immune to gas effects but suffers -1 on sight or hearing- based PER rolls."
+  },
+  {
+    "id": "lightarmor-armoredgreatcoat",
+    "name": "Armored Great Coat",
+    "category": "Light Armor",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "25 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-1",
+      "arm_modifier": "+5"
+    },
+    "description": "The armored great coat is popular among combatants and adventurers across western Immoren. Made up of layers of leather, chain, and plate, it provides protection as well as a barrier against inclement weather.",
+    "specialRules": "None."
+  },
+  {
+    "id": "lightarmor-custombattlearmor",
+    "name": "Custom Battle Armor",
+    "category": "Light Armor",
+    "price": "60 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "60 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-1",
+      "arm_modifier": "+6"
+    },
+    "description": "On the heavy side for light armor, battle armor is made up of light or limited plate elements over layers of chain and leather. Battle armor is often custom fit and manufactured to its owner’s specifications. Though this armor is expensive, it offers improved protection and serves as a mark of distinction.",
+    "specialRules": "A character wearing battle armor tailored to the body of another character suffers a -2 DEF penalty."
+  },
+  {
+    "id": "lightarmor-leatherarmor",
+    "name": "Leather Armor",
+    "category": "Light Armor",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-1",
+      "arm_modifier": "+5"
+    },
+    "description": "This is a suit of armor made primarily of hardened or boiled leatherwork. Metal plates, studs, and elements of chain mail are often added for additional reinforcement. Leather armor produced using modern manufacturing methods is commonly available throughout the major cities of the Iron Kingdoms. The Nyss produce particularly well-made studded leather armor in dark and somber colorations. Less refined versions are produced by hand throughout Immoren. Though not as strong as metal armor, leather provides a surprising amount of protection.",
+    "specialRules": "None. medium Armor Medium armor is made up of protective layers of chain, metal plate, and leather armor. Though heavier than light armor, medium armor provides good protection with little impact on mobility. The infantry forces of the Iron Kingdoms are typically outfitted with medium armor."
+  },
+  {
+    "id": "mediumarmor-chainmail",
+    "name": "Chain Mail",
+    "category": "Medium Armor",
+    "price": "75 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "75 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-2",
+      "arm_modifier": "+7"
+    },
+    "description": "This is a full suit of armor primarily made up of chain mail. Though elements of plate or leather can be worn as well, most of the body is covered in chain mail.",
+    "specialRules": "None."
+  },
+  {
+    "id": "mediumarmor-infantryarmor",
+    "name": "Infantry Armor",
+    "category": "Medium Armor",
+    "price": "85 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "85 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-2",
+      "arm_modifier": "+7"
+    },
+    "description": "Though infantry armor exists in infinite variations throughout the various kingdom and mercenary armies, it is essentially made up of an armored chest plate, shoulder pads, and armored leggings over layers of leather and sometimes chain. Cygnar’s Trenchers and Long Gunners, Khador’s Winter Guard, and Rhul’s Gun Corps all wear variations of this armor.",
+    "specialRules": "None."
+  },
+  {
+    "id": "mediumarmor-tailoredplate",
+    "name": "Tailored Plate",
+    "category": "Medium Armor",
+    "price": "130 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "130 gc",
+      "spd_modifier": "0",
+      "def_modifier": "-1",
+      "arm_modifier": "+7"
+    },
+    "description": "This is a suit of light plate armor that usually includes full torso protection along with armored leggings and gauntlets over layers of more form-fitting chain mail and leather. Sometimes this armor includes a fitted armored coat as well. This armor is typically quite expensive because it is tailored to the wearer. Such armor is a status symbol among successful mercenaries, duelists, and aristocrats.",
+    "specialRules": "A character wearing tailored plate customized to the body of another character suffers a -2 DEF penalty. heAvy Armor Within the Iron Kingdoms, heavy armor has come to mean full plate, often over layers of chain mail and padded leather. This armor offers its wearer peerless protection at the cost of some mobility due to great weight and somewhat restricted freedom of motion."
+  },
+  {
+    "id": "heavyarmor-fullplate",
+    "name": "Full Plate",
+    "category": "Heavy Armor",
+    "price": "100 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "100 gc",
+      "spd_modifier": "-1",
+      "def_modifier": "-3",
+      "arm_modifier": "+8"
+    },
+    "description": "This is a complete suit of all-encompassing plate mail. It is worn with a helmet or chain coif but could include ample neck protection for a warrior to go without those components. Plate armor often integrates shirts of additional plated layers, chain mail, or leather elements for added protection and padding. The stylized armor of the Iron Fangs is full plate.",
+    "specialRules": "None."
+  },
+  {
+    "id": "heavyarmor-stormknightarmor",
+    "name": "Storm Knight Armor",
+    "category": "Heavy Armor",
+    "price": "225 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "225 gc",
+      "spd_modifier": "-2",
+      "def_modifier": "-3",
+      "arm_modifier": "+9"
+    },
+    "description": "This is the heavy armor of Cygnar’s renowned Storm Knights. Extremely heavy plate armor is layered over padded insulation that protects the wearer from the electrical fury of his own weapons.",
+    "specialRules": "A character wearing Storm Knight armor gains the Immunity: Electricity ability."
+  },
+  {
+    "id": "meleeweapons-assassinsblade",
+    "name": "Assassin's Blade",
+    "category": "Melee Weapons",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "-1",
+      "pow": "4"
+    },
+    "description": "The assassin’s blade is a thick-bladed short sword designed for thrusting. Due to its high damage output and relative ease of concealment, such weapons are favored by assassins and murderers. Though capable of dealing mortal injuries, the assassin’s blade is a clumsy weapon and best plunged into an unsuspecting victim’s back.",
+    "specialRules": "Add +2 to back strike damage rolls with this weapon."
+  },
+  {
+    "id": "meleeweapons-axe",
+    "name": "Axe",
+    "category": "Melee Weapons",
+    "price": "8 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "8 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "0",
+      "pow": "3"
+    },
+    "description": "Hand axes are simple weapons capable of inflicting severe wounds. They are commonly used by hunters, trackers, and rangers. The Khadoran Army equips most of their soldiers with axes due to the ease of training and the weapon’s utility as a tool.",
+    "specialRules": "None."
+  },
+  {
+    "id": "meleeweapons-axegreat",
+    "name": "Axe, Great",
+    "category": "Melee Weapons",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "25 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "0",
+      "pow": "6"
+    },
+    "description": "These massive two-handed axes are intimidating and deadly. With hafts as long as a man is tall and bearing enormous blades, these weapons are favored by trollkin, ogrun, and humans possessed of exceptional strength.",
+    "specialRules": "On a critical hit, this weapon inflicts an additional die of damage. A character must have at least STR 5 to use this weapon and can only use this weapon two-handed."
+  },
+  {
+    "id": "meleeweapons-axehorsemans",
+    "name": "Axe, Horseman's",
+    "category": "Melee Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "-1 (on foot), 0 (mounted)",
+      "pow": "3 (on foot), 5 (mounted)"
+    },
+    "description": "A horseman’s axe is an axe blade on an extended haft intended for cleaving downward while in battle from horseback.",
+    "specialRules": "This weapon has Reach. While wielded by a mounted combatant, add +2 to charge attack damage rolls with this weapon."
+  },
+  {
+    "id": "meleeweapons-bayonet",
+    "name": "Bayonet",
+    "category": "Melee Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "skill": "Hand Weapon (used as a dagger or affixed to a weapon",
+      "attack_modifier": "-1",
+      "pow": "2 (used as a dagger or affixed to a weapon smaller than a"
+    },
+    "description": "Bayonets are small, dagger-like blades that can be affixed to the barrel of a firearm. Bayonets are most often affixed to military rifles used by soldiers in the close quarters of trench warfare. Some specialized bayonets have been crafted for use with multi-barreled firearms as well as crossbows.",
+    "specialRules": "A bayonet used as a dagger or affixed to a weapon smaller than a rifle uses the Hand Weapon skill. A bayonet affixed to a rifle has Reach, must be used two-handed, and uses the Great Weapon skill. A character gains +2 to his charge attack rolls with a bayonet affixed to a rifle."
+  },
+  {
+    "id": "meleeweapons-blastingpike",
+    "name": "Blasting Pike",
+    "category": "Melee Weapons",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "50 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-2",
+      "pow": "7"
+    },
+    "description": "The Iron Fang blasting pike is among the most devastating polearms ever developed. It is tipped with a powerful explosive charge with a directional blast that obliterates common foes or rips gaping holes in warjacks. The explosion also has the potential to knock foes to the ground should they survive.",
+    "specialRules": "Blasting Pikes are Reach weapons. On a critical hit, the target is knocked down. Explosive blasting pike heads must be replaced after every attack. The blasting pike can also be set with a spearhead that reduces the weapon’s POW to 4 when used one-handed or to 5 when used two-handed. The spearhead does not need to be replaced after every use. When used with a spearhead, however, the weapon loses the critical knockdown effect. It takes a quick action to replace the blasting pike’s head. Explosive Blasting Pike heads and non-explosive spearhead replacements each cost 1 gc. A character must have at least STR 6 to use this weapon in one hand."
+  },
+  {
+    "id": "meleeweapons-blastingpikeexplosiveheadcharge",
+    "name": "Blasting Pike Explosive Head Charge",
+    "category": "Melee Weapons",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "meleeweapons-blastingpikespearheadnonexplosive",
+    "name": "Blasting Pike Spearhead, Non-explosive",
+    "category": "Melee Weapons",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "meleeweapons-caspianbattleblade",
+    "name": "Caspian Battle Blade",
+    "category": "Melee Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-1 (one-handed), 0 (two-handed)",
+      "pow": "4 (one-handed), 6 (two-handed)"
+    },
+    "description": "A descendant of the cleaving swords used by the Caspians ages ago, the battleblade is a wide, hefty double- edged blade suitable for cleaving and heavy cuts. The tip of the battleblade is never sharpened; the weapon is used solely as a cleaving weapon. Some battleblades are rounded off at the end while others come to a short, purely ornamental point, and a rare few flare out at the tip in a heart or spade-like shape. Most favored by the nobility and knightly orders of Cygnar, the overall design of the blade is utilized by swordsmen across western Immoren.",
+    "specialRules": "A character must have at least STR 5 to use this weapon in one hand."
+  },
+  {
+    "id": "meleeweapons-club",
+    "name": "Club",
+    "category": "Melee Weapons",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "3 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "0",
+      "pow": "2"
+    },
+    "description": "A club is a wooden implement for delivering blunt trauma. These weapons take many forms, from the polished and tooled truncheons carried by the city watches across the Iron Kingdoms, to brutish weapons carried by the uncivilized races of the wilds.",
+    "specialRules": "On a critical hit, a living target hit has a chance to be knocked out (p. 219) by the attack. If the target suffers damage from the attack, he must make a Willpower roll against a target number equal to the attacking character’s STR + 9. If the target succeeds, he stays conscious. If he fails, he is knocked out."
+  },
+  {
+    "id": "meleeweapons-clubbanded",
+    "name": "Club, Banded",
+    "category": "Melee Weapons",
+    "price": "6 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "6 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-1",
+      "pow": "4"
+    },
+    "description": "The banded club is a weapon crafted specifically for war. It is a stout wooden club that has been banded in steel or iron for added weight and reinforcement.",
+    "specialRules": "A character must have at least STR 5 to use this weapon. On a critical hit, a living target hit has a chance to be knocked out (p. 219) by the attack. If the target suffers damage from the attack, he must make a Willpower roll against a target number equal to the attacking character’s STR + 11. If the target succeeds, he stays conscious. If he fails, he is knocked out."
+  },
+  {
+    "id": "meleeweapons-cutlass",
+    "name": "Cutlass",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "-1",
+      "pow": "4"
+    },
+    "description": "A cutlass is a short and broad slashing sword, with a slightly curved blade sharpened on the cutting edge. The hilt of the cutlass features a solid cupped or basket-shaped guard. The weapon is used extensively by both pirates and the navies of the Iron Kingdoms.",
+    "specialRules": "None."
+  },
+  {
+    "id": "meleeweapons-dagger",
+    "name": "Dagger",
+    "category": "Melee Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "+1",
+      "pow": "1"
+    },
+    "description": "Daggers are short, double-edged fighting knives. They are made in countless shapes and sizes and are popular hold-out weapons with adventurers and soldiers alike.",
+    "specialRules": "None."
+  },
+  {
+    "id": "meleeweapons-flail",
+    "name": "Flail",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "-1",
+      "pow": "4"
+    },
+    "description": "Originally created as an agricultural tool, the flail is made up of one or more spiked balls or iron bars separated from a long handle by lengths of chain. These clumsy but brutal weapons are capable of circumventing an opponent’s shield to deliver staggering blows. Some flails are small enough to be wielded in one hand, making them particularly useful to combatants on horseback.",
+    "specialRules": "Attacks from flails ignore ARM bonuses from bucklers and shields."
+  },
+  {
+    "id": "meleeweapons-flailtwohanded",
+    "name": "Flail, Two-handed",
+    "category": "Melee Weapons",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "25 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-2",
+      "pow": "6"
+    },
+    "description": "Akin to their smaller counterparts, the largest flails are massive weapons with handles over a yard long. Because they require both hands to carry, they are generally wielded only by warriors on foot. The damage a two-handed flail can inflict is even more severe than that of a standard flail, and they are just as capable of circumventing an opponent’s shield.",
+    "specialRules": "T w o - h a n d e d fl a i l s a r e R e a c h w e a p o n s . T w o - handed flails must be used two-handed. Attacks from flails ignore ARM bonuses from bucklers and shields. On a critical hit with this weapon, a character can spend 1 feat point to push the target 1 \" away from the attacking character and knock the target down. After the enemy is pushed, the attacking character can advance up to 1 \"."
+  },
+  {
+    "id": "meleeweapons-halberd",
+    "name": "Halberd",
+    "category": "Melee Weapons",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "25 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-1 (one-handed), 0 (two-handed)",
+      "pow": "4 (one-handed), 5 (two-handed)"
+    },
+    "description": "Halberds and other polearms are common weapons of massed infantry. They are versatile weapons that allow the wielder to stay a considerable distance from his opponents while delivering deadly offensives or withstanding the crush of a cavalry charge.",
+    "specialRules": "Halberds are Reach weapons. This weapon can be used with one or two hands. A character fighting two-handed with a halberd gains +2 to his charge attack damage rolls with this weapon."
+  },
+  {
+    "id": "meleeweapons-knuckledusters",
+    "name": "Knuckledusters",
+    "category": "Melee Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "skill": "Unarmed Combat",
+      "attack_modifier": "0",
+      "pow": "1"
+    },
+    "description": "Knuckledusters are metal braces made to fit over the hand to increase damage made by punches and strikes with the hand.",
+    "specialRules": "If a character wearing knuckledusters damages his target with a knockout strike (p. 210), add +2 to the target number to avoid knockout."
+  },
+  {
+    "id": "meleeweapons-kopis",
+    "name": "Kopis",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "pow": "3"
+    },
+    "description": "The kopis is the traditional heavy cleaving sword of the Idrian tribes.",
+    "specialRules": "A character gains +2 to his charge attack rolls with this weapon. On a critical hit with this weapon, a character can spend 1 feat point to gain an additional die on the damage roll."
+  },
+  {
+    "id": "meleeweapons-lance",
+    "name": "Lance",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Lance",
+      "attack_modifier": "0",
+      "pow": "8"
+    },
+    "description": "The lance is a long, heavy spear designed for use on horseback. The lance is longer and heavier than similar weapons used by infantrymen. It is utterly unsuited for throwing or for rapid thrusting.",
+    "specialRules": "Lances are Reach weapons. A character must have at least STR 5 to use this weapon. Lances can only be used to make charge attacks and then only while mounted."
+  },
+  {
+    "id": "meleeweapons-mace",
+    "name": "Mace",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "-1",
+      "pow": "4"
+    },
+    "description": "A mace is essentially a club topped with a metal head capable of delivering brutal strikes. Some maces are spiked to inflict further injury. They are common weapons among the battle chaplains and knights of the Morrowan Church.",
+    "specialRules": "On a critical hit, a living target hit has a chance to be knocked out (p. 219) by the attack. If the target suffers damage from the attack, he must make a Willpower roll against a target number equal to the attacking character’s STR + 9. If the target succeeds, he stays conscious. If he fails, he is knocked out."
+  },
+  {
+    "id": "meleeweapons-maul",
+    "name": "Maul",
+    "category": "Melee Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "0",
+      "pow": "6"
+    },
+    "description": "The maul is a military sledgehammer of wood and banded steel. The massive pulverizing head is affixed to a long, two-handed shaft.",
+    "specialRules": "A character must have at least STR 5 to use this weapon and can only use this weapon two-handed. On a critical hit with this weapon, a character can spend 1 feat point to slam the target d3 \" away. The POW of the slam damage roll is equal to the Strength of the attacking character plus the POW of this weapon. The POW of collateral damage is equal to the Strength of the attacking character."
+  },
+  {
+    "id": "meleeweapons-nyssclaymore",
+    "name": "Nyss Claymore",
+    "category": "Melee Weapons",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "0",
+      "pow": "6"
+    },
+    "description": "The favored weapon of the Nyss, this claymore is an elegant and unusual weapon of remarkable quality. The blades of these swords are typically etched with Aeric runes. The hilts are wrapped in fine leathers and feature a small circular guard. So widely respected are these weapons that common lore has it that they never dull or suffer the ravages of time. Though once these weapons were exceedingly rare, many have entered the hands of outsiders following the widespread destruction of the Nyss. The hefty price for these weapons reflects the scarcity of those with the skills to create them and the high demand for these exquisite works.",
+    "specialRules": "Nyss claymores must be used two-handed. A character can spend 1 feat point to boost an attack roll with this weapon."
+  },
+  {
+    "id": "meleeweapons-ogrunwarcleaver",
+    "name": "Ogrun Warcleaver",
+    "category": "Melee Weapons",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-1",
+      "pow": "6"
+    },
+    "description": "Created to take full advantage of an ogrun’s massive strength and size, the warcleaver is a sturdy polearm so large and heavy that even ogrun must wield it with both hands. A three-foot-long, one-foot-wide cleaver-like blade is affixed to a stout twelve-foot pole, and the back of the cleaver blade is studded with spikes, allowing the warcleaver to perform devastating chopping or piercing blows.",
+    "specialRules": "The warcleaver is a Reach weapon. A character must have at least STR 6 to use this weapon. This weapon must be used two-handed. A character with the Huge Stature characteristic gains +2 to his charge attack rolls with this weapon."
+  },
+  {
+    "id": "meleeweapons-pickaxe",
+    "name": "Pickaxe",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "-1",
+      "pow": "4"
+    },
+    "description": "A pickaxe is a sapping tool as well as a weapon of war favored by the armies of Rhul. The head is a spike ending in a sharp point, which curves slightly and has a counterweight to improve ease of use. The stronger the spike, the more effectively the tool can pierce the surface. The counterweight is nearly always a second spike, often with a flat end for prying. The efficient momentum of a pickaxe, combined with the small contact area, makes it very effective for punching through armor. Rocking an embedded spike aids in removing it, whether from hard-packed earth or the armor and bone of a felled enemy.",
+    "specialRules": "On a hit with this weapon against a knocked down target, a character can spend 1 feat point to gain an additional die on the damage roll."
+  },
+  {
+    "id": "meleeweapons-rapier",
+    "name": "Rapier",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "0",
+      "pow": "2"
+    },
+    "description": "A rapier is a slender, sharply pointed dueling sword, ideally used for thrusting attacks. It features a complex hilt constructed to provide protection for the hand wielding it. This weapon is seldom seen on the battlefields of western Immoren and is considered a weapon of the aristocracy and upper classes.",
+    "specialRules": "A character can spend 1 feat point to boost both his attack and damage roll with this weapon."
+  },
+  {
+    "id": "meleeweapons-shield",
+    "name": "Shield",
+    "category": "Melee Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "skill": "Shield",
+      "attack_modifier": "0",
+      "pow": "0"
+    },
+    "description": "Shields are large metal plates designed to protect their wielder from harm. Though primarily intended to augment the armor worn by their wielder, shields are also weapons in their own right and can inflict crushing blows with the proper strength behind them.",
+    "specialRules": "A character armed with a shield gains +1 ARM for each level of the Shield skill he has against attacks originating in his front arc. This bonus is not cumulative with additional shields."
+  },
+  {
+    "id": "meleeweapons-shieldcombat",
+    "name": "Shield, Combat",
+    "category": "Melee Weapons",
+    "price": "35 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "35 gc",
+      "skill": "Shield",
+      "attack_modifier": "-1",
+      "pow": "3"
+    },
+    "description": "Combat shields are designed with additional reinforcement and spikes, making them useful for offense as well as defense.",
+    "specialRules": "A character armed with a shield gains +1 ARM for each level of the Shield skill he has against attacks originating in his front arc. This bonus is not cumulative with additional shields."
+  },
+  {
+    "id": "meleeweapons-spear",
+    "name": "Spear",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-1",
+      "pow": "4 (one-handed), 5 (two-handed)"
+    },
+    "description": "The simplest of pole weapons, spears are among the most ancient weapons still utilized by the warriors of the Iron Kingdoms.",
+    "specialRules": "When wielded two-handed, spears are Reach weapons. A character wielding a spear two-handed gains +2 to his charge attack rolls."
+  },
+  {
+    "id": "meleeweapons-springblade",
+    "name": "Springblade",
+    "category": "Melee Weapons",
+    "price": "12 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "12 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "0",
+      "pow": "1"
+    },
+    "description": "Springblades are daggers with retractable blades that slide back into their handles when not in use. With the touch to the button of the internal release mechanism, a powerful spring forces the blade outward into fighting position. This weapon is favored by assassins and street fighters.",
+    "specialRules": "A character can draw a springblade without using a quick action."
+  },
+  {
+    "id": "meleeweapons-staff",
+    "name": "Staff",
+    "category": "Melee Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "0",
+      "pow": "3"
+    },
+    "description": "This is a six-foot length of polished hardwood. It is favored by travelers, wanderers, and anyone seeking an unassuming weapon.",
+    "specialRules": "Staffs are Reach weapons. Staffs must be used two-handed. A character can spend 1 feat point to make a trip attack instead of a normal attack with his staff. If the attack hits, the target is knocked down instead of suffering damage."
+  },
+  {
+    "id": "meleeweapons-staffbattle",
+    "name": "Staff, Battle",
+    "category": "Melee Weapons",
+    "price": "12 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "12 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "0",
+      "pow": "4"
+    },
+    "description": "Battle staffs are weapons of steel or banded hard wood set with a heavy head and one tip used for delivering crushing blows. The clergy of Menoth favor battle staffs as their primary armament and symbols of office.",
+    "specialRules": "Battle staffs are Reach weapons. Battle staffs must be used two-handed. A character can spend 1 feat point to make a trip attack instead of a normal attack with his staff. If the attack hits, the target is knocked down instead of suffering damage. On a critical hit, a living target hit has a chance to be knocked out (p. 219) by the attack. If the target suffers damage from the attack, he must make a Willpower roll against a target number equal to the attacking character’s STR + 9. If the target succeeds, he stays conscious. If he fails, he is knocked out."
+  },
+  {
+    "id": "meleeweapons-sword",
+    "name": "Sword",
+    "category": "Melee Weapons",
+    "price": "12 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "12 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "0",
+      "pow": "3"
+    },
+    "description": "Though each nation favors its own style and means of manufacture, swords have been among the most common weapons in use across Immoren since antiquit y.",
+    "specialRules": "None."
+  },
+  {
+    "id": "meleeweapons-swordcane",
+    "name": "Sword Cane",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon",
+      "attack_modifier": "0",
+      "pow": "0 (when wielded as a cane) or 2 (when drawn)"
+    },
+    "description": "Effectively a short sword concealed within the haft of a heavy walking stick, the sword cane is a favored weapon of aristocrats, assassins, and duelists.",
+    "specialRules": "An observant character can discern a sword cane from a normal cane without handling it with a successful PER + Detection roll against a target number of 14."
+  },
+  {
+    "id": "meleeweapons-swordgreat",
+    "name": "Sword, Great",
+    "category": "Melee Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "0",
+      "pow": "6"
+    },
+    "description": "Great swords are heavy, double-edged blades wielded with both hands. Two-handed swords have been favored by swordsmen for centuries, particularly those who regularly fight heavily armored foes or steamjacks.",
+    "specialRules": "Great swords must be used two-handed. Great swords have Reach."
+  },
+  {
+    "id": "meleeweapons-trenchknife",
+    "name": "Trench Knife",
+    "category": "Melee Weapons",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc",
+      "skill": "Hand Weapon, Unarmed Combat",
+      "attack_modifier": "0 (Hand), -1 (Unarmed",
+      "pow": "2"
+    },
+    "description": "Trench knives are long, heavy bladed daggers favored by fighting men across western Immoren. The weapon features a studded or spiked “skull crusher” hand guard that be used to deliver bone snapping blows with the fist.",
+    "specialRules": "Trench knives’ skull crusher hilts can be used to make Unarmed Combat attack rolls. If a character using the skull crusher as a melee weapon makes a knockout strike (p. 210) that damages his target, add +2 to the target number to avoid knockout."
+  },
+  {
+    "id": "meleeweapons-trenchsword",
+    "name": "Trench Sword",
+    "category": "Melee Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "skill": "Hand Weapon, Unarmed Combat",
+      "attack_modifier": "-1",
+      "pow": "4 (Sword), 2 (skull crusher)"
+    },
+    "description": "Modeled after the trench knife, the trench sword is a stout and heavy sword blade affixed to a studded or spiked “skull crusher” hilt.",
+    "specialRules": "Trench swords’ skull crusher hilts can be used to make Unarmed Combat attack rolls. On a critical hit with a skull crusher, the target is knocked down. If a character using the skull crusher as a melee weapon makes a knockout strike (p. 210) that damages his target, add +2 to the target number to avoid knockout."
+  },
+  {
+    "id": "meleeweapons-warhammer",
+    "name": "War Hammer",
+    "category": "Melee Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "skill": "Great Weapon",
+      "attack_modifier": "-1",
+      "pow": "5"
+    },
+    "description": "Military hammers are oversized versions of the common tool, typically forged from iron or steel and used by individuals possessed of great strength.",
+    "specialRules": "A character must have at least STR 6 to use this weapon in one hand. On a critical hit, a living target hit has a chance to be knocked out (p. 219) by the attack. If the target suffers damage from the attack, he must make a Willpower roll against a target number equal to the attacking character’s STR + 12. If the target succeeds, he stays conscious. If he fails, he is knocked out."
+  },
+  {
+    "id": "rangedweapons-axethrowing",
+    "name": "Axe, Throwing",
+    "category": "Ranged Weapons",
+    "price": "12 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "12 gc",
+      "ammo": "-",
+      "effective_range": "36 feet (6\")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "3",
+      "aoe": "-"
+    },
+    "description": "This is a hand axe that has been balanced for throwing.",
+    "specialRules": "Add the thrower’s STR to the POW of the damage roll. It can be used as a melee weapon as well as a ranged weapon."
+  },
+  {
+    "id": "rangedweapons-blunderbuss",
+    "name": "Blunderbuss",
+    "category": "Ranged Weapons",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc",
+      "ammo": "1 (heavy round)",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "240 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2 (one-handed), -1 (two-handed)",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "The blunderbuss is a short, stubby breach-loading rifle with a large bore. An unrefined weapon that has changed little since the Rebellion, the blunderbuss typically fires a powerful, short-range round. The blunderbuss is the standard- issue weapon of the Khadoran Winter Guard.",
+    "specialRules": "It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds."
+  },
+  {
+    "id": "rangedweapons-bola",
+    "name": "Bola",
+    "category": "Ranged Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "ammo": "This is the amount of ammunition the weapon holds.",
+      "effective_range": "This is the practical range of the weapon in",
+      "extreme_range": "This is the extreme range of the weapon, given",
+      "skill": "This is the skill used when making an attack with the",
+      "attack_modifier": "Some weapons affect attack rolls made with",
+      "pow": "When making a ranged attack damage roll, add the POW",
+      "aoe": "This is the size of the weapon’s area of effect."
+    },
+    "description": "A bola is a simple throwing weapon made of lengths of rope and chain affixed together and ending in heavy weights. The weapon causes little damage, as its true purpose is to entangle and trip its target. This is a description of the weapon.",
+    "specialRules": "A character hit with a bola must succeed in a STR + PRW roll against a target number of 15 or be knocked down. If the character succeeds, he manages to get free of the bola before becoming entangled by it. Once knocked down, the character must either spend a quick action and succeed in an AGL + Rope Use skill roll against a target number of 10 to untie himself or spend a quick action and succeed in a STR roll against a target number of 10 to break free. If the attempt fails, the character can spend additional quick actions repeat the attempt but can take no other action until freed. b lasting p o Wder and the e nd of Monopoly Though blasting powder was once an expensive and carefully regulated commodity of the Order of the Golden Crucible, their virtual monopoly on its manufacture has long since ended. Every kingdom has developed its own supply and methods of manufacture. The dissolution of the Golden Crucible following the Khadoran invasion of Llael saw the secrets of its creation spread to hundreds of independent chapterhouses and alchemical shops throughout the Iron Kingdoms. Blasting powder is now available throughout the Iron Kingdoms in great supply. The quality of ammunition varies, and certain groups such as the Free Order of the Golden Crucible have a reputation for higher quality and consistency of product, and can charge a premium accordingly. This section describes any special rules of the weapon."
+  },
+  {
+    "id": "rangedweapons-bow",
+    "name": "Bow",
+    "category": "Ranged Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "ammo": "1",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Archery",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "Though bows are used less frequently in the modern age of firearms, a bow is still a deadly weapon in the hands of an expert. A bow’s height is roughly equal to that of its wielder.",
+    "specialRules": "It costs 1 gc for ten arrows. This weapon requires two hands."
+  },
+  {
+    "id": "rangedweapons-bowgreat",
+    "name": "Bow, Great",
+    "category": "Ranged Weapons",
+    "price": "45 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "45 gc",
+      "ammo": "1",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Archery",
+      "attack_modifier": "0",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "This is a large, stout bow with an extremely heavy draw.",
+    "specialRules": "It costs 1 gc for five arrows. This weapon requires two hands. A character must have at least STR 6 to use this weapon."
+  },
+  {
+    "id": "rangedweapons-bownyss",
+    "name": "Bow, Nyss",
+    "category": "Ranged Weapons",
+    "price": "35 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "35 gc",
+      "ammo": "1",
+      "effective_range": "72 feet (12\")",
+      "extreme_range": "360 feet",
+      "skill": "Archery",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The Nyss are known for the power of their fine composite bows. These weapons are strong enough to withstand the freezing climates of the far north where a lesser bow would shatter from use. Their ingenious design also redoubles the archer’s strength, greatly increasing the range of the weapon.",
+    "specialRules": "It costs 1 gc for ten arrows. This weapon requires two hands. A character must have at least STR 5 to use this weapon."
+  },
+  {
+    "id": "rangedweapons-cannonshield",
+    "name": "Cannon-shield",
+    "category": "Ranged Weapons",
+    "price": "45 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "45 gc",
+      "ammo": "1 (heavy round)",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "240 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "This is a heavy, short-range rifle mounted in the center of a shield. The weapon can be used as shield and as a ranged weapon.",
+    "specialRules": "This weapon is also a shield (p. 258). It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds. As part of a charge, after moving but before making the charge attack, a character can spend 1 feat point to make one ranged attack with this weapon targeting the enemy charged unless the character was in melee with the enemy at the start of his turn. When resolving the ranged attack, the attacking character does not suffer the target in melee penalty. If the target is not in melee range after moving, the character can make the ranged attack before his turn ends."
+  },
+  {
+    "id": "rangedweapons-carbine",
+    "name": "Carbine",
+    "category": "Ranged Weapons",
+    "price": "60 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "60 gc",
+      "ammo": "5 (metal-cased light round)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Rifle",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The carbine is primarily a military weapon, bridging the gap between the pistol and rifle. The weapon utilizes a five-chambered ammo wheel that can be replaced in the heat of combat instead of reloading each chamber separately. A relatively advanced weapon, it is rare to see a carbine for sale on the open market.",
+    "specialRules": "Replacing this weapon’s ammo wheel requires a quick action. Reloading each chamber of the ammo wheel takes one quick action. It costs 3 gc for blasting powder, bullets, and metal casings for five light rounds. An extra ammo wheels cost 15 gc."
+  },
+  {
+    "id": "rangedweapons-crossbow",
+    "name": "Crossbow",
+    "category": "Ranged Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "ammo": "1",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Crossbow",
+      "attack_modifier": "-2 (one-handed), 0 (two-handed)",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "Numerous nations and races developed the crossbow independently, and they are widespread, if not common, weapons across western Immoren. Crossbows are popular weapons among assassins and hunters alike.",
+    "specialRules": "It costs 1 gc for ten bolts. A crossbow takes a full action to reload."
+  },
+  {
+    "id": "rangedweapons-crossbowrepeating",
+    "name": "Crossbow, Repeating",
+    "category": "Ranged Weapons",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc",
+      "ammo": "6",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Crossbow",
+      "attack_modifier": "-1",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The repeating, or mechanical, crossbow is a magazine fed crossbow that reloads itself each time the bow string is locked back in place. The weapon’s magazine must be removed for it to be reloaded and can be replaced in the heat of combat instead of reloading each bolt by hand.",
+    "specialRules": "Replacing this weapon’s magazine requires a quick action. Loading each bolt into the magazine takes one quick action. This weapon requires two hands. It costs 1 gc for ten bolts. Additional magazines cost 10 gc each."
+  },
+  {
+    "id": "rangedweapons-grenadeconcussion",
+    "name": "Grenade, Concussion",
+    "category": "Ranged Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "ammo": "-",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "-",
+      "aoe": "3"
+    },
+    "description": "A concussion grenade utilizes a volume of “true air,” an alchemical gas known for its expansive qualities. True air is captured, liquefied through a treatment process, then cooled and stored within the grenade. When the bomb is detonated, the true air is heated and released.",
+    "specialRules": "Once it is in hand, using a grenade requires both a quick action and an attack. The quick action is spent pulling the pin, and the attack is to actually throw the grenade. The concussion grenade causes no damage. Characters caught in the AOE are knocked down. Cloud effects overlapping the AOE expire."
+  },
+  {
+    "id": "rangedweapons-grenadeexplosive",
+    "name": "Grenade, Explosive",
+    "category": "Ranged Weapons",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc",
+      "ammo": "-",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "12",
+      "aoe": "3"
+    },
+    "description": "Explosive grenades come in many shapes and sizes. They are most often round metal objects a little smaller than a man’s fist. They can also be cylindrical, integrate a stick or grip at the base for throwing, contain studs to aid in the holding of the device, or incorporate any of a countless number of other variations. Grenades typically have a handle locked in place by a removable safety pin. Once the pin is pulled, the grenade is primed but still does not explode until the handle is released, such as by being thrown. As long as the grenade is held in the hand, the handle remains in place. Upon the handle’s release, either a fuse ignites or a clockwork mechanism is thrown into motion, depending on the nature of the grenade. After a few seconds the grenade explodes.",
+    "specialRules": "Once it is in hand, using a grenade requires both a quick action and an attack. The quick action is spent pulling the pin, and the attack is to actually throw the grenade."
+  },
+  {
+    "id": "rangedweapons-grenadesmoke",
+    "name": "Grenade, Smoke",
+    "category": "Ranged Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "ammo": "-",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "-",
+      "aoe": "3"
+    },
+    "description": "Smoke grenades contain an alchemical compound that when set off produces a thick, billowing cloud of smoke. Smoke grenades come in an assortment of colors used by the militaries of the Iron Kingdoms to signal various conditions on the battlefield. These grenades are produced cheaply and in large numbers by the militaries of the Iron Kingdoms.",
+    "specialRules": "Once it is in hand, using a grenade requires both a quick action and an attack. The quick action is spent pulling the pin, and the attack is to actually throw the grenade. Smoke grenades cause no damage. The weapon’s AOE is a cloud effect that remains in play for one round."
+  },
+  {
+    "id": "rangedweapons-grenadestranglegas",
+    "name": "Grenade, Strangle Gas",
+    "category": "Ranged Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "ammo": "-",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "-",
+      "aoe": "3"
+    },
+    "description": "These grenades unleash gouts of choking, fuming gas. They are produced cheaply and in large numbers by the militaries of the Iron Kingdoms.",
+    "specialRules": "Once it is in hand, using a grenade requires both a quick action and an attack. The quick action is spent pulling the pin, and the attack is to actually throw the grenade. Strangle gas grenades cause no damage. The weapon’s AOE is a cloud effect, gas effect that remains in play for one round. While in the AOE, living characters suffer -2 DEF and -2 on attack rolls. r ifle g renades Concussion, explosive, smoke, and strangle gas grenades are also available from various arms production plants throughout the Iron Kingdoms as rifle-launched grenades. These grenades can be fitted to the barrel of a military rifle and fired. When fired from a military rifle, a rifle grenade has a range of 60 feet (10\"), no extreme range, and the same AOE and effects as the standard grenade type. A character firing a rifle grenade suffers -1 on his attack roll."
+  },
+  {
+    "id": "rangedweapons-gunaxe",
+    "name": "Gun Axe",
+    "category": "Ranged Weapons",
+    "price": "80 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "80 gc",
+      "ammo": "1 (heavy round)",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "240 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-1",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "This weapon integrates a heavy, short-range rifle into the handle of an axe.",
+    "specialRules": "When used as a melee weapon, this weapon has an attack modifier of -1, is POW 3, and uses the One-Handed Weapon skill. It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds. As part of a charge, after moving but before making the charge attack a character can spend 1 feat point to make a ranged attack with this weapon targeting the enemy charged unless he was in melee with the enemy at the start of his turn. When resolving the ranged attack, the attacking character does not suffer the target in melee penalty. If the target is not in melee range after moving, the character can make the ranged attack before his turn ends."
+  },
+  {
+    "id": "rangedweapons-handcannon",
+    "name": "Hand Cannon",
+    "category": "Ranged Weapons",
+    "price": "100 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "100 gc",
+      "ammo": "1 (heavy round)",
+      "effective_range": "72 feet (12\")",
+      "extreme_range": "360 feet",
+      "skill": "Pistol",
+      "attack_modifier": "0",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "Extremely heavy and well-made pistols, hand cannons are expensive firearms most commonly found in the possession of ranking military officers. These enormous handguns pack a significant punch and are accurate to a range far beyond that of most other pistols.",
+    "specialRules": "It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds."
+  },
+  {
+    "id": "rangedweapons-handcannondual",
+    "name": "Hand Cannon, Dual",
+    "category": "Ranged Weapons",
+    "price": "250 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "250 gc",
+      "ammo": "2 (heavy round)",
+      "effective_range": "72 feet (12\")",
+      "extreme_range": "360 feet",
+      "skill": "Pistol",
+      "attack_modifier": "0",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "This is a hand cannon with two barrels. Each barrel can be fired independently, or they can be discharged together for a single massive blast.",
+    "specialRules": "Discharging both barrels together is treated as a single attack, and the weapon suffers -2 on the attack roll. If the attack hits, add +3 to the damage roll. Reloading each barrel takes one quick action. It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds."
+  },
+  {
+    "id": "rangedweapons-harpoongun",
+    "name": "Harpoon Gun",
+    "category": "Ranged Weapons",
+    "price": "35 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "35 gc",
+      "ammo": "1 (harpoon or grapple)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "120 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "The harpoon gun is a specially designed firearm made to propel a harpoon over long distances. Harpoon guns typically have short, stout barrels and are fitted with iron rings that can be used to tie off the harpoon line and to anchor the harpoon gun into secured mounting, such as on a ship. The true range of the harpoon gun is limited by the rope or cable attached to the harpoon. The harpoon gun can also be used to fire a grappling hook and line.",
+    "specialRules": "If this weapon damages a target with an equal or smaller base, immediately after the attack is resolved the damaged character can be pushed any distance directly toward the character armed with the harpoon. A grappling hook has a -4 attack modifier instead of -2 and has"
+  },
+  {
+    "id": "rangedweapons-javelin",
+    "name": "Javelin",
+    "category": "Ranged Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "ammo": "-",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "3 + the thrower's STR",
+      "aoe": "-"
+    },
+    "description": "A javelin is a light spear designed for throwing.",
+    "specialRules": "Add the thrower’s STR to the POW of the damage roll."
+  },
+  {
+    "id": "rangedweapons-knifethrowing",
+    "name": "Knife, Throwing",
+    "category": "Ranged Weapons",
+    "price": "8 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "8 gc",
+      "ammo": "-",
+      "effective_range": "36 feet (6\")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "0",
+      "pow": "2 + the thrower's STR",
+      "aoe": "-"
+    },
+    "description": "This is a heavy knife balanced for throwing.",
+    "specialRules": "Add the thrower’s STR to the POW of the damage roll. A throwing knife can be used as a melee weapon as well as a ranged weapon."
+  },
+  {
+    "id": "rangedweapons-ogrunbattlecannon",
+    "name": "Ogrun Battle Cannon",
+    "category": "Ranged Weapons",
+    "price": "85 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "85 gc",
+      "ammo": "1 (shell)",
+      "effective_range": "72 feet (12\")",
+      "extreme_range": "360 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2 (one-handed), -1 (two-handed)",
+      "pow": "12",
+      "aoe": "3"
+    },
+    "description": "A small cannon designed to be fired by an ogrun from the hip, the battle cannon is a weapon of Rhulic manufacture.",
+    "specialRules": "This weapon can be wielded only by characters with the proportions of an ogrun and with STR 6 or greater. It cost 3 gc for one ogrun battle cannon shell."
+  },
+  {
+    "id": "rangedweapons-pistol",
+    "name": "Pistol",
+    "category": "Ranged Weapons",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc",
+      "ammo": "1 (light round)",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "240 feet",
+      "skill": "Pistol",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "Handguns are commonly found among military officers, adventurers, and even private citizens seeking weapons of self-defense.",
+    "specialRules": "It costs 2 gc for blasting powder, bullets, and casings for five light rounds."
+  },
+  {
+    "id": "rangedweapons-pistolholdout",
+    "name": "Pistol, Holdout",
+    "category": "Ranged Weapons",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc",
+      "ammo": "1 (light round)",
+      "effective_range": "24 feet (4\")",
+      "extreme_range": "-",
+      "skill": "Pistol",
+      "attack_modifier": "+1",
+      "pow": "8",
+      "aoe": "-"
+    },
+    "description": "Concealable and easy to control, the holdout pistol fires a small-caliber ball that, though accurate, is effective only at extremely close range. Despite its shortcomings, the holdout pistol is favored as a weapon of last resort by those with little skill in firearms.",
+    "specialRules": "It costs 2 gc for blasting powder, bullets, and casings for five light rounds."
+  },
+  {
+    "id": "rangedweapons-pistolmagelock",
+    "name": "Pistol, Magelock",
+    "category": "Ranged Weapons",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "150 gc",
+      "ammo": "1 (metal-cased rune shot)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Pistol",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The signature weapon of the gun mage, each magelock pistol is the hand-crafted product of a master gunsmith. Only rare and difficult to manufacture steel alloys can withstand the arcane stresses caused by rune shots, so magelock pistols are treasured by their owners. A magelock fires metal-cased rune shot rounds in which both the bullet and its casing have been inscribed with runes.",
+    "specialRules": "Magelocks are capable of firing light metal-cased ammunition in times of need, but Gun Mages seldom deign to do so. It is impossible to empower non-rune shot ammunition with spells, no matter what sort of firearm fires it. It costs 5 gc for blasting powder, rune-scribed bullets, and the metal casing for each round of rune shot ammunition. Due to the high cost of ammunition, most gun mages pour their own rune shots (see “Craft Rune Shot,” p. 160). When a Gun Mage fires a rune shot from a magelock pistol, the magelock is considered to be a magical weapon."
+  },
+  {
+    "id": "rangedweapons-pistolrepeating",
+    "name": "Pistol, Repeating",
+    "category": "Ranged Weapons",
+    "price": "35 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "35 gc",
+      "ammo": "5 (light round)",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "240 feet",
+      "skill": "Pistol",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The repeating pistol utilizes a five-chambered ammo wheel that can be replaced in the heat of combat instead of reloading each cylinder separately.",
+    "specialRules": "Replacing this weapon’s ammo wheel requires a quick action. Reloading each cylinder of the ammo wheel takes one quick action. It costs 2 gc for blasting powder, bullets, and casings for five light rounds. Additional ammo wheels cost 15 gc each."
+  },
+  {
+    "id": "rangedweapons-quadiron",
+    "name": "Quad-iron",
+    "category": "Ranged Weapons",
+    "price": "200 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "200 gc",
+      "ammo": "4 (light round)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Pistol",
+      "attack_modifier": "-1",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "A truly massive pistol, the quad-iron is a heavy, four-barreled pistol capable of firing all of its barrels in rapid succession. Expensive and rare, quad-irons are highly valued by pistoleers despite their weight and punishing recoil.",
+    "specialRules": "After a hit with this weapon, once the attack has been resolved the attacker can immediately make one additional attack with this weapon targeting the last character hit or another character within 2 \" of that character. This attack is in addition to the attacker’s other actions. Reloading each barrel takes one quick action. It costs 2 gc for blasting powder, bullets, and casings for five light rounds."
+  },
+  {
+    "id": "rangedweapons-radcliffecarbine",
+    "name": "Radcliffe Carbine",
+    "category": "Ranged Weapons",
+    "price": "250 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "250 gc",
+      "ammo": "5 (metal-cased heavy round)",
+      "effective_range": "78 feet (13\")",
+      "extreme_range": "390 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2 (one-handed), 0 (two-handed)",
+      "pow": "11",
+      "aoe": "-"
+    },
+    "description": "The Radcliffe Gunwerks heavy carbine is among the finest firearms ever made. Packing the punch of a military rifle and nearly the range of a long gun, this weapon is treasured by the military officers who can afford them. The weapon utilizes a five-chambered ammo wheel that can be replaced in the heat of combat instead of reloading each cylinder separately.",
+    "specialRules": "Replacing this weapon’s ammo wheel requires a quick action. Reloading each cylinder of the ammo wheel takes one quick action. It costs 4 gc for blasting powder, bullets, and metal casings for five heavy rounds. Additional ammo wheels cost 15 gc each."
+  },
+  {
+    "id": "rangedweapons-riflelong",
+    "name": "Rifle, Long",
+    "category": "Ranged Weapons",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "50 gc",
+      "ammo": "1 (light round)",
+      "effective_range": "84 feet (14\")",
+      "extreme_range": "420 feet",
+      "skill": "Rifle",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "Popular among hunters, riflemen, and snipers, long rifles are cumbersome weapons but are extremely effective at long range.",
+    "specialRules": "It costs 2 gc for blasting powder, bullets, and casings for five light rounds. This weapon requires two hands."
+  },
+  {
+    "id": "rangedweapons-rifleheavy",
+    "name": "Rifle, Heavy",
+    "category": "Ranged Weapons",
+    "price": "120 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "120 gc",
+      "ammo": "1 (heavy round)",
+      "effective_range": "84 feet (14\")",
+      "extreme_range": "420 feet",
+      "skill": "Rifle",
+      "attack_modifier": "0",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "Heavy rifles are devastating weapons found only in the hands of successful monster hunters and the most senior of the kingdoms’ riflemen. The Vanar Liberator is just one example of this extremely heavy and accurate category of rifle.",
+    "specialRules": "It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds. This weapon requires two hands."
+  },
+  {
+    "id": "rangedweapons-riflemagelock",
+    "name": "Rifle, Magelock",
+    "category": "Ranged Weapons",
+    "price": "200 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "200 gc",
+      "ammo": "1 (rune shot)",
+      "effective_range": "84 feet (14\")",
+      "extreme_range": "420 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2 (one-handed), 0 (two-handed)",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "Exceedingly rare, the magelock rifle is a long rifle especially constructed to fire rune shots. A magelock fires metal-cased rounds in which both the bullet and cartridge have been inscribed with runes.",
+    "specialRules": "Magelocks are capable of firing light metal-cased ammunition in times of need, but Gun Mages seldom deign to do so. It is impossible to empower non-rune shot ammunition with spells, no matter what sort of firearm fires it. It costs 5 gc for blasting powder, rune-scribed bullets, and the metal casing for each round of rune shot ammunition. Due to the high cost of ammunition, most gun mages pour their own rune shots (see “Craft Rune Shot,” p. 160). This weapon requires two hands. When a Gun Mage fires a rune shot from a magelock rifle, the magelock is considered to be a magical weapon."
+  },
+  {
+    "id": "rangedweapons-riflemilitary",
+    "name": "Rifle, Military",
+    "category": "Ranged Weapons",
+    "price": "45 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "45 gc",
+      "ammo": "1 (heavy round)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Rifle",
+      "attack_modifier": "0",
+      "pow": "11",
+      "aoe": "-"
+    },
+    "description": "The military rifle is a stout, heavy rifle. Though it lacks the range of the long rifle, the military rifle packs more punch.",
+    "specialRules": "It costs 3 gc for blasting powder, bullets, and casings for five heavy rounds. This weapon requires two hands."
+  },
+  {
+    "id": "rangedweapons-riflerepeating",
+    "name": "Rifle, Repeating",
+    "category": "Ranged Weapons",
+    "price": "80 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "80 gc",
+      "ammo": "5 (light round)",
+      "effective_range": "84 feet (14\")",
+      "extreme_range": "420 feet",
+      "skill": "Rifle",
+      "attack_modifier": "0",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The repeating rifle is primarily a military weapon. The weapon utilizes a five-chambered ammo wheel that can be replaced in the heat of combat instead of reloading each cylinder separately.",
+    "specialRules": "Replacing this weapon’s ammo wheel requires a quick action. Reloading each cylinder of the ammo wheel takes one quick action. It costs 2 gc for blasting powder, bullets, and casings for five light rounds. Additional ammo wheels cost 15 gc each. This weapon requires two hands."
+  },
+  {
+    "id": "rangedweapons-rynnishwalkingstick",
+    "name": "Rynnish Walking Stick",
+    "category": "Ranged Weapons",
+    "price": "40 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "40 gc",
+      "ammo": "1 (light round)",
+      "effective_range": "48 feet (8 \")",
+      "extreme_range": "240 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-2 (one-handed), 0 (two-handed)",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "The Rynnish walking stick is a small firearm concealed within the haft of a cane. The weapon can be fired like a short-ranged rifle.",
+    "specialRules": "An observant character can discern a Rynnish walking stick from a normal walking stick without handling it with a successful PER + Detection roll against a target number of 14. It costs 2 gc for blasting powder, bullets, and casings for five light rounds."
+  },
+  {
+    "id": "rangedweapons-scattergun",
+    "name": "Scattergun",
+    "category": "Ranged Weapons",
+    "price": "40 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "40 gc",
+      "ammo": "1 (shot round)",
+      "effective_range": "48 feet (SP 8)",
+      "extreme_range": "-",
+      "skill": "Rifle",
+      "attack_modifier": "-2 (one-handed), 0 (two-handed)",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "Scatterguns are heavy, oversized rifles designed to fire a spray of grapeshot. Scatterguns are devastating in close quarters.",
+    "specialRules": "It costs 1 gc for blasting powder, shot, and casing for one shot round."
+  },
+  {
+    "id": "rangedweapons-sling",
+    "name": "Sling",
+    "category": "Ranged Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc",
+      "ammo": "1",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "-",
+      "skill": "Thrown",
+      "attack_modifier": "-2",
+      "pow": "8",
+      "aoe": "-"
+    },
+    "description": "The sling is a simple and ancient weapon that still sees some use on the streets of the Iron Kingdoms. It has become an invaluable tool in the arsenal of combat alchemists who use the weapon to deliver their explosive alchemical concoctions.",
+    "specialRules": "These weapons typically are used to pitch stones, grenades, or sling bullets. If the attacker is throwing sling bullets instead of stones or other ammunition, there is no attack modifier. Sling bullets cost 1 gc for twenty rounds. Stones can be amassed from the ground free of cost."
+  },
+  {
+    "id": "rangedweapons-sluggun",
+    "name": "Slug Gun",
+    "category": "Ranged Weapons",
+    "price": "40 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "40 gc",
+      "ammo": "1 (slug round)",
+      "effective_range": "24 feet (4\")",
+      "extreme_range": "-",
+      "skill": "Pistol",
+      "attack_modifier": "-2 (one-handed), -1 (two-handed)",
+      "pow": "14",
+      "aoe": "-"
+    },
+    "description": "Slug guns are highly specialized weapons designed specifically to crack the armor of steamjacks and other heavily armored targets. The guns fire enormous slugs at an incredible velocity but are highly inaccurate.",
+    "specialRules": "It costs 1 gc for blasting powder, slug, and casing for each slug round."
+  },
+  {
+    "id": "rangedweapons-swordcannonrepeating",
+    "name": "Sword-cannon, Repeating",
+    "category": "Ranged Weapons",
+    "price": "100 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "100 gc",
+      "ammo": "5 (metal-cased light round)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-1",
+      "pow": "10",
+      "aoe": "-"
+    },
+    "description": "This weapon is a sword that integrates a rifle barrel with a five-chambered ammo wheel. The ammo wheel can be replaced in the heat of combat instead of reloading each cylinder separately.",
+    "specialRules": "When used as a melee weapon, this weapon has an attack modifier of -1, is POW 3, and uses the One-Handed Weapon skill. Replacing this weapon’s ammo wheel requires a quick action. Reloading each cylinder of the ammo wheel takes one quick action. It costs 3 gc for blasting powder, bullets, and metal casings for five light rounds. Additional ammo wheels cost 15 gc each. As part of a charge, after moving but before making the charge attack, a character can spend 1 feat point to make one ranged attack with this weapon targeting the enemy charged unless the character was in melee with the enemy at the start of his turn. When resolving the ranged attack, the attacking character does not suffer the target in melee penalty. If the target is not in melee range after the attacking character moves, the character can make the ranged attack before his turn ends."
+  },
+  {
+    "id": "rangedweapons-swordcannonheavy",
+    "name": "Sword-cannon, Heavy",
+    "category": "Ranged Weapons",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "1 gc each",
+      "ammo": "1 (heavy round)",
+      "effective_range": "60 feet (10\")",
+      "extreme_range": "300 feet",
+      "skill": "Rifle",
+      "attack_modifier": "-1",
+      "pow": "12",
+      "aoe": "-"
+    },
+    "description": "",
+    "specialRules": "A character making an attack roll with an explosive arrow or bolt suffers -2 on his attack roll. The attack’s POW becomes 10, and the attack gains a 3 \" AOE. arro Ws or bolts, grappling The grappling arrow has a hooked grappling head and is attached to strong, lightweight cord. A character making an attack roll with grapple arrow or bolt suffers -2 on his attack roll. Attacks made with these arrows and bolts suffer"
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-ammowheel",
+    "name": "Ammo Wheel",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-arrowsorboltsstandardtenshots",
+    "name": "Arrows Or Bolts, Standard: Ten Shots",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-arrowsorboltsexplosiveoneshot",
+    "name": "Arrows Or Bolts, Explosive: One Shot",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-arrowsorboltsgrapplerwithropeoneshot",
+    "name": "Arrows Or Bolts, Grappler With Rope: One Shot",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-arrowsgreatbowfiveshots",
+    "name": "Arrows, Great Bow: Five Shots",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-bandolierammo",
+    "name": "Bandolier, Ammo",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc"
+    },
+    "description": "This simple leather cross-belt features ten to twelve leather loops suitable for holding firearm charges, enabling easy access to them. These bandoliers are usually issued to military units as well as pistol-armed forces like the Corvis Watch. A character with an ammo bandolier can draw and reload a round into a firearm as part of the same quick action.",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-bandoliergrenadiers",
+    "name": "Bandolier, Grenadier's",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc"
+    },
+    "description": "This heavy leather cross-body belt can hold up to six grenades. These bandoliers are favored by combat alchemists on the battlefields of western Immoren. A character with a grenadier’s bandolier can draw grenades without spending a quick action.",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-bipod",
+    "name": "Bipod",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "2 gc for five light rounds of ammunition, 3 gc for five heavy"
+    },
+    "description": "A bipod is a lightweight brace for a rifle. When a character with a bipod forfeits his movement to aim during his turn, the character gains +2 to his first ranged attack with a rifle that turn. It requires a quick action to setup or take down a bipod. firearM aMMunition",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-crossbowrepeatingmagazine",
+    "name": "Crossbow, Repeating: Magazine",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionheavyblastingpowderbulletsandpapercasingsforfiverounds",
+    "name": "Firearm Ammunition, Heavy: Blasting Powder, Bullets, And Paper Casings For Five Rounds",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionheavyblastingpowderbulletsandmetalcasingsforfiverounds",
+    "name": "Firearm Ammunition, Heavy: Blasting Powder, Bullets, And Metal Casings For Five Rounds",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "4 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionlightblastingpowderbulletsandpapercasingsforfiverounds",
+    "name": "Firearm Ammunition, Light: Blasting Powder, Bullets, And Paper Casings For Five Rounds",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionlightblastingpowderbulletsandmetalcasingsforfiverounds",
+    "name": "Firearm Ammunition, Light: Blasting Powder, Bullets, And Metal Casings For Five Rounds",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionshotoneround",
+    "name": "Firearm Ammunition, Shot: One Round",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionslugblastingpowderslugandcasingsforoneround",
+    "name": "Firearm Ammunition, Slug: Blasting Powder, Slug, And Casings For One Round",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-firearmammunitionmetalcased",
+    "name": "Firearm Ammunition, Metal-cased",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "+1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-gunbrace",
+    "name": "Gun Brace",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc"
+    },
+    "description": "A gun brace is effectively a heavy leather bandolier for pistols. A gun brace has enough sleeves to hold three or four pistols. Some gunfighters and pirates are even known to wear two full braces of loaded pistols. Rather than reloading, a character with a gun brace simply pulls another pistol each time he wants to make an attack. A character wearing a gun brace can draw two pistols as a single quick action. He can also replace his pistols without spending a quick action. A cheap alternative to the gun brace favored by some pirates is to simply tie a length of rope between two pistols and hang them around the neck. Any character wishing to begin the game with a rope gun brace of this kind can do so for free.",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-gunsmithskit",
+    "name": "Gunsmith's Kit",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "1 gc for five charges of blasting powder"
+    },
+    "description": "In addition to the specialized tools of the gunsmith’s trade, this kit includes a number of tools useful for cleaning, disassembling, and reassembling firearms. It also includes a scale for measuring blast powder, lead and molds for pouring shot, and a secure area for storing completed cartridges and charges. A character with the Craft (gunsmithing) skill can press his own metal cartridges at a fraction of the cost of buying ammunition and can convert heavier cartridges to lighter cartridges with no loss of material and lighter cartridges to heavier cartridges with a minimal loss of material. A character with the required materials and either the Pistol or the Rifle military skill can press his own metal cartridge ammunition. A character can press up to ten rounds of ammunition in an hour. A character who chooses to press his own ammunition rather than purchasing ready-made ammunition can make twice as many rounds as if he purchased them ready made. The character must pay an additional 1 gc for metal casings unless he recycles used brass casings and makes ammunition of that size. Thus, a character who purchases the materials to make light ammunition rounds at the cost of 3 gc gains enough materials to make ten rounds instead of five at the ready-made price. harpoon gun blasting po Wder",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-harpoongunblastingpowderandfivecharges",
+    "name": "Harpoon Gun: Blasting Powder And Five Charges",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-harpoongunadditionalgrapple",
+    "name": "Harpoon Gun: Additional Grapple",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-harpoongunadditionalharpoon",
+    "name": "Harpoon Gun: Additional Harpoon",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-holster",
+    "name": "Holster",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-holsterwristspring",
+    "name": "Holster, Wrist-spring",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc"
+    },
+    "description": "Wrist-spring holsters are leather bracers fitted with a spring-arm mechanism that holds a dagger or pistol in place and can project it immediately into the wearer’s hand when triggered. This allows the wearer to draw the weapon without spending a quick action. The nature of this device enables it to be easily concealed beneath a loose, billowy sleeve. Wrist-spring holsters work with daggers, holdout pistols, and throwing knives.",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-magelockpistolorrifleonemetalcasedroundofruneshotammunition",
+    "name": "Magelock Pistol Or Rifle: One Metal-cased Round Of Rune Shot Ammunition",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-ogrunbattlecannononeshell",
+    "name": "Ogrun Battle Cannon: One Shell",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-quiver",
+    "name": "Quiver",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc"
+    },
+    "description": "A quiver is a leather or wooden container for arrows or crossbow bolts. Archers carry their quivers on the back or the hip. Crossbowmen typically mount theirs on the belt. A character with a quiver can draw and nock an arrow or load a crossbow as part of the same quick action. sCope, rifle or pistol",
+    "specialRules": "Adding a scope to a rifle or pistol adds eighteen feet (3 \") to the weapon’s effective range and ninety feet (15 \") to its extreme range when a character armed with the weapon aims during his turn. A character aiming with a weapon with a scope only gains the aiming bonus with that weapon during his turn."
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-scopepistolorrifle",
+    "name": "Scope, Pistol Or Rifle",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "ammunitionandrangedweaponaccessories-slingtwentyslingbullets",
+    "name": "Sling: Twenty Sling Bullets",
+    "category": "Ammunition and Ranged Weapon Accessories",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-beltleather",
+    "name": "Belt, Leather",
+    "category": "Clothing",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-beltpouch",
+    "name": "Belt, Pouch",
+    "category": "Clothing",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-bootsdress",
+    "name": "Boots, Dress",
+    "category": "Clothing",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-bootsmechaniks",
+    "name": "Boots, Mechanik's",
+    "category": "Clothing",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc"
+    },
+    "description": "These sturdy leather boots buckle or lace to provide a tight fit and have hobnail soles for long-lasting grip and wear. Most important, they are fitted with steel toecaps to protect the front of the feet from damage. These tough boots have proven exceptionally popular, not just with mechaniks, but with those from a great variety of professions.",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-bootswork",
+    "name": "Boots, Work",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-cloak",
+    "name": "Cloak",
+    "category": "Clothing",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-cloakwaterproof",
+    "name": "Cloak, Waterproof",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-cloakwinter",
+    "name": "Cloak, Winter",
+    "category": "Clothing",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-coatgreat",
+    "name": "Coat, Great",
+    "category": "Clothing",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "25 gc"
+    },
+    "description": "A new and fashionable garment, the greatcoat provides good protection against the cold and the rain, making it particularly popular with port dwellers and travelers of all varieties. These long, heavy button-up coats are usually made of leather or heavy wool and feature several inner and outer pockets. Particularly fine greatcoats usually have a silk lining. A character wearing a greatcoat gains +1 ARM against cold damage. artillery r ounds As can be expected, larger weapons utilize larger- caliber rounds than small arms do. Such artillery pieces, sometimes manned by a crew or equipped on a steamjack, can fire any of three basic sizes of munitions: light, standard, and heavy. The shells of these munitions vary greatly, including specialized rounds that can be explosive or are just solid shells. Some munitions are metal-cased cartridges that are fed into the chamber via a magazine, while others still rely on a multi-step loading process that places them directly into the muzzle.",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-coatmilitarydress",
+    "name": "Coat, Military Dress",
+    "category": "Clothing",
+    "price": "40 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-dress",
+    "name": "Dress",
+    "category": "Clothing",
+    "price": "8 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-eyepatchleatherandbrass",
+    "name": "Eye Patch, Leather And Brass",
+    "category": "Clothing",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-glassesreading",
+    "name": "Glasses, Reading",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-glassestinted",
+    "name": "Glasses, Tinted",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-gown",
+    "name": "Gown",
+    "category": "Clothing",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-glovesdress",
+    "name": "Gloves, Dress",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-glovesleatherwork",
+    "name": "Gloves, Leather Work",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-hatdress",
+    "name": "Hat, Dress",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-hatleathertraveling",
+    "name": "Hat, Leather Traveling",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-hatsimple",
+    "name": "Hat, Simple",
+    "category": "Clothing",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-hatwinterfur",
+    "name": "Hat, Winter Fur",
+    "category": "Clothing",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-officersuniform",
+    "name": "Officer's Uniform",
+    "category": "Clothing",
+    "price": "80 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-pantsdress",
+    "name": "Pants, Dress",
+    "category": "Clothing",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-pantswork",
+    "name": "Pants, Work",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-robe",
+    "name": "Robe",
+    "category": "Clothing",
+    "price": "8 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-shirtdress",
+    "name": "Shirt, Dress",
+    "category": "Clothing",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-shirtwork",
+    "name": "Shirt, Work",
+    "category": "Clothing",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-suspenders",
+    "name": "Suspenders",
+    "category": "Clothing",
+    "price": "4 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-travelingclothescloth",
+    "name": "Traveling Clothes, Cloth",
+    "category": "Clothing",
+    "price": "12 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-travelingclothesleather",
+    "name": "Traveling Clothes, Leather",
+    "category": "Clothing",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "clothing-workclothes",
+    "name": "Work Clothes",
+    "category": "Clothing",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-jackwrench",
+    "name": "'Jack Wrench",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc"
+    },
+    "description": "This is a massive steel wrench in common use among those who maintain and repair steamjacks in the field. The wrench is at least three feet long and bears an impressive weight. In addition to being a ubiquitous tool in the hands of skilled field mechanik’s across western Immoren, the ’jack wrench can also be used as a melee weapon in its own right. Anyone attacking with a ’jack wrench uses the Hand Weapon skill for the attack. Due to the wrench’s slightly clumsy weight, the attack roll suffers a -2 penalty. When used as a weapon, the ’jack wrench has POW 3. On a critical hit with a ’jack wrench, a living target hit has a chance to be knocked out (p. 219). If the target suffers damage from the attack, he must make a Willpower roll against a target number equal to the attacking character’s STR + 9. If the target succeeds, he remains conscious. If he fails, he is knocked out.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-alchemicallab",
+    "name": "Alchemical Lab",
+    "category": "Equipment",
+    "price": "500 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "500 gc"
+    },
+    "description": "This is a complete alchemical lab containing all the tools of the alchemist’s trade. The instruments, common compounds, glassware, crucibles, and ovens necessary for the pursuit of alchemical experimentation are seemingly endless, and only in his laboratory does an alchemist have ready access these crucial items. Likely, the alchemist’s entire life is tied up in this facility and it is here that he is most at home. Some alchemists organize their labs with rigorous exactitude, whereas others prefer sprawling messes where only they know where to find a specific beaker or phial of rare chemicals. A character who works undisturbed in an alchemical lab gains +2 on Alchemy rolls.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-alchemistsapron",
+    "name": "Alchemist's Apron",
+    "category": "Equipment",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc"
+    },
+    "description": "This is a heavy cloth apron that has been extensively treated to resist heat, cold, and alchemical corrosives. Alchemist’s aprons are often worn by those working with volatile chemicals or who handle crucibles full of molten metal. Alchemist’s aprons have become a common sight in the foundries of the Iron Kingdoms. A character wearing an alchemist’s apron gains +3 ARM against cold, corrosion, and fire damage originating in his front arc. An alchemist’s apron cannot be worn with armor.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-alchemistskittraveling",
+    "name": "Alchemist's Kit, Traveling",
+    "category": "Equipment",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "50 gc"
+    },
+    "description": "This kit is a carefully packed case that includes several small and durable glass beakers and tubes, a ceramic pestle, miniature burners and fuel, mixing rods of various materials, and cork stoppers. It is intended for mixing potions while in the field. A character requires an alchemy kit or lab to create alchemical solutions.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-anvil",
+    "name": "Anvil",
+    "category": "Equipment",
+    "price": "40 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-backpack",
+    "name": "Backpack",
+    "category": "Equipment",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-bedroll",
+    "name": "Bedroll",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-book",
+    "name": "Book",
+    "category": "Equipment",
+    "price": "5+ gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-canteen",
+    "name": "Canteen",
+    "category": "Equipment",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-chalkorcharcoalpackoffivesticks",
+    "name": "Chalk Or Charcoal: Pack Of Five Sticks",
+    "category": "Equipment",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-coal20poundbag",
+    "name": "Coal, 20-pound Bag",
+    "category": "Equipment",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-coal50poundbag",
+    "name": "Coal, 50-pound Bag",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-coaldeliveryof1000pounds",
+    "name": "Coal, Delivery Of 1,000 Pounds",
+    "category": "Equipment",
+    "price": "60 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-coaldeliveryof2000pounds",
+    "name": "Coal, Delivery Of 2,000 Pounds",
+    "category": "Equipment",
+    "price": "100 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-compass",
+    "name": "Compass",
+    "category": "Equipment",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-deckofcards",
+    "name": "Deck Of Cards",
+    "category": "Equipment",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-entrenchingspade",
+    "name": "Entrenching Spade",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc"
+    },
+    "description": "This heavy-duty spade is standard issue to all Cygnaran Trenchers. It is used to dig trenches and improvised dugouts in the field.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-flintstriker",
+    "name": "Flint Striker",
+    "category": "Equipment",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-fountainpenandinkwell",
+    "name": "Fountain Pen And Inkwell",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-gasmask",
+    "name": "Gas Mask",
+    "category": "Equipment",
+    "price": "20 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "20 gc"
+    },
+    "description": "Once unique to the workshops of the Golden Crucible, gas masks have become a rare but not-unobtainable piece of gear. The device is a face mask that affixes tightly to the head with adjustable buckles and straps to create an impermeable seal around the mouth and nose of the wearer. The “breather” of the mask is a large oblong leather sack affixed to the mask with a metal screw cap. Alchemically treated fibers in the filter allow clean air in but prevent particles and alchemical substances from permeating the filter’s membranes. This allows a man to breathe air in even the most caustic and dangerous of environs without fear of damaging his lungs or windpipe. It takes a quick action to put on or take off a gas mask. A character wearing a gas mask gains +1 ARM against corrosion damage and is immune to gas effects. A character wearing a gas mask suffers -1 on sight- or hearing- based PER rolls. A gas mask can be worn with a specially designed helmet. Replacement filters for a gas mask cost 5 gc each and provide enough protection for one full hour of exposure to caustic gasses and other undesirable particles the wearer might breathe. EquIPMENT Unusual or specialized items are discussed below.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-gasmaskreplacementfilter",
+    "name": "Gas Mask Replacement Filter",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-goggles",
+    "name": "Goggles",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "5 gc"
+    },
+    "description": "Originally created for use by mechaniks, alchemists, and others working in hazardous professions, goggles have entered widespread use. Made of thick glass with adjustable leather straps, they provide protection from flying fragments of metal and other such dangers.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-lantern",
+    "name": "Lantern",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-magnifyingglass",
+    "name": "Magnifying Glass",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-manacles",
+    "name": "Manacles",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc"
+    },
+    "description": "Manacles are iron and steel restraints made to close over the wrists to restrain the movement of a prisoner. A character restrained by manacles can attempt to break out with a successful STR roll or slip the manacles with a successful AGL + Escape Artist against a target number of 15. Failure to break out with a STR roll inflicts 1 damage point on the restrained character. Slipping out takes ten minutes per attempt. Manacles can also be picked by a character with the Pick Locking skill. A character attempting to pick the lock makes an AGL + Lock Picking against a target number of 15. Each attempt takes five minutes. A character attempting to pick the manacles restraining him suffers -2 to this roll. Standard manacles are too small for ogrun. Ogrun restraining manacles cost 15 gc and cannot be used to restrain anything smaller than a trollkin. Breaking out of these reinforced manacles requires a successful STR roll against a target number of 20. The gun uses rivets, each with a paper-wrapped explosive charge in the rivet head. This mixture of blast powder is packed the same way as a cartridge. The charge is much smaller, designed to give just enough punch to pierce metal at extremely close ranges. The barrel design requires placement directly on armor plate or metal while the mechanik pulls the trigger, and",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-manaclesogrun",
+    "name": "Manacles, Ogrun",
+    "category": "Equipment",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-maplocalterrain",
+    "name": "Map, Local Terrain",
+    "category": "Equipment",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-mapnautical",
+    "name": "Map, Nautical",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-mapcase",
+    "name": "Map Case",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-mechanikstoolkit",
+    "name": "Mechanik's Tool Kit",
+    "category": "Equipment",
+    "price": "100 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "100 gc"
+    },
+    "description": "This is a heavy wooden box or leather pouch belt stuffed with the tools of the mechanik’s trade. As a matter of course a mechanik usually has three standard types of tools- the wrench, the hammer, and the boltdriver. These are easily recognizable by any casual observer, and they are practical tools in the hands of even an untrained mechanik’s assistant. The kit includes an array of other tools: in addition to several varieties of ratchets, there are usually pliers, tongs, and spanners for holding parts in place as well as calipers and dividers for measuring and spacing mountings. A mechanik who works on steamjacks has bores, chisels, reamers, and scrapers; injectors for priming pneumatic chambers; expanders for piston cylinders; and a number of hammers with heads of various shapes and sizes for shaping metal, pounding parts into place without damaging them, and smashing others out of place to allow for new parts.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-mechaniksworkshop",
+    "name": "Mechanik's Workshop",
+    "category": "Equipment",
+    "price": "500+ gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "500+ gc"
+    },
+    "description": "The assortment of implements required by a mechanik in his simple day-to-day craft ranges from the rudimentary to the exotic. In addition to the myriad tools described in the mechanik’s tool kit above, a full shop also includes torches, drills, pneumatic saws, steam shears, and piston rams designed to shape metal plates. A character working out of a mechanik’s workshop gains +2 to his Mechanikal Engineering rolls to repair or manufacture steamjacks and equipment.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-papertensheets",
+    "name": "Paper: Ten Sheets",
+    "category": "Equipment",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-pitonandhammertenpitons",
+    "name": "Piton And Hammer: Ten Pitons",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-pocketwatch",
+    "name": "Pocket Watch",
+    "category": "Equipment",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "25 gc"
+    },
+    "description": "With long-perfected mundane clockwork available to the populace, pocket watches have become relatively common luxury items throughout the Iron Kingdoms. They are especially fashionable among military officers and middle-class clerks, though fine silver and gold watches are preferred among the wealthier classes. Pocket watches are typically attached to fine chains to keep them well secured. Most watch faces have an hour hand only and are protected by a cover that snaps open and shut on a tiny hinge. Minute hands are rare, since they require more complex mechanics than hour hands. Pocket watches run on spring technology, which employs a coiled spring and notched wheels for the automated hand movement. Most require winding twice a day by means of a small key, though more advanced watches need to be wound only once a day.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-portablesteamengine",
+    "name": "Portable Steam Engine",
+    "category": "Equipment",
+    "price": "500 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "500 gc"
+    },
+    "description": "Compressed steam is the main motivating force of almost every technology in western Immoren. Coal-fed fires boil water to create steam, which is fed into a pressurized vent and funneled through a pipe into a piston chamber that uses variable pressure to drive the piston from both sides. With several pistons, each working in concert in larger engines, the result is an incredibly powerful engine that can power everything from foundry tools to locomotives. Portable steam engines are used to power heavy mechanik’s tools in the field and can be strapped to a man’s back. Pneumatic conduits funnel steam and compressed air to the tools, allowing them to operate. Although the steam engines are quite heavy, especially with a full load of coal and water, their power and the benefits they provide to the use of powered tools often outweigh any encumbering factors. Most steam tools attach to larger steam engines while in foundry use so that refueling is less of an issue. In the field of battle or in the dank confines of a lost ruin, the portable steam engine is king. A portable steam engine can provide sufficient power to a steam tool for one hour of operation at full steam before it requires refueling. An idling engine can burn for six hours continuously. Running the steam engine requires 1 gc of coal for every four hours of continuous operation.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-ropeandgrapplinghooktwentyfeet",
+    "name": "Rope And Grappling Hook: Twenty Feet",
+    "category": "Equipment",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-rivetgun",
+    "name": "Rivet Gun",
+    "category": "Equipment",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc"
+    },
+    "description": "This stubby tool can be the field mechanik’s best friend for securing repairs and locking armor back down in place. It is well suited for use in combat conditions, being light and easy to load yet durable and reliable. The rivet gun doubles as a holdout weapon at close range. Although it doesn’t have much stopping power against heavily armored targets, in the right hands it can prove an effective deterrent for enemy troopers or at least buy a mechanik enough time to retreat from making repairs. the blast charge allows the rivet to penetrate moderately thick metal and pin it in place. The gravity-fed firing mechanism does not jam easily, although water can creep into the rivet bin and waterlog the rivets so they won’t fire. The gun holds ten rivets. It takes a quick action to reload each rivet in combat. As a weapon, the rivet gun is inaccurate and has an effective range of only twenty-four feet (4 \") with no extreme range. A character making an attack with a rivet gun uses the Pistol skill and suffers a -2 penalty on his attack roll. A character hit by a rivet gun suffers a POW 10 damage roll. Rivets and powder for a rivet gun cost 1 gc for ten rounds.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-rivetgunrivetstenrivetsandpowder",
+    "name": "Rivet Gun Rivets: Ten Rivets And Powder",
+    "category": "Equipment",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-ropehemptwentyfeet",
+    "name": "Rope, Hemp: Twenty Feet",
+    "category": "Equipment",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-runeetchingkit",
+    "name": "Rune Etching Kit",
+    "category": "Equipment",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "150 gc"
+    },
+    "description": "The arcane mechanik’s rune etching kit includes the tools for creating arcane mechanika-conductance awls, etcher tubs, rune scrivers, conduit grips, glyph irons, and a variety of pristine measuring devices such as precision calipers, arcanometric slide rulers, warding sticks, incredibly accurate aligning devices, and jeweler’s tools for handling fine mechanikal components. Socket mounting wrenches, arcano-conduction contact primers, and other obscure tools are included as well.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-runeshotcastingkit",
+    "name": "Rune Shot Casting Kit",
+    "category": "Equipment",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "50 gc"
+    },
+    "description": "This portable kit contains all the tools needed to craft the specialized ammunition known as rune shot (see p. 160). The kit can be used to produce mundane shot as well as rune shot.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-sackwaterproofsixteengalloncapacity",
+    "name": "Sack, Waterproof, Sixteen-gallon Capacity",
+    "category": "Equipment",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-sewingkit",
+    "name": "Sewing Kit",
+    "category": "Equipment",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-spyglass",
+    "name": "Spyglass",
+    "category": "Equipment",
+    "price": "15 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "15 gc"
+    },
+    "description": "The spyglass is an eighteen-inch long hollow wooden or metal tube containing two glass lenses. Objects viewed through a spyglass are magnified to twice their normal size. Collapsing spyglasses that telescope down to ten inches long are also available. A character using a spyglass gains +2 to PER rolls related to spotting at distances.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-surgicalkit",
+    "name": "Surgical Kit",
+    "category": "Equipment",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "30 gc"
+    },
+    "description": "The most essential instruments, salves, bandages, and sutures are stored within this portable surgical kit. In the hands of a skilled medical practitioner, the kit contains everything necessary for field surgery and even the treatment of life-threatening wounds. A character with a surgical kit gains +1 to his Medicine skill rolls.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-symboloffaith",
+    "name": "Symbol Of Faith",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc"
+    },
+    "description": "This is a finely made symbol of faith. It could be a Menofix, a holy symbol of Morrow, an ascendant talisman, a small mask of Cyriss, a Dhunian charm, or just about any other faith symbol. These symbols are generally plated with gold or silver, though trollkin Dhunian charms are often made from finely shaped stone.",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-tarpwaterproof6x6",
+    "name": "Tarp, Waterproof, 6 ' X 6'",
+    "category": "Equipment",
+    "price": "4 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-thiefstools",
+    "name": "Thief's Tools",
+    "category": "Equipment",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "10 gc"
+    },
+    "description": "This concealable pouch of tools contains all of the tricks of the trade for the would-be thief. Inside are picks for locks, a miniature listening cone for hearing tumblers in safes, a vial of metal-eating acid for particularly tough locks, a metal wire saw, a small razor or two for the cutting of purses, and other tools that make the thief’s job easier. A character with a set of thief’s tools gains +1 to Lock Picking and Pickpocket rolls. MOuNTS AND RIDING EquIPMENT",
+    "specialRules": ""
+  },
+  {
+    "id": "equipment-waterskin",
+    "name": "Water Skin",
+    "category": "Equipment",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-horsedraft",
+    "name": "Horse, Draft",
+    "category": "Mounts and Riding Equipment",
+    "price": "60 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-horseriding",
+    "name": "Horse, Riding",
+    "category": "Mounts and Riding Equipment",
+    "price": "80 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-horsewar",
+    "name": "Horse, War",
+    "category": "Mounts and Riding Equipment",
+    "price": "120 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-horsefeedonedaysupply",
+    "name": "Horse Feed: One-day Supply",
+    "category": "Mounts and Riding Equipment",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-bardinglight",
+    "name": "Barding, Light",
+    "category": "Mounts and Riding Equipment",
+    "price": "90 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {
+      "cost": "90 gc"
+    },
+    "description": "Light barding consists of a few armored plates covering the horse’s head, neck, and chest. Light barding adds +4 to a horse’s ARM.",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-bardingmedium",
+    "name": "Barding, Medium",
+    "category": "Mounts and Riding Equipment",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-bardingheavy",
+    "name": "Barding, Heavy",
+    "category": "Mounts and Riding Equipment",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-gasmaskequestrian",
+    "name": "Gas Mask, Equestrian",
+    "category": "Mounts and Riding Equipment",
+    "price": "45 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mountsandridingequipment-tack",
+    "name": "Tack",
+    "category": "Mounts and Riding Equipment",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-dryrationsonedaysupply",
+    "name": "Dry Rations: One-day Supply",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-militaryrationsonedaysupply",
+    "name": "Military Rations: One-day Supply",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-mealbasic",
+    "name": "Meal, Basic",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-mealquality",
+    "name": "Meal, Quality",
+    "category": "Food, Drink, and Lodging",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-mealluxuriousfeast",
+    "name": "Meal, Luxurious Feast",
+    "category": "Food, Drink, and Lodging",
+    "price": "25 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-beerbottle",
+    "name": "Beer, Bottle",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-beerpint",
+    "name": "Beer, Pint",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-winebottle",
+    "name": "Wine, Bottle",
+    "category": "Food, Drink, and Lodging",
+    "price": "5 gc+",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-wineglass",
+    "name": "Wine, Glass",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc+",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-distilledspiritsbottle",
+    "name": "Distilled Spirits, Bottle",
+    "category": "Food, Drink, and Lodging",
+    "price": "5+ gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-distilledspiritsshot",
+    "name": "Distilled Spirits, Shot",
+    "category": "Food, Drink, and Lodging",
+    "price": "1+ gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-lodgingbasiconenight",
+    "name": "Lodging, Basic: One Night",
+    "category": "Food, Drink, and Lodging",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-lodgingstandardonenight",
+    "name": "Lodging, Standard: One Night",
+    "category": "Food, Drink, and Lodging",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-lodgingstandardonemonth",
+    "name": "Lodging, Standard: One Month",
+    "category": "Food, Drink, and Lodging",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "fooddrinkandlodging-lodgingexquisiteonenight",
+    "name": "Lodging, Exquisite: One Night",
+    "category": "Food, Drink, and Lodging",
+    "price": "25+ gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanika-alchemicalcapacitor",
+    "name": "Alchemical Capacitor",
+    "category": "Mechanika",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanika-arcaneturbine",
+    "name": "Arcane Turbine",
+    "category": "Mechanika",
+    "price": "500 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanika-arcanodynamicaccumulator",
+    "name": "Arcanodynamic Accumulator",
+    "category": "Mechanika",
+    "price": "50 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanika-clockworkcapacitor",
+    "name": "Clockwork Capacitor",
+    "category": "Mechanika",
+    "price": "80 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanika-runeplateblank",
+    "name": "Runeplate, Blank",
+    "category": "Mechanika",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanika-stormchamber",
+    "name": "Storm Chamber",
+    "category": "Mechanika",
+    "price": "250 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-accuracymeleeorrangedweapon",
+    "name": "Accuracy (melee Or Ranged Weapon)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-aegisarmor",
+    "name": "Aegis (armor)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-arcaneforcemeleeweapon",
+    "name": "Arcane Force (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "450 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-balefiremeleeweapon",
+    "name": "Balefire (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-blastrangedweaponfirearm",
+    "name": "Blast (ranged Weapon - Firearm)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-blessedmeleeorrangedweapon",
+    "name": "Blessed (melee Or Ranged Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-bondplatemeleeorrangedweapon",
+    "name": "Bond Plate (melee Or Ranged Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-coldmeleeweapon",
+    "name": "Cold (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-compensatorarmor",
+    "name": "Compensator (armor)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-corruptionmeleeorrangedweapon",
+    "name": "Corruption (melee Or Ranged Weapon)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-disbindermeleeweapon",
+    "name": "Disbinder (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-electrocutionermeleeweapon",
+    "name": "Electrocutioner (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "450 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-flamemeleeweapon",
+    "name": "Flame (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-fleetarmor",
+    "name": "Fleet (armor)",
+    "category": "Mechanika Runes",
+    "price": "450 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-grievouswoundsmeleeweapon",
+    "name": "Grievous Wounds (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-halooffirearmorormeleeweaponshield",
+    "name": "Halo Of Fire (armor Or Melee Weapon - Shield)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-heightenedstrengtharmor",
+    "name": "Heightened Strength (armor)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-lightarmormeleeorrangedweapon",
+    "name": "Light (armor, Melee, Or Ranged Weapon)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-mechanikalseizuremeleeweapon",
+    "name": "Mechanikal Seizure (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-quickenarmor",
+    "name": "Quicken (armor)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-repulsormeleeweaponshield",
+    "name": "Repulsor (melee Weapon - Shield)",
+    "category": "Mechanika Runes",
+    "price": "300 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-silencerrangedweaponfirearm",
+    "name": "Silencer (ranged Weapon - Firearm)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-spellwardarmor",
+    "name": "Spell Ward (armor)",
+    "category": "Mechanika Runes",
+    "price": "450 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-stallmeleeweapon",
+    "name": "Stall (melee Weapon)",
+    "category": "Mechanika Runes",
+    "price": "450 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikarunes-steadyarmor",
+    "name": "Steady (armor)",
+    "category": "Mechanika Runes",
+    "price": "150 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikaldevices-arcantrikscope",
+    "name": "Arcantrik Scope",
+    "category": "Mechanikal Devices",
+    "price": "590 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikaldevices-farsightgoggles",
+    "name": "Farsight Goggles",
+    "category": "Mechanikal Devices",
+    "price": "790 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikaldevices-mechanikalprostheticarm1040gcmechanikalprostheticeye",
+    "name": "Mechanikal Prosthetic, Arm 1,040 Gc Mechanikal Prosthetic, Eye",
+    "category": "Mechanikal Devices",
+    "price": "790 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikaldevices-mechanikalprosthetichand",
+    "name": "Mechanikal Prosthetic, Hand",
+    "category": "Mechanikal Devices",
+    "price": "590 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "mechanikaldevices-mechanikalprostheticleg",
+    "name": "Mechanikal Prosthetic, Leg",
+    "category": "Mechanikal Devices",
+    "price": "890 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-alchemistsstone",
+    "name": "Alchemist's Stone",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-alchemicalwastecrystal",
+    "name": "Alchemical Waste, Crystal",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-alchemicalwasteliquid",
+    "name": "Alchemical Waste, Liquid",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-arcaneextract",
+    "name": "Arcane Extract",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-arcaneminerals",
+    "name": "Arcane Minerals",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "7 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-bioluminescentextract",
+    "name": "Bioluminescent Extract",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-burrowmawgadrenalgland",
+    "name": "Burrow Mawg Adrenal Gland",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-ectoplasm",
+    "name": "Ectoplasm",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-heavymetals",
+    "name": "Heavy Metals",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-menothsfury",
+    "name": "Menoth's Fury",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-mineralacid",
+    "name": "Mineral Acid",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "2 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-mineralcrystals",
+    "name": "Mineral Crystals",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-mutagenicextract",
+    "name": "Mutagenic Extract",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "8 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-organicacid",
+    "name": "Organic Acid",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "3 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-organicoil",
+    "name": "Organic Oil",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "1 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalingredientsperunit-organictoxin",
+    "name": "Organic Toxin",
+    "category": "Alchemical Ingredients (per unit)",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-alchemicalacidonevial",
+    "name": "Alchemical Acid: One Vial",
+    "category": "Alchemical Compounds",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-alchemicalrestorative",
+    "name": "Alchemical Restorative",
+    "category": "Alchemical Compounds",
+    "price": "33 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-antitoxinonedose",
+    "name": "Antitoxin: One Dose",
+    "category": "Alchemical Compounds",
+    "price": "42 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-ashesofurcaenoneapplication",
+    "name": "Ashes Of Urcaen: One Application",
+    "category": "Alchemical Compounds",
+    "price": "54 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-bottledlight5gcforaliquidlantern",
+    "name": "Bottled Light (+5 Gc For A Liquid Lantern)",
+    "category": "Alchemical Compounds",
+    "price": "27 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-fortemorphicelixironedose",
+    "name": "Fortemorphic Elixir: One Dose",
+    "category": "Alchemical Compounds",
+    "price": "42 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-healinglinimentonedose",
+    "name": "Healing Liniment: One Dose",
+    "category": "Alchemical Compounds",
+    "price": "27 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-rustagentonetwopartdose",
+    "name": "Rust Agent: One Two-part Dose",
+    "category": "Alchemical Compounds",
+    "price": "18 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-somnolenceelixir",
+    "name": "Somnolence Elixir",
+    "category": "Alchemical Compounds",
+    "price": "36 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-spiritsaltsonejar",
+    "name": "Spirit Salts: One Jar",
+    "category": "Alchemical Compounds",
+    "price": "54 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalcompounds-vitriolicfireonevial",
+    "name": "Vitriolic Fire: One Vial",
+    "category": "Alchemical Compounds",
+    "price": "21 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-alchemicalgrenadeacidbomb",
+    "name": "Alchemical Grenade, Acid Bomb",
+    "category": "Alchemical Weapons",
+    "price": "40 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-alchemicalgrenadeashesofurcaen",
+    "name": "Alchemical Grenade, Ashes Of Urcaen",
+    "category": "Alchemical Weapons",
+    "price": "75 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-alchemicalgrenadecinderbomb",
+    "name": "Alchemical Grenade, Cinder Bomb",
+    "category": "Alchemical Weapons",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-alchemicalgrenadeknockoutbomb",
+    "name": "Alchemical Grenade, Knockout Bomb",
+    "category": "Alchemical Weapons",
+    "price": "45 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-alchemicalgrenaderustbomb",
+    "name": "Alchemical Grenade, Rust Bomb",
+    "category": "Alchemical Weapons",
+    "price": "30 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-blastarrowversionofalchemicalgrenade",
+    "name": "Blast Arrow Version Of Alchemical Grenade",
+    "category": "Alchemical Weapons",
+    "price": "+10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-riflegrenadeversionofalchemicalgrenade",
+    "name": "Rifle Grenade Version Of Alchemical Grenade",
+    "category": "Alchemical Weapons",
+    "price": "+10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-alchemicalgrenadeempty",
+    "name": "Alchemical Grenade, Empty",
+    "category": "Alchemical Weapons",
+    "price": "5 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-blastarrowempty",
+    "name": "Blast Arrow, Empty",
+    "category": "Alchemical Weapons",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  },
+  {
+    "id": "alchemicalweapons-riflegrenadeempty",
+    "name": "Rifle Grenade, Empty",
+    "category": "Alchemical Weapons",
+    "price": "10 gc",
+    "bookPage": null,
+    "source": "Core Rules price lists pp. 247-251",
+    "fields": {},
+    "description": "",
+    "specialRules": ""
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "title": "Iron Kingdoms RPG Tools Data",
+  "source": "Iron_Kingdoms_Full_Metal_Fantasy_Roleplaying_Game_Core_Rules.pdf",
+  "generatedBy": "scripts/extract_ikrpg.py",
+  "counts": {
+    "races": 7,
+    "combatCards": 14,
+    "benefits": 40,
+    "abilities": 148,
+    "spells": 160,
+    "items": 289,
+    "itemDetails": 111
+  }
+}

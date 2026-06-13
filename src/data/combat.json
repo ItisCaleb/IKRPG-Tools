@@ -1,0 +1,185 @@
+[
+  {
+    "id": "rolls",
+    "title": "Core Rolls",
+    "category": "Basics",
+    "bookPage": 197,
+    "summary": "Most checks roll 2d6 plus a stat and sometimes a skill. Meeting or exceeding the target number succeeds.",
+    "rules": [
+      "Skill Roll = 2d6 + Stat + Skill Level.",
+      "Attribute Roll = 2d6 + relevant Stat.",
+      "Contested rolls compare totals; highest total succeeds, ties are draws.",
+      "A boosted roll adds one additional die.",
+      "A d3 means roll d6, halve it, and round up."
+    ]
+  },
+  {
+    "id": "initiative-rounds",
+    "title": "Initiative and Rounds",
+    "category": "Combat Flow",
+    "bookPage": 201,
+    "summary": "Combat proceeds in rounds. Each character takes a turn in initiative order.",
+    "rules": [
+      "Initiative = 2d6 + Initiative plus applicable bonuses.",
+      "Ties roll off to determine order.",
+      "New combatants roll initiative at the start of the next round.",
+      "Steamjacks activate during their controller's turn, before or after the controller moves and acts.",
+      "Held activation delays only the Activation Phase; Maintenance and Control still resolve in order."
+    ]
+  },
+  {
+    "id": "turn-structure",
+    "title": "Turn Structure",
+    "category": "Combat Flow",
+    "bookPage": 203,
+    "summary": "A turn has Maintenance, Control, and Activation phases.",
+    "rules": [
+      "Maintenance: expire continuous effects, then resolve remaining continuous effects.",
+      "Control: pay upkeep costs or spells expire, then resolve other Control Phase effects.",
+      "Activation: move and act. Actions can happen before or after movement, but movement cannot be interrupted by actions."
+    ]
+  },
+  {
+    "id": "movement",
+    "title": "Movement",
+    "category": "Movement",
+    "bookPage": 203,
+    "summary": "Characters generally move by full advance, run, or charge.",
+    "rules": [
+      "Full advance: move up to current SPD in inches.",
+      "Run: advance up to 2x SPD; the character can make one quick action but cannot attack, make full actions, or cast spells.",
+      "Charge: advance SPD + 3 inches toward a visible enemy in a straight line.",
+      "A successful charge ends with the target in melee range. If the character moved at least 3 inches and hits with the first melee attack, the damage roll is boosted.",
+      "A failed charge immediately ends the character's turn."
+    ]
+  },
+  {
+    "id": "actions",
+    "title": "Actions",
+    "category": "Actions",
+    "bookPage": 205,
+    "summary": "Characters choose between quick actions, attacks, and full actions during Activation.",
+    "rules": [
+      "Choose one: two quick actions; attack plus one quick action; or one full action.",
+      "Common quick actions include drawing/stowing items, reloading, pulling a grenade pin, casting a spell, activating a runeplate, using a drive, taking cover, or going prone.",
+      "Dropping an item does not require an action; picking it up does."
+    ]
+  },
+  {
+    "id": "attacks",
+    "title": "Attacks",
+    "category": "Attacking",
+    "bookPage": 207,
+    "summary": "Melee, ranged, and magic attacks roll 2d6 plus the relevant attack stat and modifiers.",
+    "rules": [
+      "Melee attacks use PRW + weapon skill + weapon attack modifier.",
+      "Ranged attacks use POI + weapon skill + weapon attack modifier.",
+      "Magic attacks use ARC + modifiers.",
+      "A critical hit occurs when any two dice in the attack roll show the same number and the attack hits.",
+      "Spray and AOE attacks have special targeting and template rules."
+    ]
+  },
+  {
+    "id": "damage",
+    "title": "Damage",
+    "category": "Damage",
+    "bookPage": 215,
+    "summary": "Damage rolls compare POW against ARM; excess becomes damage points.",
+    "rules": [
+      "Ranged, magic, and most other damage rolls: 2d6 + POW.",
+      "Melee damage rolls: 2d6 + POW + STR.",
+      "Boosted damage adds one additional die.",
+      "Damage points equal the amount by which the damage roll exceeds ARM.",
+      "An attack with POW '-' does not cause damage."
+    ]
+  },
+  {
+    "id": "injuries",
+    "title": "Disabled and Injuries",
+    "category": "Damage",
+    "bookPage": 216,
+    "summary": "A character disabled after all vitality is marked becomes incapacitated and rolls on the Injury Table.",
+    "rules": [
+      "Incapacitated characters cannot act and have no command range.",
+      "Grievously injured characters die unless stabilized within rounds equal to PHY.",
+      "Stabilizing requires a full action while B2B and an INT + Medicine roll against TN 14.",
+      "After a short rest, a character regains vitality equal to PHY, then 1 per hour for three hours, then 1 every six hours."
+    ]
+  },
+  {
+    "id": "continuous-effects",
+    "title": "Continuous Effects",
+    "category": "Effects",
+    "bookPage": 218,
+    "summary": "Continuous effects may expire at the start of the affected character's Maintenance Phase.",
+    "rules": [
+      "Roll d6 for each continuous effect: 1-2 expires; 3-6 remains.",
+      "Resolve remaining continuous effects simultaneously after all expiration rolls.",
+      "Corrosion deals d3 damage points unless it expires.",
+      "Fire causes a POW 12 fire damage roll unless it expires."
+    ]
+  },
+  {
+    "id": "knockdown",
+    "title": "Knockdown and Knockout",
+    "category": "Effects",
+    "bookPage": 219,
+    "summary": "Knocked down and knocked out characters are extremely vulnerable and lose major options.",
+    "rules": [
+      "Melee attacks against knocked down or stationary characters automatically hit.",
+      "A knocked down character has base DEF 5, no melee range, does not engage, and does not block line of sight.",
+      "Standing up requires forfeiting either movement or actions.",
+      "A knocked out character makes a WIL roll vs TN 14 at the start of each turn to regain consciousness."
+    ]
+  },
+  {
+    "id": "feat-points",
+    "title": "Feat Points",
+    "category": "Heroics",
+    "bookPage": 220,
+    "summary": "Feat points fuel heroic rerolls, extra actions, recovery, and common feats.",
+    "rules": [
+      "Player characters start each session with three feat points and can have at most three.",
+      "Common gains include defeating enemies, critical success on skill or attack rolls, and GM awards.",
+      "Common spends include boost non-attack skill roll, Heroic Dodge, extra quick action, Parry, Relentless Charge, reroll failed roll, Run and Gun, Shake effects, Sprint, Two-Fister, and Walk It Off."
+    ]
+  },
+  {
+    "id": "terrain",
+    "title": "Terrain",
+    "category": "Terrain",
+    "bookPage": 221,
+    "summary": "Terrain changes movement, line of sight, and defensive bonuses.",
+    "rules": [
+      "Terrain categories include open, rough, and difficult.",
+      "Obstacles can provide cover and may require movement to climb.",
+      "Forests are rough terrain, grant concealment to models inside, and block line of sight through more than 3 inches of forest.",
+      "Shallow water counts as rough terrain."
+    ]
+  },
+  {
+    "id": "fear",
+    "title": "Fear and Terror",
+    "category": "Morale",
+    "bookPage": 224,
+    "summary": "Terrifying situations force Willpower rolls, with escalating results from anxiety to panic.",
+    "rules": [
+      "Unaffected characters do not roll again unless the situation worsens or a higher terror target appears.",
+      "Anxiety grants +1 STR but imposes -1 on skill rolls and prevents intentional movement toward the source.",
+      "Panic imposes -2 on skill rolls and can force the character to flee or freeze."
+    ]
+  },
+  {
+    "id": "light",
+    "title": "Light and Darkness",
+    "category": "Visibility",
+    "bookPage": 225,
+    "summary": "Lighting controls concealment, stealth, and Sneak bonuses.",
+    "rules": [
+      "Bright light has no default bonus or penalty.",
+      "Dim light grants concealment and +2 Sneak.",
+      "Complete darkness grants concealment, stealth, and +5 Sneak.",
+      "Light sources have bright and dim radius bands; the GM may alter distances for smoke, storms, ash, or wind."
+    ]
+  }
+]

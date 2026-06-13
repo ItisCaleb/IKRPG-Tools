@@ -1,0 +1,538 @@
+[
+  {
+    "id": "human",
+    "name": "Human",
+    "bookPage": 108,
+    "pdfPage": 109,
+    "baseSize": "Small",
+    "summary": "Adaptable and widespread people with broad career access and an extra starting stat bonus.",
+    "archetypes": [
+      "Gifted",
+      "Intellectual",
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Native language plus one other language.",
+    "height": "61-75 in male, 55-69 in female",
+    "weight": "110-200 lb male, 90-170 lb female",
+    "stats": {
+      "PHY": {
+        "start": 5,
+        "hero": 7,
+        "veteran": 8,
+        "epic": 8
+      },
+      "SPD": {
+        "start": 6,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 7
+      },
+      "STR": {
+        "start": 4,
+        "hero": 6,
+        "veteran": 7,
+        "epic": 8
+      },
+      "AGL": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "INT": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "ARC": {
+        "start": "*",
+        "hero": 4,
+        "veteran": 6,
+        "epic": 8
+      },
+      "PER": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      }
+    },
+    "traits": [
+      "Exceptional Potential: choose +1 PHY, +1 AGL, or +1 INT at character creation before spending Advancement Points."
+    ]
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf / Rhulfolk",
+    "bookPage": 109,
+    "pdfPage": 110,
+    "baseSize": "Small",
+    "summary": "Sturdy, lawful Rhulic craftsmen and soldiers with strong ties to clan and craft.",
+    "archetypes": [
+      "Gifted",
+      "Intellectual",
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Rhulic plus one other language.",
+    "height": "52-60 in male, 47-55 in female",
+    "weight": "150-190 lb male, 105-145 lb female",
+    "stats": {
+      "PHY": {
+        "start": 6,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 8
+      },
+      "SPD": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 6
+      },
+      "STR": {
+        "start": 5,
+        "hero": 6,
+        "veteran": 7,
+        "epic": 8
+      },
+      "AGL": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      },
+      "INT": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "ARC": {
+        "start": "*",
+        "hero": 4,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PER": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 6,
+        "epic": 7
+      }
+    },
+    "traits": [
+      "Load Bearing ability.",
+      "Connection (dwarven clan)."
+    ]
+  },
+  {
+    "id": "gobber",
+    "name": "Gobber",
+    "bookPage": 110,
+    "pdfPage": 111,
+    "baseSize": "Small",
+    "summary": "Small, nimble, curious people with a natural knack for alchemy, engineering, and stealth.",
+    "archetypes": [
+      "Intellectual",
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Gobberish plus one other language.",
+    "height": "34-42 in male, 32-40 in female",
+    "weight": "42-60 lb male, 38-55 lb female",
+    "stats": {
+      "PHY": {
+        "start": 4,
+        "hero": 6,
+        "veteran": 7,
+        "epic": 7
+      },
+      "SPD": {
+        "start": 6,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 7
+      },
+      "STR": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      },
+      "AGL": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "INT": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      },
+      "ARC": {
+        "start": "-",
+        "hero": "-",
+        "veteran": "-",
+        "epic": "-"
+      },
+      "PER": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 4,
+        "epic": 5
+      }
+    },
+    "traits": [
+      "Deft archetype benefit in addition to other archetype benefits.",
+      "+1 racial DEF modifier.",
+      "Cannot use great weapons or rifles."
+    ]
+  },
+  {
+    "id": "iosan",
+    "name": "Iosan",
+    "bookPage": 111,
+    "pdfPage": 112,
+    "baseSize": "Small",
+    "summary": "Long-lived and graceful people from secretive Ios, skilled in combat and arcane arts.",
+    "archetypes": [
+      "Gifted",
+      "Intellectual",
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Shyr plus one other language.",
+    "height": "65-75 in male, 60-70 in female",
+    "weight": "125-180 lb male, 85-140 lb female",
+    "stats": {
+      "PHY": {
+        "start": 5,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 7
+      },
+      "SPD": {
+        "start": 6,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 7
+      },
+      "STR": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "AGL": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "INT": {
+        "start": 4,
+        "hero": 6,
+        "veteran": 6,
+        "epic": 7
+      },
+      "ARC": {
+        "start": "*",
+        "hero": 4,
+        "veteran": 6,
+        "epic": 8
+      },
+      "PER": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      }
+    },
+    "traits": [
+      "Begin with one additional ability selected from one of their careers."
+    ]
+  },
+  {
+    "id": "nyss",
+    "name": "Nyss",
+    "bookPage": 112,
+    "pdfPage": 113,
+    "baseSize": "Small",
+    "summary": "Cold-adapted hunters and warriors from the Shard Spires, now scattered as refugees.",
+    "archetypes": [
+      "Gifted",
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Aeric plus one other language.",
+    "height": "67-77 in male, 62-72 in female",
+    "weight": "140-195 lb male, 95-130 lb female",
+    "stats": {
+      "PHY": {
+        "start": 5,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 8
+      },
+      "SPD": {
+        "start": 6,
+        "hero": 7,
+        "veteran": 7,
+        "epic": 7
+      },
+      "STR": {
+        "start": 4,
+        "hero": 6,
+        "veteran": 7,
+        "epic": 8
+      },
+      "AGL": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "INT": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 6
+      },
+      "ARC": {
+        "start": "*",
+        "hero": 4,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PER": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 6
+      }
+    },
+    "traits": [
+      "Gifted Nyss cannot have Arcane Mechanik, Arcanist, Gun Mage, or Warcaster careers.",
+      "Nyss bows and Nyss claymores cost 10 gc less during character creation.",
+      "+1 on Initiative and PER rolls.",
+      "+3 ARM against cold damage.",
+      "-3 ARM against fire damage."
+    ]
+  },
+  {
+    "id": "ogrun",
+    "name": "Ogrun",
+    "bookPage": 113,
+    "pdfPage": 114,
+    "baseSize": "Medium",
+    "summary": "Huge, oath-bound warriors and laborers known for loyalty, strength, and bodyguard traditions.",
+    "archetypes": [
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Molgur-Og, Rhulic, plus one other language.",
+    "height": "90-105 in male, 82-97 in female",
+    "weight": "450-500 lb male, 330-380 lb female",
+    "stats": {
+      "PHY": {
+        "start": 6,
+        "hero": 7,
+        "veteran": 8,
+        "epic": 9
+      },
+      "SPD": {
+        "start": 5,
+        "hero": 6,
+        "veteran": 6,
+        "epic": 6
+      },
+      "STR": {
+        "start": 6,
+        "hero": 8,
+        "veteran": 9,
+        "epic": 10
+      },
+      "AGL": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 5,
+        "epic": 6
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      },
+      "INT": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 5,
+        "epic": 6
+      },
+      "ARC": {
+        "start": "-",
+        "hero": "-",
+        "veteran": "-",
+        "epic": "-"
+      },
+      "PER": {
+        "start": 2,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      }
+    },
+    "traits": [
+      "Huge Stature: can wield a normally two-handed weapon in one hand, suffering -2 on attack rolls with that weapon."
+    ]
+  },
+  {
+    "id": "trollkin",
+    "name": "Trollkin",
+    "bookPage": 114,
+    "pdfPage": 115,
+    "baseSize": "Medium",
+    "summary": "Hardy, tradition-minded kriel people with tremendous vitality and Dhunian spiritual traditions.",
+    "archetypes": [
+      "Gifted",
+      "Mighty",
+      "Skilled"
+    ],
+    "languages": "Molgur-Trul plus one other language.",
+    "height": "71-84 in male, 63-76 in female",
+    "weight": "250-330 lb male, 150-230 lb female",
+    "stats": {
+      "PHY": {
+        "start": 6,
+        "hero": 8,
+        "veteran": 9,
+        "epic": 10
+      },
+      "SPD": {
+        "start": 5,
+        "hero": 6,
+        "veteran": 6,
+        "epic": 6
+      },
+      "STR": {
+        "start": 5,
+        "hero": 7,
+        "veteran": 8,
+        "epic": 9
+      },
+      "AGL": {
+        "start": 3,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PRW": {
+        "start": 4,
+        "hero": 5,
+        "veteran": 6,
+        "epic": 7
+      },
+      "POI": {
+        "start": 2,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      },
+      "INT": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      },
+      "ARC": {
+        "start": "*",
+        "hero": 4,
+        "veteran": 6,
+        "epic": 7
+      },
+      "PER": {
+        "start": 3,
+        "hero": 4,
+        "veteran": 5,
+        "epic": 6
+      }
+    },
+    "traits": [
+      "Gifted trollkin cannot have Arcane Mechanik, Arcanist, or Warcaster careers.",
+      "Tough archetype benefit in addition to other archetype benefits.",
+      "Feat: Revitalize archetype benefit in addition to other archetype benefits."
+    ]
+  }
+]
