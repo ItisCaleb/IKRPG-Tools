@@ -1,7 +1,8 @@
 ﻿.workspace {
   min-width: 0;
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-columns: minmax(290px, 34%) 1fr;
+  grid-template-rows: auto auto minmax(0, 1fr);
   height: 100vh;
   height: 100dvh;
   overflow: hidden;
@@ -10,7 +11,18 @@
     rgba(14, 16, 16, 0.82);
 }
 
+.browseDrawer {
+  display: contents;
+}
+
+.browseDrawerHeader {
+  display: none;
+}
+
 .topbar {
+  min-width: 0;
+  grid-column: 1 / -1;
+  grid-row: 1;
   display: grid;
   grid-template-columns: minmax(260px, 1fr) auto;
   gap: 14px;
@@ -73,6 +85,9 @@
 }
 
 .filters {
+  min-width: 0;
+  grid-column: 1 / -1;
+  grid-row: 2;
   min-height: 54px;
   display: flex;
   gap: 10px;
@@ -146,13 +161,17 @@
 }
 
 .contentGrid {
+  min-width: 0;
   min-height: 0;
+  height: 100%;
   display: grid;
   grid-template-columns: minmax(290px, 34%) 1fr;
 }
 
 .listPane {
   min-width: 0;
+  grid-column: 1;
+  grid-row: 3;
   overflow: auto;
   border-right: 1px solid rgba(201, 150, 58, 0.26);
   padding: 10px;
@@ -198,7 +217,7 @@
 
 .entrySelect small strong {
   color: var(--brass-bright);
-  font-family: var(--display-font);
+  font-family: var(--font-display);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0;

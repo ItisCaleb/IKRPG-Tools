@@ -1,6 +1,9 @@
 ﻿.detailPane {
   min-width: 0;
+  grid-column: 2;
+  grid-row: 3;
   overflow: auto;
+  overflow-x: hidden;
   padding: 28px;
   color: var(--ink);
   background:
@@ -12,12 +15,15 @@
 }
 
 .detailPane > * {
+  min-width: 0;
+  width: 100%;
   max-width: 980px;
 }
 
 .detailActions {
   display: flex;
   justify-content: flex-end;
+  gap: 8px;
   margin-bottom: 12px;
 }
 
@@ -114,6 +120,7 @@ h3 {
 
 .factGrid,
 .spellStrip {
+  min-width: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 8px;
@@ -125,6 +132,7 @@ h3 {
 }
 
 .fact {
+  min-width: 0;
   min-height: 66px;
   border: 1px solid rgba(105, 90, 67, 0.34);
   border-radius: 8px;
@@ -216,6 +224,7 @@ h3 {
 }
 
 .fieldTable {
+  min-width: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 8px;
@@ -223,6 +232,7 @@ h3 {
 }
 
 .fieldTable > * {
+  min-width: 0;
   min-height: 54px;
   border: 1px solid rgba(105, 90, 67, 0.34);
   border-radius: 8px;

@@ -8,12 +8,14 @@ import {
   FlaskConical,
   Gamepad2,
   ListChecks,
+  Menu,
   ScrollText,
   Search,
   Shield,
   Sparkles,
   Star,
   Users,
+  X,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { CareerDetail, FeatureDetail, GameDetail, ItemDetail, RaceDetail, SkillDetail, SpellDetail } from "./components/DetailViews";
@@ -58,6 +60,8 @@ export function App() {
   const [activeTab, setActiveTab] = useState<TabId>("spells");
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileBrowseOpen, setMobileBrowseOpen] = useState(false);
   const [favoriteOnly, setFavoriteOnly] = useState(false);
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(() => loadFavorites());
   const [favoriteCategory, setFavoriteCategory] = useState<DataTabId | "all">("all");
@@ -89,6 +93,7 @@ export function App() {
     () => [{ id: "favorites", label: "Favorites", icon: Star, count: favoriteIds.size }, ...dataTabs],
     [favoriteIds.size],
   );
+  const activeTabLabel = tabs.find((tab) => tab.id === activeTab)?.label ?? "";
 
   const currentEntries = useMemo<ListedEntry[]>(() => {
     const search = query.trim().toLowerCase();
@@ -214,6 +219,8 @@ export function App() {
   function switchTab(tab: TabId) {
     setActiveTab(tab);
     setSelectedId(null);
+    setMobileMenuOpen(false);
+    setMobileBrowseOpen(false);
   }
 
   function toListedEntry(tab: DataTabId, entry: AnyEntry): ListedEntry {
@@ -237,8 +244,14 @@ export function App() {
     });
   }
 
+  function selectEntry(listed: ListedEntry) {
+    setSelectedId(listed.key);
+    setMobileBrowseOpen(false);
+    setMobileMenuOpen(false);
+  }
+
   return (
-    <div className="appShell">
+    <div className={mobileBrowseOpen ? "appShell mobileBrowseOpen" : "appShell"}>
       <aside className="rail">
         <div className="brand">
           <div className="brandMark">
@@ -250,7 +263,32 @@ export function App() {
           </div>
         </div>
 
-        <nav className="tabList" aria-label="Data categories">
+        <button
+          className="mobileSectionToggle"
+          onClick={() => {
+            setMobileMenuOpen((open) => !open);
+            setMobileBrowseOpen(false);
+          }}
+          aria-expanded={mobileMenuOpen}
+          aria-controls="section-menu"
+        >
+          {mobileMenuOpen ? <X size={18} /> : <Menu size={18} />}
+          <span>{activeTabLabel}</span>
+        </button>
+
+        <button
+          className="mobileBrowseToggle"
+          onClick={() => {
+            setMobileBrowseOpen(true);
+            setMobileMenuOpen(false);
+          }}
+        >
+          <Search size={18} />
+          <span>Browse</span>
+          <small>{currentEntries.length}</small>
+        </button>
+
+        <nav id="section-menu" className={mobileMenuOpen ? "tabList mobileOpen" : "tabList"} aria-label="Data categories">
           {tabs.map((tab) => {
             const Icon = tab.icon;
             return (
@@ -275,35 +313,43 @@ export function App() {
       </aside>
 
       <main className="workspace">
-        <header className="topbar">
-          <div className="searchBox">
-            <Search size={18} />
-            <input
-              value={query}
-              onChange={(event) => {
-                setQuery(event.target.value);
-                setSelectedId(null);
-              }}
-              placeholder={`Search ${tabs.find((tab) => tab.id === activeTab)?.label ?? ""}...`}
-            />
+        <div className={mobileBrowseOpen ? "browseDrawer open" : "browseDrawer"}>
+          <div className="browseDrawerHeader">
+            <strong>Browse {activeTabLabel}</strong>
+            <button className="drawerCloseButton" onClick={() => setMobileBrowseOpen(false)}>
+              <X size={18} />
+              <span>Close</span>
+            </button>
           </div>
-          <div className="metaPills">
-            <span>{currentEntries.length} results</span>
-            <span>{favoriteIds.size} favorites</span>
-            <span>{meta.counts.itemDetails} item notes</span>
-          </div>
-        </header>
 
-        <section className="filters">{renderFilters()}</section>
+          <header className="topbar">
+            <div className="searchBox">
+              <Search size={18} />
+              <input
+                value={query}
+                onChange={(event) => {
+                  setQuery(event.target.value);
+                  setSelectedId(null);
+                }}
+                placeholder={`Search ${tabs.find((tab) => tab.id === activeTab)?.label ?? ""}...`}
+              />
+            </div>
+            <div className="metaPills">
+              <span>{currentEntries.length} results</span>
+              <span>{favoriteIds.size} favorites</span>
+              <span>{meta.counts.itemDetails} item notes</span>
+            </div>
+          </header>
 
-        <section className="contentGrid">
+          <section className="filters">{renderFilters()}</section>
+
           <div className="listPane" aria-label="Entry list">
             {currentEntries.map((listed) => {
               const favorite = isFavorite(listed);
               const { entry, tab } = listed;
               return (
                 <div key={listed.key} className={selected && listed.key === selected.key ? "entryRow selected" : "entryRow"}>
-                  <button className="entrySelect" onClick={() => setSelectedId(listed.key)}>
+                  <button className="entrySelect" onClick={() => selectEntry(listed)}>
                     <span>{entryTitle(entry, tab)}</span>
                     <small>
                       {activeTab === "favorites" && <strong>{dataTabLabels[tab]}</strong>}
@@ -324,23 +370,23 @@ export function App() {
             })}
             {currentEntries.length === 0 && <div className="emptyState">No matching entries.</div>}
           </div>
+        </div>
 
-          <article className="detailPane">
-            {selected ? (
-              <>
-                <div className="detailActions">
-                  <button className={isFavorite(selected) ? "favoriteAction active" : "favoriteAction"} onClick={() => toggleFavorite(selected)}>
-                    <Star size={16} fill={isFavorite(selected) ? "currentColor" : "none"} />
-                    <span>{isFavorite(selected) ? "Favorited" : "Add favorite"}</span>
-                  </button>
-                </div>
-                {renderDetail(selected)}
-              </>
-            ) : (
-              <div className="emptyState">Select an entry to start reading.</div>
-            )}
-          </article>
-        </section>
+        <article className="detailPane">
+          {selected ? (
+            <>
+              <div className="detailActions">
+                <button className={isFavorite(selected) ? "favoriteAction active" : "favoriteAction"} onClick={() => toggleFavorite(selected)}>
+                  <Star size={16} fill={isFavorite(selected) ? "currentColor" : "none"} />
+                  <span>{isFavorite(selected) ? "Favorited" : "Add favorite"}</span>
+                </button>
+              </div>
+              {renderDetail(selected)}
+            </>
+          ) : (
+            <div className="emptyState">Select an entry to start reading.</div>
+          )}
+        </article>
       </main>
     </div>
   );
